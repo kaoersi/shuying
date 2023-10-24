@@ -1,0 +1,1978 @@
+---------------------------------------------------------------
+[2021-09-20T00:02:20+08:00] 116.179.32.41 GET www.shuyingjp.com/tag/129/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:02:20+08:00] 220.181.108.122 GET www.shuyingjp.com/rm/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:02:20+08:00] 116.179.32.157 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:03:18+08:00] 207.46.13.78 GET www.shuyingjp.com/tag/58.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:03:22+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/59.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:03:39+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/60.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:05:54+08:00] 116.179.32.40 GET www.shuyingjp.com/tag/52/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:05:54+08:00] 116.179.32.222 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:13:04+08:00] 121.30.179.192 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:14:45+08:00] 203.208.60.27 GET www.shuyingjp.com/tag/50/SGU/SGU/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:20:10+08:00] 121.30.179.172 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:26:08+08:00] 47.119.145.133 GET www.shuyingjp.com/parter/
+[ error ] [8]未定义数组索引: type
+[ error ] [8]未定义数组索引: id
+---------------------------------------------------------------
+[2021-09-20T00:28:42+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/123.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:32:51+08:00] 116.242.46.25 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:33:15+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/158.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:36:57+08:00] 116.242.46.25 GET www.shuyingjp.com/mxalk/
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-09-20T00:38:41+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:40:03+08:00] 47.101.199.176 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:44:11+08:00] 203.208.60.92 GET www.shuyingjp.com/tag/120/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:48:07+08:00] 51.222.253.11 GET www.shuyingjp.com/sgusq/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:50:43+08:00] 106.11.153.58 GET www.shuyingjp.com/tag/154.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:52:36+08:00] 157.55.39.90 GET www.shuyingjp.com/rm/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:52:52+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/124.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:53:14+08:00] 207.46.13.3 GET www.shuyingjp.com/rm/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:53:24+08:00] 207.46.13.36 GET www.shuyingjp.com/zyjx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T00:57:38+08:00] 203.208.60.96 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T00:57:43+08:00] 207.46.13.36 GET www.shuyingjp.com/ws//page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T01:04:24+08:00] 110.249.201.89 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:13:02+08:00] 106.11.156.93 GET www.shuyingjp.com/tag/12?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:14:10+08:00] 51.222.253.14 GET www.shuyingjp.com/rm/page_23.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T01:17:04+08:00] 220.181.108.146 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:34:58+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/144.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:36:37+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/170.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:37:05+08:00] 203.208.60.5 GET www.shuyingjp.com/tag/171.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:39:04+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/177.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:40:34+08:00] 52.80.3.2 GET www.shuyingjp.com/tag/187.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:44:46+08:00] 116.179.32.46 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:47:20+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/192.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T01:58:39+08:00] 51.222.253.5 GET www.shuyingjp.com/gz/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T02:01:00+08:00] 213.32.35.3 POST 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:05:15+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/98.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:06:20+08:00] 203.208.60.68 GET www.shuyingjp.com/tag/154/SGU/SGU?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:16:08+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/168.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:17:00+08:00] 106.11.156.36 GET www.shuyingjp.com/tag/116.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:19:14+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/157.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:29:25+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/97.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:32:41+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:45:56+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/62.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:46:29+08:00] 42.193.16.135 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:49:49+08:00] 220.181.108.95 GET www.shuyingjp.com/tag/45/SGU?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:55:23+08:00] 121.30.179.68 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T02:55:28+08:00] 35.239.58.193 GET www.shuyingjp.com/yjs/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T03:05:02+08:00] 51.222.253.20 GET www.shuyingjp.com/tag/152.html?page=5
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:11:37+08:00] 207.46.13.3 GET www.shuyingjp.com/parter/
+[ error ] [8]未定义数组索引: type
+[ error ] [8]未定义数组索引: id
+---------------------------------------------------------------
+[2021-09-20T03:15:44+08:00] 51.222.253.11 GET www.shuyingjp.com/tag/38.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:19:49+08:00] 116.179.32.159 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:23:20+08:00] 106.11.152.72 GET www.shuyingjp.com/tag/72.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:24:23+08:00] 106.11.153.36 GET www.shuyingjp.com/tag/72.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:25:39+08:00] 51.222.253.1 GET www.shuyingjp.com/tag/191.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:35:47+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T03:42:25+08:00] 203.208.60.119 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T03:43:52+08:00] 51.222.253.3 GET www.shuyingjp.com/yy/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T03:46:55+08:00] 183.7.253.155 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:00:07+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/102.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:03:54+08:00] 157.55.39.90 GET www.shuyingjp.com/ws/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T04:05:28+08:00] 106.75.58.219 GET www.shuyingjp.com/index.php?m=wap&a=index&siteid=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:05:28+08:00] 106.75.58.219 GET www.shuyingjp.com/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%25%2A27an%2Ad%25%2A20updat*exml%281%2Ccon*cat%280x7e%2C%28us*er%28%29%29%2C0x7e%29%2C1%29%23%26modelid%3D1%26catid%3D1%26m%3D1%26f%3Dshadow
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:05:45+08:00] 39.96.1.102 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:14:47+08:00] 207.46.13.171 GET www.shuyingjp.com/rm/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T04:26:19+08:00] 139.198.19.178 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:34:21+08:00] 47.100.34.208 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:34:57+08:00] 47.101.159.176 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:35:27+08:00] 106.75.246.84 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:35:49+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/101.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:47:02+08:00] 203.208.60.76 GET www.shuyingjp.com/tag/133.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T04:56:28+08:00] 51.222.253.5 GET www.shuyingjp.com/zx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T05:01:40+08:00] 101.132.188.111 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:02:54+08:00] 47.101.154.181 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:03:09+08:00] 78.55.28.220 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:03:53+08:00] 47.98.62.203 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:09:19+08:00] 35.239.58.193 GET www.shuyingjp.com/ys/
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T05:42:36+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/59.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:44:14+08:00] 106.11.159.98 GET www.shuyingjp.com/tag/12?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:45:03+08:00] 47.119.145.133 GET www.shuyingjp.com/yysq/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T05:50:18+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/39.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:50:19+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/29.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:51:06+08:00] 220.181.108.165 GET www.shuyingjp.com/rm/page_19.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T05:52:24+08:00] 47.101.47.144 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:57:59+08:00] 51.222.253.8 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T05:57:59+08:00] 139.59.25.61 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T06:35:14+08:00] 51.222.253.1 GET www.shuyingjp.com/dxy/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T06:46:12+08:00] 49.207.219.208 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T06:47:49+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/61.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T06:51:42+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/38.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T06:52:24+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/45.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T06:54:49+08:00] 207.46.13.178 GET www.shuyingjp.com/rm/page_5.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T06:58:47+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T07:03:24+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/166.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:24:26+08:00] 106.75.58.219 GET www.shuyingjp.com/index.php?m=wap&siteid=1%E2%80%8B
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:24:34+08:00] 106.75.58.219 POST www.shuyingjp.com/index.php?m=attachment&c=attachments&a=swfupload_json&src=%26i=1%26d=11%26catid=1%26t=23232%26ip=127.0.0.1%26m=3%26modelid=1%26s=caches%252fconfigs%252fsystem.ph%26f=p%26xxxx
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:30:09+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/11.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:35:48+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/115.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:38:28+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/183.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:41:12+08:00] 40.77.167.106 GET www.shuyingjp.com/japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-09-20T07:48:22+08:00] 121.37.133.156 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:48:38+08:00] 106.14.7.174 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T07:49:09+08:00] 198.54.133.52 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:04:25+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/118.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:08:46+08:00] 106.11.152.103 GET www.shuyingjp.com/tag/12?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:08:52+08:00] 51.222.253.14 GET www.shuyingjp.com/tag/130.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:09:38+08:00] 106.110.239.142 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:17:39+08:00] 51.222.253.13 GET www.shuyingjp.com/tag/12.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:22:22+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:24:47+08:00] 101.91.62.11 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:36:34+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T08:38:42+08:00] 221.1.222.114 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:46:48+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/56.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T08:50:09+08:00] 35.239.58.193 GET www.shuyingjp.com/ys/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T08:54:21+08:00] 157.55.39.90 GET www.shuyingjp.com/rm/page_20.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T08:54:49+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:04:35+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/71.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:05:29+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/47.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:06:57+08:00] 51.222.253.6 GET www.shuyingjp.com/dxy/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:09:50+08:00] 207.46.13.36 GET www.shuyingjp.com/zyjx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:10:45+08:00] 106.11.152.70 GET www.shuyingjp.com/mxalk/
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-09-20T09:11:26+08:00] 106.11.152.100 GET www.shuyingjp.com/mxalk/
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-09-20T09:14:12+08:00] 207.46.13.36 GET www.shuyingjp.com/ws//page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:15:03+08:00] 51.222.253.11 GET www.shuyingjp.com/sgusq/page_5.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:19:15+08:00] 207.46.13.78 GET www.shuyingjp.com/tag/25.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:15+08:00] 207.46.13.78 GET www.shuyingjp.com/tag/158.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:15+08:00] 207.46.13.78 GET www.shuyingjp.com/rm/page_29.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 13
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 3
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:19:16+08:00] 207.46.13.78 GET www.shuyingjp.com/rm/page_19.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:19:27+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/66.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:27+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/49.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:27+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/27.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:28+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/165.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:28+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/155.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:29+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/152.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:29+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/133.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:29+08:00] 207.46.13.26 GET www.shuyingjp.com/rm/page_18.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:19:48+08:00] 207.46.13.36 GET www.shuyingjp.com/faqs/333.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-09-20T09:19:48+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/97.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:19:49+08:00] 207.46.13.36 GET www.shuyingjp.com/rm/page_21.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:20:02+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/44.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:02+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/38.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:02+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/33.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:03+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/29.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:03+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/168.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:04+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/167.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:04+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/152.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:04+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/150.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:05+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/135.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:05+08:00] 40.77.167.106 GET www.shuyingjp.com/rm/page_32.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:20:24+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/88.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:24+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/47.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:24+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/28.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:25+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/28.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:25+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/166.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:26+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/12.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:41+08:00] 207.46.13.3 GET www.shuyingjp.com/tag/36.html?page=4
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:42+08:00] 207.46.13.3 GET www.shuyingjp.com/rm/page_8.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:20:42+08:00] 207.46.13.3 GET www.shuyingjp.com/rm/page_22.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:20:56+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/92.html?page=5
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:57+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/164.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:20:58+08:00] 207.46.13.14 GET www.shuyingjp.com/rm/page_7.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:20:58+08:00] 207.46.13.14 GET www.shuyingjp.com/rm/page_31.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:21:11+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/36.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:11+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/155.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:11+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/152.html?page=5
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:12+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/152.html?page=4
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:12+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/107.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:12+08:00] 207.46.13.181 GET www.shuyingjp.com/rm/page_30.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:21:13+08:00] 207.46.13.181 GET www.shuyingjp.com/rm/page_28.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:21:34+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/90.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:35+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/11html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:35+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/11.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:48+08:00] 157.55.39.90 GET www.shuyingjp.com/faqs/page_32.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 8
+---------------------------------------------------------------
+[2021-09-20T09:21:48+08:00] 157.55.39.90 GET www.shuyingjp.com/tag/53.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:49+08:00] 157.55.39.90 GET www.shuyingjp.com/tag/154.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:49+08:00] 157.55.39.90 GET www.shuyingjp.com/tag/154.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:49+08:00] 157.55.39.90 GET www.shuyingjp.com/tag/12.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:21:50+08:00] 157.55.39.90 GET www.shuyingjp.com/rm/page_27.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:21:50+08:00] 157.55.39.90 GET www.shuyingjp.com/rm/page_1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:24:26+08:00] 207.46.13.43 GET www.shuyingjp.com/rm/page_23.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:44:20+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_5.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T09:44:25+08:00] 123.183.224.167 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:47:17+08:00] 47.97.120.5 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:47:24+08:00] 47.103.132.223 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T09:49:37+08:00] 203.208.60.64 GET www.shuyingjp.com/tag/31/SGU/SGU/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:08:50+08:00] 203.208.60.43 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:09:31+08:00] 49.7.21.90 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:10:46+08:00] 80.82.77.192 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:12:41+08:00] 51.222.253.18 GET www.shuyingjp.com/rm/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T10:30:34+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/169.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:38:02+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/167.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:43:32+08:00] 218.63.142.235 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:43:33+08:00] 218.63.142.235 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:47:13+08:00] 203.208.60.28 GET www.shuyingjp.com/tag/189.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:49:04+08:00] 207.46.13.178 GET www.shuyingjp.com/rm/page_6.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T10:49:38+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/177.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:50:19+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/50.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:50:39+08:00] 106.75.246.84 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T10:54:21+08:00] 51.222.253.2 GET www.shuyingjp.com/rm/page_37.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T10:55:01+08:00] 47.103.76.54 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:05:19+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/27.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:07:12+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/159.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:08:06+08:00] 103.85.86.140 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:08:40+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/33.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:12:04+08:00] 118.184.177.25 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:12:59+08:00] 207.46.13.181 GET www.shuyingjp.com/tag/36.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:13:45+08:00] 49.7.21.90 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:14:50+08:00] 51.222.253.15 GET www.shuyingjp.com/rm/page_22.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T11:17:14+08:00] 203.208.60.80 GET www.shuyingjp.com/tag/189.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:23:28+08:00] 111.7.96.151 GET localhost/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:24:44+08:00] 203.208.60.75 GET www.shuyingjp.com/tag/154/SGU?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:27:36+08:00] 203.208.60.19 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:34:07+08:00] 207.46.13.3 GET www.shuyingjp.com/parter/
+[ error ] [8]未定义数组索引: type
+[ error ] [8]未定义数组索引: id
+---------------------------------------------------------------
+[2021-09-20T11:40:24+08:00] 106.11.157.35 GET www.shuyingjp.com/tag/146.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T11:44:01+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_37.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T11:44:47+08:00] 35.239.58.193 GET www.shuyingjp.com/ys/page_1.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T11:45:35+08:00] 51.222.253.18 GET www.shuyingjp.com/rm/page_6.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T11:55:40+08:00] 207.46.13.78 GET www.shuyingjp.com/Japaneseuniversities/512.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-09-20T11:56:14+08:00] 92.118.160.57 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:04:20+08:00] 123.183.224.29 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:11:22+08:00] 121.30.179.245 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:12:23+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/189.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:13:04+08:00] 121.30.179.81 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:14:14+08:00] 51.222.253.18 GET www.shuyingjp.com/tag/92.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:26:42+08:00] 157.55.39.90 GET www.shuyingjp.com/ws/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T12:30:59+08:00] 47.119.145.133 GET www.shuyingjp.com/ws/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T12:31:00+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/180.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:31:00+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/144.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:31:03+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/143.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:31:05+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/142.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:31:10+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/69.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:32:10+08:00] 203.208.60.33 GET www.shuyingjp.com/tag/133.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:36:46+08:00] 116.179.32.163 GET www.shuyingjp.com/tag/115/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:36:46+08:00] 116.179.32.89 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:38:46+08:00] 47.101.46.78 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:39:14+08:00] 51.222.253.16 GET www.shuyingjp.com/tag/36.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:40:29+08:00] 220.181.108.160 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:40:29+08:00] 116.179.32.15 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:41:50+08:00] 216.244.66.245 GET www.shuyingjp.com/tag/154.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:41:57+08:00] 216.244.66.245 GET www.shuyingjp.com/tag/47.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:47:20+08:00] 209.17.96.106 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:49:25+08:00] 207.46.13.3 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:54:22+08:00] 51.222.253.8 GET www.shuyingjp.com/rm/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T12:54:28+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/146.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T12:57:37+08:00] 40.77.167.106 GET www.shuyingjp.com/lg/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T13:00:23+08:00] 167.99.95.237 POST 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:06:55+08:00] 51.222.253.6 GET www.shuyingjp.com/rm/page_5.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T13:10:31+08:00] 40.77.167.33 GET www.shuyingjp.com/lg/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T13:19:51+08:00] 110.80.135.7 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:19:51+08:00] 110.80.135.7 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:19:51+08:00] 110.80.135.7 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:23:40+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/59.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:37:31+08:00] 40.77.167.34 GET www.shuyingjp.com/rm/page_37.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T13:39:46+08:00] 39.96.1.102 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:45:13+08:00] 121.30.179.124 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:46:37+08:00] 35.84.28.3 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:13+08:00] 220.181.108.87 GET www.shuyingjp.com/tag/45/SGU/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:13+08:00] 116.179.32.194 GET www.shuyingjp.com/tag/27?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:13+08:00] 220.181.108.185 GET www.shuyingjp.com/tag/45/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:14+08:00] 116.179.32.144 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:14+08:00] 116.179.32.15 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:50+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/46.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T13:49:52+08:00] 118.184.177.25 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:16:04+08:00] 51.222.253.13 GET www.shuyingjp.com/rm/page_33.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T14:16:22+08:00] 183.136.225.9 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:16:31+08:00] 183.136.225.9 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:26:18+08:00] 51.222.253.19 GET www.shuyingjp.com/rm/page_34.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T14:36:48+08:00] 51.222.253.18 GET www.shuyingjp.com/rm/page_35.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T14:39:06+08:00] 47.98.103.174 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:39:20+08:00] 154.197.29.182 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:45:56+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/31.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:46:52+08:00] 51.222.253.2 GET www.shuyingjp.com/rm/page_36.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T14:49:47+08:00] 123.183.224.167 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T14:56:55+08:00] 51.222.253.2 GET www.shuyingjp.com/rm/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T15:04:25+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_36.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T15:07:44+08:00] 121.30.179.117 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:13:01+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/146.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:18:24+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/128.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:18:28+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/136.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:18:34+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/161.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:18:39+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/36.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:18:43+08:00] 47.119.145.133 GET www.shuyingjp.com/sgusq/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T15:18:46+08:00] 157.55.39.90 GET www.shuyingjp.com/tag/93.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:19:40+08:00] 220.181.108.103 GET www.shuyingjp.com/tag/158/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:19:40+08:00] 116.179.32.177 GET www.shuyingjp.com/tag/49.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:19:40+08:00] 116.179.32.24 GET www.shuyingjp.com/tag/36?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:19:40+08:00] 220.181.108.147 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:20:48+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T15:21:28+08:00] 51.222.253.5 GET www.shuyingjp.com/tag/125.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:24:45+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/70.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:26:11+08:00] 207.46.13.171 GET www.shuyingjp.com/tag/166.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:33:15+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T15:37:02+08:00] 137.175.12.46 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:38:16+08:00] 51.222.253.11 GET www.shuyingjp.com/tag/93.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:42:15+08:00] 47.103.142.210 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:45:04+08:00] 123.183.224.167 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:45:56+08:00] 116.179.32.15 GET www.shuyingjp.com/tag/73/SGU/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:49:37+08:00] 203.208.60.109 GET www.shuyingjp.com/tag/98?page=4
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:51:06+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/123.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:53:57+08:00] 47.101.195.43 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:54:52+08:00] 207.46.13.78 GET www.shuyingjp.com/tag/53.html?page=1
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T15:58:26+08:00] 49.7.21.90 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:02:13+08:00] 192.241.220.245 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:03:34+08:00] 216.244.66.245 GET www.shuyingjp.com/tag/153.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:04:05+08:00] 40.77.167.106 GET www.shuyingjp.com/japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-09-20T16:04:35+08:00] 123.183.224.29 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:11:56+08:00] 51.222.253.10 GET www.shuyingjp.com/tag/49.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:12:07+08:00] 110.80.135.7 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:12:08+08:00] 110.80.135.7 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:23:38+08:00] 35.239.58.193 GET www.shuyingjp.com/rm/page_1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T16:24:48+08:00] 51.222.253.2 GET www.shuyingjp.com/rm/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T16:32:23+08:00] 106.11.159.73 GET www.shuyingjp.com/gz/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T16:37:19+08:00] 118.184.177.25 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:37:45+08:00] 47.119.145.133 GET www.shuyingjp.com/rm/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T16:47:19+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/111.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:50:01+08:00] 86.99.118.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:51:29+08:00] 211.149.141.71 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:51:31+08:00] 211.149.141.71 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T16:52:56+08:00] 47.119.145.133 GET www.shuyingjp.com/gz/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T16:58:47+08:00] 62.4.32.177 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:00:19+08:00] 106.11.156.106 GET www.shuyingjp.com/tag/98.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:02:10+08:00] 203.208.60.74 GET www.shuyingjp.com/tag/173.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:07:29+08:00] 80.66.88.100 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:13:37+08:00] 101.227.1.197 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:13:37+08:00] 101.227.1.197 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:13:45+08:00] 101.227.1.197 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:13:46+08:00] 101.227.1.196 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:20:09+08:00] 203.208.60.38 GET www.shuyingjp.com/zx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T17:25:45+08:00] 106.11.159.51 GET www.shuyingjp.com/yjs/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T17:28:11+08:00] 51.222.253.1 GET www.shuyingjp.com/tag/93.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:47:48+08:00] 203.208.60.100 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:51:21+08:00] 103.158.161.57 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:53:28+08:00] 118.184.177.25 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T17:54:05+08:00] 157.55.39.90 GET www.shuyingjp.com/rm/page_1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T18:01:26+08:00] 40.77.167.34 GET www.shuyingjp.com/lg/page_1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T18:09:29+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/91.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:14:45+08:00] 203.208.60.47 GET www.shuyingjp.com/tag/156/SGU/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:22:11+08:00] 139.198.19.178 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:27:07+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/170.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:29:35+08:00] 207.46.13.26 GET www.shuyingjp.com/tag/176.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:31:01+08:00] 211.149.141.71 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:31:03+08:00] 211.149.141.71 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:34:10+08:00] 51.222.253.5 GET www.shuyingjp.com/tag/49.html?page=5
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T18:39:17+08:00] 106.11.154.33 GET www.shuyingjp.com/yjs/page_5.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T18:39:28+08:00] 106.11.155.99 GET www.shuyingjp.com/yjs/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T18:39:52+08:00] 106.11.156.56 GET www.shuyingjp.com/yjs/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T18:40:06+08:00] 47.98.103.147 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:01:15+08:00] 137.175.12.46 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:04:24+08:00] 42.193.8.97 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:08:43+08:00] 216.244.66.245 GET www.shuyingjp.com/tag/66.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:10:26+08:00] 39.96.1.102 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:14:08+08:00] 42.193.8.97 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:18:07+08:00] 121.30.179.180 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:20:11+08:00] 121.30.179.52 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:21:13+08:00] 121.30.179.14 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:21:40+08:00] 121.30.179.117 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:24:19+08:00] 121.30.179.19 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:26:35+08:00] 121.30.179.153 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:26:42+08:00] 207.46.13.36 GET www.shuyingjp.com/JapaneseLanguageSchool/
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-09-20T19:27:29+08:00] 121.30.179.75 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:33:14+08:00] 220.181.108.112 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:35:52+08:00] 47.100.99.131 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:37:12+08:00] 49.150.76.46 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:44:48+08:00] 106.11.154.49 GET www.shuyingjp.com/tag/101.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:50:15+08:00] 207.46.13.36 GET www.shuyingjp.com/zyjx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T19:51:46+08:00] 106.11.154.126 GET www.shuyingjp.com/tag/33/SGU/SGU/SGU/SGU?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:53:36+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/126.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:54:25+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/35.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:55:48+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/174.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T19:56:04+08:00] 121.30.179.113 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:12:30+08:00] 137.175.12.46 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:13:52+08:00] 216.224.120.188 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:21:13+08:00] 51.222.253.14 GET www.shuyingjp.com/Japaneseuniversities/
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-09-20T20:23:54+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/58.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:26:50+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/66.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:36:31+08:00] 207.46.13.3 GET www.shuyingjp.com/parter/
+[ error ] [8]未定义数组索引: type
+[ error ] [8]未定义数组索引: id
+---------------------------------------------------------------
+[2021-09-20T20:41:54+08:00] 116.179.32.28 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:44:46+08:00] 121.30.179.45 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:50:06+08:00] 106.11.157.39 GET www.shuyingjp.com/tag/101.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:54:27+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/95.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:56:12+08:00] 157.55.39.90 GET www.shuyingjp.com/ws/page_2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T20:59:19+08:00] 121.30.179.54 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:59:37+08:00] 116.179.32.241 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T20:59:37+08:00] 220.181.108.95 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:02:12+08:00] 213.32.35.3 POST 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:02:18+08:00] 213.32.35.3 POST 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:02:52+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:04:34+08:00] 40.77.167.106 GET www.shuyingjp.com/tag/185.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:05:45+08:00] 51.222.253.5 GET www.shuyingjp.com/tag/29.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:09:21+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/112.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:09:49+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:09:49+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:20:43+08:00] 39.96.1.102 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:25:26+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/131.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:25:45+08:00] 207.46.13.36 GET www.shuyingjp.com/ws//page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T21:26:23+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T21:28:31+08:00] 119.101.55.118 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:35:46+08:00] 216.244.66.245 GET www.shuyingjp.com/tag/128.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:49:14+08:00] 207.46.13.36 GET www.shuyingjp.com/tag/139.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:52:48+08:00] 116.179.32.66 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:56:50+08:00] 106.11.155.109 GET www.shuyingjp.com/tag/121.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T21:57:44+08:00] 121.30.179.102 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:10:31+08:00] 220.181.108.96 GET www.shuyingjp.com/tag/49.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:10:56+08:00] 207.46.13.36 GET www.shuyingjp.com/ws/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T22:19:17+08:00] 103.155.131.38 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:21:22+08:00] 185.251.248.77 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:23:42+08:00] 51.222.253.8 GET www.shuyingjp.com/tag/29.html?page=3
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:27:32+08:00] 20.191.45.212 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:31:40+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/39.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:31:40+08:00] 207.46.13.14 GET www.shuyingjp.com/tag/29.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:43:10+08:00] 47.119.145.133 GET www.shuyingjp.com/tag/75.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:44:43+08:00] 207.46.13.3 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T22:48:41+08:00] 207.46.13.3 GET www.shuyingjp.com/rm/page_3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T23:02:11+08:00] 47.100.27.207 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:03:03+08:00] 116.179.32.33 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:03:03+08:00] 116.179.32.41 GET www.shuyingjp.com/lg/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T23:03:03+08:00] 116.179.32.75 GET www.shuyingjp.com/tag/62/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:03:03+08:00] 116.179.32.38 GET www.shuyingjp.com/tag/139/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:03:29+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/104.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:07:18+08:00] 165.154.2.196 GET www.shuyingjp.com//
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:09:08+08:00] 40.77.167.106 GET www.shuyingjp.com/rm/page_32.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T23:11:11+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/72.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:11:47+08:00] 40.77.167.106 GET www.shuyingjp.com/japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-09-20T23:17:18+08:00] 207.46.13.178 GET www.shuyingjp.com/tag/169.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:20:42+08:00] 103.155.131.38 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:23:54+08:00] 35.239.58.193 GET www.shuyingjp.com/tag/100.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:25:46+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:37:31+08:00] 116.209.102.168 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:53:33+08:00] 35.239.58.193 GET www.shuyingjp.com/zx/
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-09-20T23:55:03+08:00] 44.197.199.42 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-09-20T23:55:08+08:00] 116.209.102.168 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category

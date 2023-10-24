@@ -1,0 +1,3250 @@
+---------------------------------------------------------------
+[2021-08-02T00:50:40+08:00] 47.101.53.84 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T00:58:57+08:00] 106.14.142.126 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:53:39+08:00] 60.216.59.207 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:53:49+08:00] 180.163.220.4 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:54:07+08:00] 180.163.220.5 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:54:16+08:00] 60.216.59.89 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:54:31+08:00] 27.115.124.70 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:56:40+08:00] 171.13.14.84 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:56:41+08:00] 180.163.220.3 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T01:57:11+08:00] 171.13.14.83 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T03:33:00+08:00] 164.52.24.162 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T03:33:16+08:00] 209.17.97.114 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T03:48:44+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:07:07+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:32:41+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:38:01+08:00] 128.14.134.170 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:39:23+08:00] 47.92.125.35 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:43:35+08:00] 47.101.40.33 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:43:38+08:00] 47.92.120.136 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:45:00+08:00] 47.92.95.89 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:48:56+08:00] 47.101.40.33 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:51:32+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T04:57:31+08:00] 47.92.107.192 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T06:45:52+08:00] 47.96.12.13 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T07:52:05+08:00] 116.179.32.12 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T07:55:25+08:00] 116.179.32.89 GET shuyingjp.com/N1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T07:55:25+08:00] 116.179.32.103 GET shuyingjp.com/rm/461.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T07:55:25+08:00] 116.179.32.46 GET shuyingjp.com/SGU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T07:58:45+08:00] 116.179.32.168 GET shuyingjp.com/zx/458.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T08:02:05+08:00] 220.181.108.115 GET shuyingjp.com/N3.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T08:05:25+08:00] 116.179.32.22 GET shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T08:08:45+08:00] 116.179.32.24 GET shuyingjp.com/Graduate.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T08:11:51+08:00] 116.179.32.87 GET shuyingjp.com/Japaneseuniversities/78.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T08:11:52+08:00] 220.181.108.94 GET shuyingjp.com/zx/356.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T08:18:31+08:00] 116.179.32.19 GET shuyingjp.com/zx/394.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T08:31:51+08:00] 116.179.32.66 GET shuyingjp.com/zx/403.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T08:55:11+08:00] 116.179.32.18 GET shuyingjp.com/zx/396.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T09:05:15+08:00] 116.179.32.160 GET shuyingjp.com/N2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:09:41+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:11:55+08:00] 220.181.108.115 GET shuyingjp.com/tag/11.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:15:15+08:00] 116.179.32.230 GET shuyingjp.com/zx/464.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T09:17:45+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:18:35+08:00] 116.179.32.12 GET shuyingjp.com/Undergraduate.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:21:56+08:00] 116.179.32.18 GET shuyingjp.com/N5N4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:26:09+08:00] 59.36.119.227 GET www.shuyingjp.com/tag/132.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:28:36+08:00] 220.181.108.159 GET shuyingjp.com/tag/12.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:28:36+08:00] 116.179.32.36 GET shuyingjp.com/Oralexam.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:28:46+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:31:56+08:00] 116.179.32.42 GET shuyingjp.com/Plan.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:31:56+08:00] 220.181.108.182 GET shuyingjp.com/LanguageSchool.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:35:16+08:00] 220.181.108.180 GET shuyingjp.com/tag/27.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:35:16+08:00] 220.181.108.76 GET shuyingjp.com/EJU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:37:45+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T09:37:50+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/84.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:38:36+08:00] 220.181.108.175 GET shuyingjp.com/tag/66.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:38:36+08:00] 116.179.32.142 GET shuyingjp.com/mxalk.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-08-02T09:41:56+08:00] 220.181.108.114 GET shuyingjp.com/tag/30.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:41:56+08:00] 116.179.32.197 GET shuyingjp.com/WrittenExam.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:45:11+08:00] 116.179.32.43 GET shuyingjp.com/JapaneseLanguageSchool/347.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T09:45:11+08:00] 220.181.108.84 GET shuyingjp.com/JapaneseLanguageSchool/348.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T09:47:44+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:48:24+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T09:48:31+08:00] 220.181.108.153 GET shuyingjp.com/JapaneseLanguageSchool/353.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T09:48:31+08:00] 116.179.32.161 GET shuyingjp.com/JapaneseLanguageSchool/349.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T09:51:55+08:00] 116.179.32.240 GET shuyingjp.com/JapaneseLanguageSchool/354.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T09:53:11+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T09:53:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/84.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:53:21+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T09:53:25+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/479.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:55:14+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T09:55:18+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/479.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:58:35+08:00] 220.181.108.93 GET shuyingjp.com/N5N4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:58:35+08:00] 116.179.32.41 GET shuyingjp.com/EJU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T09:59:58+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:04:23+08:00] 157.55.39.169 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:08:35+08:00] 220.181.108.153 GET shuyingjp.com/tag/97.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:08:35+08:00] 116.179.32.112 GET shuyingjp.com/zx/456.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T10:11:55+08:00] 116.179.32.216 GET shuyingjp.com/tag/28.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:14:22+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T10:14:29+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:14:30+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/480.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:14:57+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T10:15:02+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/479.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:15:05+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/hiroshima-u.ac.jp
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:15:12+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/hiroshima-u.ac.jp
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:15:15+08:00] 220.181.108.185 GET shuyingjp.com/tag/98.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:18:35+08:00] 116.179.32.207 GET shuyingjp.com/ResearchProposal.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:21:55+08:00] 116.179.32.178 GET shuyingjp.com/parter.html
+[ error ] [8]未定义数组索引: type
+[ error ] [8]未定义数组索引: id
+---------------------------------------------------------------
+[2021-08-02T10:21:55+08:00] 116.179.32.148 GET shuyingjp.com/zx.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T10:25:15+08:00] 116.179.32.157 GET shuyingjp.com/tag/23.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:28:35+08:00] 116.179.32.88 GET shuyingjp.com/ResearchStudent.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:30:30+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T10:30:43+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:31:39+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T10:31:41+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/481.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:31:42+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/481.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:31:46+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/www.kobe-u.ac.jp
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:31:52+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:31:56+08:00] 220.181.108.78 GET shuyingjp.com/JapaneseLanguageSchool.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T10:41:56+08:00] 116.179.32.15 GET shuyingjp.com/tag/83.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:45:16+08:00] 220.181.108.99 GET shuyingjp.com/tag/60.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T10:51:56+08:00] 220.181.108.84 GET shuyingjp.com/Japaneseuniversities/84.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T10:53:13+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T10:55:16+08:00] 116.179.32.166 GET shuyingjp.com/lg.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T10:58:36+08:00] 116.179.32.158 GET shuyingjp.com/yy.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T10:58:37+08:00] 220.181.108.165 GET shuyingjp.com/ws.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:01:56+08:00] 116.179.32.71 GET shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:01:56+08:00] 220.181.108.93 GET shuyingjp.com/Japaneseuniversities/87.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:05:16+08:00] 220.181.108.112 GET shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:05:16+08:00] 116.179.32.220 GET shuyingjp.com/Japaneseuniversities/79.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:06:37+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:08:02+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:08:36+08:00] 220.181.108.140 GET shuyingjp.com/ys.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:08:48+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:08:52+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:11:16+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T11:20:04+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:25:16+08:00] 220.181.108.186 GET shuyingjp.com/zx/455.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:31:56+08:00] 220.181.108.141 GET shuyingjp.com/yjs.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:33:44+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:33:53+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T11:36:52+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:36:55+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:36:58+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/78.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:37:07+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:37:09+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T11:37:12+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T11:38:37+08:00] 220.181.108.94 GET shuyingjp.com/dxy.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:50:17+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:51:56+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T11:52:22+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:52:32+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/485.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:52:35+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/78.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:52:38+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/83.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:52:42+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:53:03+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/83.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:53:20+08:00] 114.254.0.253 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T11:53:30+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T11:53:33+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:55:17+08:00] 220.181.108.163 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T11:55:17+08:00] 116.179.32.88 GET shuyingjp.com/rm.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T11:56:57+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T11:57:01+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T11:57:04+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/487.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T11:57:10+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/77.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T11:57:34+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T11:57:43+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/80.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T12:05:17+08:00] 220.181.108.153 GET shuyingjp.com/yysq.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T12:18:37+08:00] 116.179.32.101 GET shuyingjp.com/sgusq.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T12:25:17+08:00] 220.181.108.94 GET shuyingjp.com/gz.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T12:29:23+08:00] 64.62.197.182 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T12:35:17+08:00] 116.179.32.160 GET shuyingjp.com/life.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T12:47:00+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T12:48:38+08:00] 220.181.108.75 GET shuyingjp.com/bk.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T12:54:35+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T12:55:46+08:00] 185.184.223.210 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T12:55:47+08:00] 185.184.223.210 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T12:56:24+08:00] 61.146.178.30 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T12:58:38+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T12:58:54+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T12:58:56+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/489.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T12:59:01+08:00] 124.200.103.94 GET www.shuyingjp.com/ResearchStudent.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T12:59:06+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/488.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:00:07+08:00] 111.192.82.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:01:58+08:00] 220.181.108.158 GET shuyingjp.com/Japaneseuniversities/SGU.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T13:03:18+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:03:36+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:04:21+08:00] 111.192.82.61 GET www.shuyingjp.com/mxalk.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-08-02T13:05:16+08:00] 111.192.82.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:07:40+08:00] 111.192.82.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:10:08+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:10:11+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T13:10:12+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/490.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:10:27+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/490.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:10:32+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/489.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:11:08+08:00] 111.192.82.61 GET www.shuyingjp.com/Undergraduate.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:11:39+08:00] 111.192.82.61 GET www.shuyingjp.com/ResearchStudent.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:11:52+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:12:01+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:12:14+08:00] 111.192.82.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:12:15+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:12:17+08:00] 111.192.82.61 GET www.shuyingjp.com/ResearchStudent.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:12:24+08:00] 124.200.103.94 GET shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:12:30+08:00] 124.200.103.94 GET shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:14:00+08:00] 111.192.82.61 GET www.shuyingjp.com/Graduate.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:14:13+08:00] 111.192.82.61 GET www.shuyingjp.com/SGU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:14:50+08:00] 111.192.82.61 GET www.shuyingjp.com/LanguageSchool.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:14:55+08:00] 111.192.82.61 GET www.shuyingjp.com/N5N4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:15:01+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:15:05+08:00] 111.192.82.61 GET www.shuyingjp.com/EJU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:15:34+08:00] 111.192.82.61 GET www.shuyingjp.com/ResearchProposal.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:15:55+08:00] 111.192.82.61 GET www.shuyingjp.com/WrittenExam.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:16:39+08:00] 111.192.82.61 GET www.shuyingjp.com/Oralexam.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:16:47+08:00] 111.192.82.61 GET www.shuyingjp.com/Oralexam.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:18:27+08:00] 106.14.153.15 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:18:29+08:00] 106.14.153.15 GET 8.142.32.41/?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:18:38+08:00] 220.181.108.122 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:20:37+08:00] 111.192.82.61 GET www.shuyingjp.com/Plan.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:23:22+08:00] 111.192.82.61 GET www.shuyingjp.com/mxalk.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-08-02T13:23:43+08:00] 111.192.82.61 GET www.shuyingjp.com/mxalk.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-08-02T13:28:27+08:00] 103.119.130.48 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:31:17+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:31:27+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T13:31:30+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/490.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:31:35+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/491.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:31:58+08:00] 116.179.32.242 GET shuyingjp.com/tag/43.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:31:58+08:00] 220.181.108.162 GET shuyingjp.com/tag/33.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:35:18+08:00] 220.181.108.110 GET shuyingjp.com/tag/34.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:38:17+08:00] 111.33.246.186 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:38:38+08:00] 116.179.32.211 GET shuyingjp.com/rm/359.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T13:40:07+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:40:13+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T13:40:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/492.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:40:27+08:00] 111.33.246.186 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:40:43+08:00] 111.33.246.186 GET www.shuyingjp.com/EJU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:40:54+08:00] 111.33.246.186 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:41:58+08:00] 220.181.108.152 GET shuyingjp.com/tag/117.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:42:31+08:00] 111.192.82.61 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:44:35+08:00] 111.33.246.186 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:45:18+08:00] 220.181.108.121 GET shuyingjp.com/tag/118.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:45:37+08:00] 111.33.246.186 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:47:23+08:00] 111.33.246.186 GET www.shuyingjp.com/N5N4.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T13:49:07+08:00] 113.31.114.242 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:51:59+08:00] 220.181.108.177 GET shuyingjp.com/tag/46.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:54:43+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:54:53+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T13:55:18+08:00] 116.179.32.135 GET shuyingjp.com/tag/24.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:55:19+08:00] 220.181.108.93 GET shuyingjp.com/tag/81.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T13:58:39+08:00] 116.179.32.74 GET shuyingjp.com/tag/48.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:01:59+08:00] 220.181.108.113 GET shuyingjp.com/tag/41.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:05:17+08:00] 66.249.73.62 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:05:51+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T14:05:55+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T14:06:53+08:00] 66.249.73.32 GET www.shuyingjp.com/zx.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T14:07:26+08:00] 66.249.73.62 GET www.shuyingjp.com/N2.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:08:39+08:00] 220.181.108.109 GET shuyingjp.com/tag/22.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:10:16+08:00] 66.249.73.62 GET www.shuyingjp.com/rm.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T14:11:59+08:00] 220.181.108.181 GET shuyingjp.com/tag/65.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:13:22+08:00] 213.32.122.82 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:15:19+08:00] 116.179.32.21 GET shuyingjp.com/tag/SGU.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:15:19+08:00] 116.179.32.198 GET shuyingjp.com/tag/72.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:15:40+08:00] 120.78.231.236 GET /
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:18:39+08:00] 220.181.108.115 GET shuyingjp.com/tag/26.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:18:39+08:00] 220.181.108.95 GET shuyingjp.com/tag/80.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:18:39+08:00] 220.181.108.102 GET shuyingjp.com/tag/79.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:18:39+08:00] 116.179.32.215 GET shuyingjp.com/tag/122.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:19:07+08:00] 220.181.108.180 GET shuyingjp.com/tag/53.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:19:21+08:00] 220.181.108.139 GET shuyingjp.com/tag/31.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:19:35+08:00] 220.181.108.81 GET shuyingjp.com/tag/140.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:19:42+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T14:19:49+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T14:19:50+08:00] 116.179.32.110 GET shuyingjp.com/tag/94.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:19:50+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/495.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:20:18+08:00] 220.181.108.94 GET shuyingjp.com/tag/63.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:20:32+08:00] 220.181.108.121 GET shuyingjp.com/tag/82.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:20:46+08:00] 116.179.32.20 GET shuyingjp.com/tag/78.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:21:00+08:00] 220.181.108.121 GET shuyingjp.com/tag/73.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:21:15+08:00] 220.181.108.84 GET shuyingjp.com/tag/69.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:21:29+08:00] 220.181.108.182 GET shuyingjp.com/tag/91.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:21:57+08:00] 116.179.32.227 GET shuyingjp.com/tag/87.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:22:11+08:00] 220.181.108.180 GET shuyingjp.com/tag/49.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:22:25+08:00] 220.181.108.142 GET shuyingjp.com/tag/58.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:22:34+08:00] 223.104.39.148 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:22:53+08:00] 220.181.108.184 GET shuyingjp.com/tag/84.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:23:08+08:00] 220.181.108.84 GET shuyingjp.com/tag/90.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:23:36+08:00] 220.181.108.85 GET shuyingjp.com/tag/54.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:23:50+08:00] 116.179.32.90 GET shuyingjp.com/tag/88.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:24:04+08:00] 220.181.108.110 GET shuyingjp.com/tag/70.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:24:04+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:24:18+08:00] 116.179.32.131 GET shuyingjp.com/tag/76.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:24:47+08:00] 220.181.108.112 GET shuyingjp.com/tag/71.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:01+08:00] 220.181.108.162 GET shuyingjp.com/tag/125.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:10+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:25:14+08:00] 116.179.32.17 GET shuyingjp.com/tag/51.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:14+08:00] 220.181.108.150 GET shuyingjp.com/tag/99.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:14+08:00] 220.181.108.77 GET shuyingjp.com/tag/85.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:14+08:00] 116.179.32.87 GET shuyingjp.com/tag/89.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:14+08:00] 116.179.32.74 GET shuyingjp.com/tag/55.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T14:25:17+08:00] 220.181.108.121 GET shuyingjp.com/tag/59.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:17+08:00] 116.179.32.174 GET shuyingjp.com/tag/86.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:17+08:00] 220.181.108.121 GET shuyingjp.com/tag/32.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:17+08:00] 220.181.108.179 GET shuyingjp.com/tag/75.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:19+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/493.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:25:31+08:00] 116.179.32.148 GET shuyingjp.com/tag/52.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:34+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T14:25:40+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:45+08:00] 220.181.108.182 GET shuyingjp.com/tag/61.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:48+08:00] 220.181.108.145 GET shuyingjp.com/tag/25.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:48+08:00] 116.179.32.134 GET shuyingjp.com/tag/42.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:49+08:00] 116.179.32.48 GET shuyingjp.com/tag/57.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:49+08:00] 220.181.108.185 GET shuyingjp.com/tag/139.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:49+08:00] 116.179.32.50 GET shuyingjp.com/tag/130.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:57+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:59+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:59+08:00] 220.181.108.173 GET shuyingjp.com/tag/103.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:59+08:00] 116.179.32.113 GET shuyingjp.com/tag/56.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:25:59+08:00] 220.181.108.113 GET shuyingjp.com/tag/74.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:26:11+08:00] 124.200.103.94 GET www.shuyingjp.com/SGU.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:26:13+08:00] 220.181.108.151 GET shuyingjp.com/tag/77.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:26:27+08:00] 116.179.32.163 GET shuyingjp.com/tag/68.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:26:32+08:00] 220.181.108.109 GET shuyingjp.com/tag/62.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:26:32+08:00] 220.181.108.184 GET shuyingjp.com/tag/124.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:26:32+08:00] 220.181.108.110 GET shuyingjp.com/JapaneseLanguageSchool/352.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T14:26:56+08:00] 116.179.32.168 GET shuyingjp.com/JapaneseLanguageSchool/350.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T14:27:24+08:00] 220.181.108.116 GET shuyingjp.com/JapaneseLanguageSchool/355.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T14:27:38+08:00] 220.181.108.113 GET shuyingjp.com/JapaneseLanguageSchool/351.html
+[ error ] [8]未定义数组索引: litpic
+[ error ] [0]类的属性不存在:app\cms\model\CmsChannelModel->channel_id
+---------------------------------------------------------------
+[2021-08-02T14:28:06+08:00] 116.179.32.148 GET shuyingjp.com/tag/113.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:30:56+08:00] 220.181.108.169 GET shuyingjp.com/tag/45.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:32:35+08:00] 116.179.32.85 GET shuyingjp.com/tag/44.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:32:49+08:00] 220.181.108.95 GET shuyingjp.com/tag/121.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:33:03+08:00] 116.179.32.230 GET shuyingjp.com/tag/29.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:33:17+08:00] 220.181.108.92 GET shuyingjp.com/tag/116.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:33:31+08:00] 220.181.108.77 GET shuyingjp.com/tag/96.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:33:36+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T14:33:46+08:00] 116.179.32.37 GET shuyingjp.com/tag/101.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:00+08:00] 220.181.108.174 GET shuyingjp.com/tag/120.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:04+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T14:34:06+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/496.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:34:14+08:00] 116.179.32.209 GET shuyingjp.com/tag/106.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:24+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/484.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:34:28+08:00] 220.181.108.153 GET shuyingjp.com/tag/149.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:42+08:00] 220.181.108.144 GET shuyingjp.com/tag/104.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:43+08:00] 220.181.108.172 GET shuyingjp.com/tag/40.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:43+08:00] 116.179.32.232 GET shuyingjp.com/tag/110.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:43+08:00] 220.181.108.182 GET shuyingjp.com/tag/123.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:43+08:00] 220.181.108.117 GET shuyingjp.com/tag/39.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:56+08:00] 220.181.108.84 GET shuyingjp.com/tag/147.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:56+08:00] 220.181.108.84 GET shuyingjp.com/tag/128.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:56+08:00] 220.181.108.139 GET shuyingjp.com/tag/131.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:34:56+08:00] 116.179.32.231 GET shuyingjp.com/tag/137.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:10+08:00] 116.179.32.219 GET shuyingjp.com/tag/109.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:10+08:00] 220.181.108.182 GET shuyingjp.com/tag/144.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:10+08:00] 220.181.108.139 GET shuyingjp.com/tag/133.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:10+08:00] 220.181.108.161 GET shuyingjp.com/tag/143.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:10+08:00] 220.181.108.140 GET shuyingjp.com/tag/108.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:11+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/496.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:35:25+08:00] 220.181.108.160 GET shuyingjp.com/tag/37.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:30+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T14:35:39+08:00] 116.179.32.241 GET shuyingjp.com/tag/114.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:35:53+08:00] 220.181.108.181 GET shuyingjp.com/tag/148.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:36:07+08:00] 220.181.108.116 GET shuyingjp.com/tag/136.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:36:35+08:00] 116.179.32.85 GET shuyingjp.com/tag/141.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:36:49+08:00] 116.179.32.231 GET shuyingjp.com/tag/102.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:37:04+08:00] 220.181.108.171 GET shuyingjp.com/tag/129.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:37:18+08:00] 220.181.108.81 GET shuyingjp.com/tag/47.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:37:32+08:00] 116.179.32.241 GET shuyingjp.com/tag/35.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:37:32+08:00] 116.179.32.206 GET shuyingjp.com/tag/93.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:37:46+08:00] 116.179.32.30 GET shuyingjp.com/tag/142.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:38:00+08:00] 220.181.108.161 GET shuyingjp.com/tag/145.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:38:14+08:00] 116.179.32.68 GET shuyingjp.com/tag/64.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:38:28+08:00] 220.181.108.161 GET shuyingjp.com/tag/134.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:38:42+08:00] 116.179.32.48 GET shuyingjp.com/tag/100.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:38:57+08:00] 220.181.108.118 GET shuyingjp.com/tag/107.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:39:11+08:00] 220.181.108.80 GET shuyingjp.com/tag/38.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:39:25+08:00] 116.179.32.103 GET shuyingjp.com/tag/126.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:39:39+08:00] 116.179.32.73 GET shuyingjp.com/tag/95.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:39:53+08:00] 116.179.32.97 GET shuyingjp.com/tag/119.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:40:07+08:00] 116.179.32.222 GET shuyingjp.com/tag/127.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:40:21+08:00] 116.179.32.27 GET shuyingjp.com/tag/50.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:40:36+08:00] 116.179.32.237 GET shuyingjp.com/tag/138.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:40:50+08:00] 116.179.32.156 GET shuyingjp.com/tag/105.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:41:04+08:00] 116.179.32.81 GET shuyingjp.com/tag/92.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:41:18+08:00] 116.179.32.159 GET shuyingjp.com/tag/135.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:41:32+08:00] 116.179.32.168 GET shuyingjp.com/tag/112.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:41:46+08:00] 116.179.32.139 GET shuyingjp.com/tag/111.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:42:01+08:00] 116.179.32.108 GET shuyingjp.com/tag/146.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:42:15+08:00] 116.179.32.38 GET shuyingjp.com/tag/115.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:42:29+08:00] 220.181.108.168 GET shuyingjp.com/tag/36.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:44:36+08:00] 116.179.32.77 GET shuyingjp.com/sqzd.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T14:45:18+08:00] 116.179.32.238 GET shuyingjp.com/zyjx.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T14:45:45+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T14:45:47+08:00] 220.181.108.90 GET shuyingjp.com/cms/list/index/id/15.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T14:48:21+08:00] 36.99.136.134 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:49:52+08:00] 36.99.136.134 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:50:02+08:00] 36.99.136.134 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:55:47+08:00] 182.149.121.208 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T14:58:56+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:01:50+08:00] 220.181.108.79 GET shuyingjp.com/faqs/415.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T15:02:10+08:00] 115.238.44.237 GET /
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T15:09:11+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:19:17+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:32:48+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:32:56+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T15:44:06+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:44:13+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T15:44:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/502.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T15:53:26+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T15:53:48+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T16:02:10+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:02:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T16:02:29+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/504.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T16:12:49+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:13:02+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:22:12+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:38:45+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:38:54+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T16:46:34+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T16:47:08+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T16:59:10+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T17:06:37+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T17:07:43+08:00] 103.166.97.68 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T17:18:20+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T17:18:26+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:25:45+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/addpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T17:25:50+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:33:19+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:33:23+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/page_1.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:33:26+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/page_1.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:33:33+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/487.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:33:46+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/80.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:33:56+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/78.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:03+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:34:05+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/87.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:13+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/86.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:21+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/85.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:30+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/84.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:39+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/page_1.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T17:34:43+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/83.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:50+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/82.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:34:58+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:06+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/79.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/479.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:24+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/480.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:34+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/481.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:44+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/482.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:35:51+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/483.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:02+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/484.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:13+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/485.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:20+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/486.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:33+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/489.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:42+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/490.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:53+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/489.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:36:54+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T17:37:06+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/488.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:37:16+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/491.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:37:24+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/492.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:37:40+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/493.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:37:49+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/494.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:00+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/495.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:13+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/496.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:25+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/497.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:33+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/498.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:41+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/499.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:50+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/500.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:38:58+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/501.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:06+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/502.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:22+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/503.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:30+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/504.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:40+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/505.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:47+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/506.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:39:56+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/507.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:03+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/508.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:12+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/509.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:19+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/510.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:28+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/511.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:34+08:00] 124.200.103.94 GET www.shuyingjp.com/Japaneseuniversities/512.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:40:49+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [8]未定义数组索引: post_new
+[ error ] [8]未定义数组索引: keywords
+---------------------------------------------------------------
+[2021-08-02T17:45:33+08:00] 106.15.201.111 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T17:52:05+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/search/index
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:52:09+08:00] 124.200.103.94 GET www.shuyingjp.com/cms/search/index?keyword=%E6%97%A5%E6%9C%AC%E7%A0%94%E7%A9%B6%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T17:52:11+08:00] 124.200.103.94 GET www.shuyingjp.com/cms/search/index?keyword=%E6%97%A5%E6%9C%AC%E7%A0%94%E7%A9%B6%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T18:00:22+08:00] 124.200.103.94 GET www.shuyingjp.com/cms/search/index?keyword=%E6%97%A5%E6%9C%AC%E7%A0%94%E7%A9%B6%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T18:38:35+08:00] 47.102.127.83 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:40:01+08:00] 47.103.0.234 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:42:39+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:42:45+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/search/index
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T18:43:27+08:00] 124.200.103.94 POST www.shuyingjp.com/cms/admin_archives/editpost.html
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+---------------------------------------------------------------
+[2021-08-02T18:43:57+08:00] 124.200.103.94 GET www.shuyingjp.com/sqzd.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T18:44:00+08:00] 124.200.103.94 GET www.shuyingjp.com/tag/27.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:44:04+08:00] 124.200.103.94 GET www.shuyingjp.com/tag/27.html?page=2
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:44:54+08:00] 10.172.110.119 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:46:36+08:00] 139.162.207.84 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:48:39+08:00] 124.200.103.94 GET www.shuyingjp.com/N1.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T18:49:20+08:00] 124.200.103.94 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:54:16+08:00] 220.181.108.161 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T18:56:33+08:00] 116.179.32.214 GET www.shuyingjp.com/Japaneseuniversities/487.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T18:57:19+08:00] 220.181.108.89 GET www.shuyingjp.com/Japaneseuniversities/SGU.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T19:33:07+08:00] 34.230.43.161 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T19:36:04+08:00] 47.98.104.99 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T19:54:56+08:00] 116.179.32.149 GET www.shuyingjp.com/tag/34.html
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T20:24:08+08:00] 74.120.14.38 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T20:42:14+08:00] 167.248.133.55 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T20:42:16+08:00] 167.248.133.55 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T21:36:40+08:00] 71.6.232.7 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T21:42:35+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T21:42:35+08:00] 183.136.225.14 GET 8.142.32.41:443/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:00:28+08:00] 36.99.136.136 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:02:02+08:00] 36.99.136.137 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:02:18+08:00] 36.99.136.137 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:11:51+08:00] 106.15.94.255 GET 8.142.32.41/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:11:53+08:00] 106.15.94.255 GET 8.142.32.41/?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:29:02+08:00] 123.118.62.126 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:29:14+08:00] 123.118.62.126 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:30:04+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T22:30:10+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/484.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:32:08+08:00] 117.44.173.105 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:34:19+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/78.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:45:21+08:00] 103.119.130.48 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T22:49:07+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/80.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:50:35+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/page_2.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T22:50:37+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/87.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:51:14+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/86.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:55:00+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/85.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T22:55:32+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/84.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:00:10+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/page_1.html
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_titles - assumed 'rankname_titles'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+[ error ] [8]Use of undefined constant rankname_en - assumed 'rankname_en'
+[ error ] [8]Use of undefined constant rankname_descs - assumed 'rankname_descs'
+---------------------------------------------------------------
+[2021-08-02T23:00:14+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/83.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:01:08+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/82.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:02:18+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/81.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:02:59+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/80.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:03:01+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/79.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:04:03+08:00] 123.118.62.126 GET www.shuyingjp.com/Japaneseuniversities/479.html
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+[ error ] [8]未定义变量: relation_list_wd
+---------------------------------------------------------------
+[2021-08-02T23:12:08+08:00] 119.45.13.197 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:13:17+08:00] 185.222.57.182 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:13:30+08:00] 185.222.57.182 GET shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:30:19+08:00] 119.45.233.109 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:33:27+08:00] 118.195.146.123 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:37:27+08:00] 172.105.82.175 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:43:09+08:00] 175.27.230.113 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:44:59+08:00] 119.45.114.205 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:50:17+08:00] 220.181.108.185 GET www.shuyingjp.com/zx/456.html
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+[ error ] [8]未定义变量: relation_list_news
+---------------------------------------------------------------
+[2021-08-02T23:57:40+08:00] 119.45.129.85 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:58:38+08:00] 119.45.19.57 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:58:40+08:00] 119.45.124.48 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:58:50+08:00] 119.45.126.207 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-08-02T23:59:02+08:00] 119.45.95.48 GET www.shuyingjp.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category

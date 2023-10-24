@@ -1,0 +1,124 @@
+---------------------------------------------------------------
+[2021-06-13T02:36:08+08:00] 42.236.10.120 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T02:36:08+08:00] 42.236.10.109 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T02:36:08+08:00] 42.236.10.108 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T06:12:08+08:00] 40.77.167.106 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T07:23:08+08:00] 42.236.10.91 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T09:30:54+08:00] 117.60.201.226 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-13T11:17:08+08:00] 42.236.10.72 GET www.kaoersi.com/sitemap/sitemap9.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T11:17:08+08:00] 42.236.10.88 GET www.kaoersi.com/sitemap/sitemap8.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T11:24:06+08:00] 42.236.10.98 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T11:27:07+08:00] 42.236.10.76 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T11:27:07+08:00] 42.236.10.83 GET www.kaoersi.com/sitemap/sitemap5.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T11:55:58+08:00] 157.55.39.171 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-13T14:10:59+08:00] 203.208.60.112 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-13T14:11:17+08:00] 203.208.60.52 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-13T14:26:48+08:00] 157.55.39.114 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T17:36:24+08:00] 157.55.39.114 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:08:50+08:00] 110.249.202.38 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:08:51+08:00] 110.249.202.27 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:08:58+08:00] 220.181.108.179 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-13T21:59:10+08:00] 110.249.202.241 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:59:10+08:00] 110.249.202.34 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:59:14+08:00] 110.249.202.229 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:59:14+08:00] 110.249.202.69 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:59:52+08:00] 110.249.202.66 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T21:59:52+08:00] 110.249.202.60 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:16:30+08:00] 110.249.202.36 GET www.kaoersi.com/sitemap/sitemap9.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:16:30+08:00] 110.249.202.38 GET www.kaoersi.com/sitemap/sitemap9.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:27:09+08:00] 110.249.202.104 GET www.kaoersi.com/sitemap/sitemap8.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:27:09+08:00] 110.249.202.62 GET www.kaoersi.com/sitemap/sitemap8.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:27:26+08:00] 110.249.202.70 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:27:27+08:00] 110.249.202.221 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:31:34+08:00] 47.105.65.210 POST www.kaoersi.com/news/2016/gou.php
+[ error ] [8]Trying to get property of non-object
+---------------------------------------------------------------
+[2021-06-13T22:32:53+08:00] 110.249.202.236 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:32:53+08:00] 110.249.202.33 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:32:54+08:00] 110.249.202.104 GET www.kaoersi.com/sitemap/sitemap5.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:32:54+08:00] 110.249.202.98 GET www.kaoersi.com/sitemap/sitemap5.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:38:44+08:00] 110.249.202.79 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-13T22:38:44+08:00] 110.249.202.223 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type

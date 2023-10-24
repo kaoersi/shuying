@@ -1,0 +1,284 @@
+---------------------------------------------------------------
+[2021-06-17T01:41:45+08:00] 157.55.39.114 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T03:57:58+08:00] 157.55.39.114 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T05:10:29+08:00] 49.82.145.115 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T08:47:02+08:00] 203.208.60.114 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T09:23:47+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_asks/edit/id/8908.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:24:12+08:00] 124.200.103.94 POST www.kaoersi.com/cms/admin_asks/editpost.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:28:33+08:00] 124.200.103.94 POST www.kaoersi.com/cms/admin_asks/editpost.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:29:34+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_asks/edit/id/8896.html
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sans redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:31:43+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_asks/edit/id/8892.html
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:32:07+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_asks/edit/id/8891.html
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sans redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sans redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sans redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sans redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): Attribute sc redefined in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T09:32:57+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_asks/edit/id/8889.html
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+[ error ] [2]DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T11:20:50+08:00] 124.200.103.94 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T11:48:38+08:00] 220.181.108.167 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T12:54:48+08:00] 40.77.167.106 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T13:15:28+08:00] 124.200.103.94 POST www.kaoersi.com/cms/admin_lxzk/addpost.html
+[ error ] [8]未定义数组索引: post_new
+---------------------------------------------------------------
+[2021-06-17T13:48:00+08:00] 114.239.63.252 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T13:48:35+08:00] 49.82.87.72 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T13:51:57+08:00] 111.187.28.71 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T14:29:25+08:00] 59.110.52.101 POST www.kaoersi.com/news/2016/gou.php
+[ error ] [8]Trying to get property of non-object
+---------------------------------------------------------------
+[2021-06-17T14:42:49+08:00] 40.77.167.106 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T15:57:23+08:00] 49.87.32.11 GET www.kaoersi.com/video/page_1.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T15:58:38+08:00] 112.64.163.194 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T16:50:09+08:00] 42.236.10.104 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T16:50:09+08:00] 42.236.10.71 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T16:50:09+08:00] 42.236.10.107 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T17:23:38+08:00] 203.208.60.112 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T17:48:51+08:00] 124.200.103.94 GET www.kaoersi.com/cms/admin_lxzk/edit/id/9803.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T17:48:57+08:00] 124.200.103.94 POST www.kaoersi.com/cms/admin_lxzk/editpost.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+---------------------------------------------------------------
+[2021-06-17T19:51:51+08:00] 121.234.251.113 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T19:52:20+08:00] 49.74.3.71 GET www.kaoersi.com/index.php/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T20:35:47+08:00] 157.55.39.171 GET www.kaoersi.com/video.html
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 10
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 16
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 19
+---------------------------------------------------------------
+[2021-06-17T20:52:40+08:00] 203.208.60.58 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T21:17:25+08:00] 110.249.202.40 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T21:17:25+08:00] 110.249.202.248 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T21:37:07+08:00] 42.236.10.71 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.85 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.96 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.115 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.107 GET www.kaoersi.com/sitemap/sitemap7.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.75 GET www.kaoersi.com/sitemap/sitemap14.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:08:02+08:00] 110.249.202.27 GET www.kaoersi.com/sitemap/sitemap12.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:11:04+08:00] 157.55.39.114 GET www.kaoersi.com/sitemap/sitemap.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:24:52+08:00] 110.249.202.243 GET www.kaoersi.com/sitemap/sitemap9.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:24:52+08:00] 110.249.202.25 GET www.kaoersi.com/sitemap/sitemap9.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:36:04+08:00] 110.249.202.82 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:36:04+08:00] 110.249.202.86 GET www.kaoersi.com/sitemap/sitemap13.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:36:08+08:00] 110.249.202.210 GET www.kaoersi.com/sitemap/sitemap8.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:36:08+08:00] 110.249.202.64 GET www.kaoersi.com/sitemap/sitemap8.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:41:58+08:00] 110.249.202.34 GET www.kaoersi.com/sitemap/sitemap5.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:41:58+08:00] 110.249.202.67 GET www.kaoersi.com/sitemap/sitemap5.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:42:01+08:00] 110.249.202.54 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:42:02+08:00] 110.249.202.229 GET www.kaoersi.com/sitemap/sitemap4.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:47:37+08:00] 110.249.202.30 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type
+---------------------------------------------------------------
+[2021-06-17T22:47:37+08:00] 110.249.202.22 GET www.kaoersi.com/sitemap/sitemap2.xml
+[ error ] [8]未定义数组索引: type

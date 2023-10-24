@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:3:{s:15:"rankname_titles";a:8:{i:0;s:8:"QS排名";i:1;s:9:"THE排名";i:2;s:12:"软科排名";i:3;s:15:"U.S. News排名";i:4;s:12:"工科排名";i:5;s:12:"艺术排名";i:6;s:12:"理科排名";i:7;s:12:"文科排名";}s:11:"rankname_en";a:8:{i:0;s:1:"Q";i:1;s:1:"T";i:2;s:1:"R";i:3;s:1:"U";i:4;s:1:"G";i:5;s:1:"Y";i:6;s:1:"L";i:7;s:1:"W";}s:14:"rankname_descs";a:8:{i:0;s:29:"https://www.shuyingjp.com/qs/";i:1;s:30:"https://www.shuyingjp.com/the/";i:2;s:29:"https://www.shuyingjp.com/rk/";i:3;s:30:"https://www.shuyingjp.com/usn/";i:4;s:29:"https://www.shuyingjp.com/gk/";i:5;s:30:"https://www.shuyingjp.com/art/";i:6;s:29:"https://www.shuyingjp.com/lk/";i:7;s:29:"https://www.shuyingjp.com/wk/";}}

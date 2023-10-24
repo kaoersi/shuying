@@ -1,0 +1,2001 @@
+---------------------------------------------------------------
+[2021-07-15T17:23:42+08:00] 61.139.126.228 GET ceshi.jingyie.com/admin/menu/edit/id/180.html
+[运行时间：0.118224s] [吞吐率：8.46req/s] [内存消耗：1,621.16kb] [文件加载：95]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '61.139.126.228',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/menu/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '180',
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/menu/edit.html [ array (
+  0 => 'admin',
+  1 => 'data',
+  2 => 'select_category',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.002184s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_admin_menu` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` WHERE  `id` = 180 LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` ORDER BY `list_order` ASC [ RunTime:0.000526s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 47,
+  'extra' => 'Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_admin_menu` ORDER BY `list_order` ASC [Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:45+08:00] 118.123.16.21 POST ceshi.jingyie.com/admin/menu/editpost.html
+[运行时间：0.140190s] [吞吐率：7.13req/s] [内存消耗：1,780.89kb] [文件加载：100]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'content-length' => '179',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://ceshi.jingyie.com',
+  'referer' => 'http://ceshi.jingyie.com/admin/menu/edit/id/180.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '197',
+  'name' => '模型管理',
+  'app' => 'cms',
+  'controller' => 'AdminModelx',
+  'action' => 'index',
+  'param' => '',
+  'icon' => '',
+  'remark' => '模型管理',
+  'status' => '0',
+  'type' => '1',
+  'id' => '180',
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000818s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_admin_menu` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` WHERE  `id` = 180 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `ls_admin_menu` WHERE  `id` = 197 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `id` FROM `ls_admin_menu` WHERE  `app` = 'cms'  AND `controller` = 'AdminModelx'  AND `action` = 'index'  AND `id` <> 180 LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'range',
+  'possible_keys' => 'PRIMARY,controller',
+  'key' => 'controller',
+  'key_len' => '96',
+  'ref' => NULL,
+  'rows' => 2,
+  'extra' => 'Using index condition; Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `ls_admin_menu`  SET `parent_id` = 197 , `name` = '模型管理' , `app` = 'cms' , `controller` = 'AdminModelx' , `action` = 'index' , `param` = '' , `icon` = '' , `remark` = '模型管理' , `status` = 0 , `type` = 1  WHERE  `id` = 180 [ RunTime:0.010825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_auth_rule` [ RunTime:0.004716s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_auth_rule` WHERE  `app` = 'cms'  AND `name` = 'cms/AdminModelx/index'  AND `type` = 'admin_url' [ RunTime:0.000498s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_auth_rule',
+  'type' => 'const',
+  'possible_keys' => 'name,module',
+  'key' => 'name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] UPDATE `ls_auth_rule`  SET `title` = '模型管理' , `param` = ''  WHERE  `app` = 'cms'  AND `name` = 'cms/AdminModelx/index'  AND `type` = 'admin_url' [ RunTime:0.003687s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` ORDER BY `app` ASC,`controller` ASC,`action` ASC [ RunTime:0.001184s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 47,
+  'extra' => 'Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_admin_menu` ORDER BY `app` ASC,`controller` ASC,`action` ASC [Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:47+08:00] 61.139.126.228 GET ceshi.jingyie.com/admin/menu/edit/id/180.html
+[运行时间：0.122441s] [吞吐率：8.17req/s] [内存消耗：1,620.49kb] [文件加载：95]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '61.139.126.228',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/menu/edit/id/180.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '180',
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/menu/edit.html [ array (
+  0 => 'admin',
+  1 => 'data',
+  2 => 'select_category',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001879s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_admin_menu` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` WHERE  `id` = 180 LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_admin_menu` ORDER BY `list_order` ASC [ RunTime:0.000940s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_admin_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 47,
+  'extra' => 'Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_admin_menu` ORDER BY `list_order` ASC [Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:50+08:00] 118.123.16.21 GET ceshi.jingyie.com/cms/admin_tags/index.html
+[运行时间：0.146745s] [吞吐率：6.81req/s] [内存消耗：1,660.23kb] [文件加载：105]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_tags/index.html [ array (
+  0 => 'admin',
+  1 => 'tags',
+  2 => 't',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001820s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001712s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_tags` [ RunTime:0.026355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_tags` [ RunTime:0.000415s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_tags',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using index',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_tags` ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000397s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_tags',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:23:51+08:00] 118.123.10.155 GET ceshi.jingyie.com/cms/admin_feedback/index.html
+[运行时间：0.118633s] [吞吐率：8.43req/s] [内存消耗：1,652.55kb] [文件加载：106]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.10.155',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_feedback/index.html [ array (
+  0 => 'admin',
+  1 => 'pages',
+  2 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_feedback` [ RunTime:0.005406s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_feedback` `a` WHERE  `create_time` >= '0' [ RunTime:0.000454s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_feedback` `a` WHERE  `create_time` >= '0' ORDER BY `create_time` DESC LIMIT 0,10 [ RunTime:0.000388s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_cms_feedback` `a` WHERE  `create_time` >= :ThinkBind_1_ ORDER BY `create_time` DESC LIMIT 0,10  [Using where; Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:53+08:00] 118.123.10.155 GET ceshi.jingyie.com/cms/admin_lxzk/index.html
+[运行时间：0.133416s] [吞吐率：7.50req/s] [内存消耗：1,617.36kb] [文件加载：98]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.10.155',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_lxzk/index.html [ array (
+  0 => 'admin',
+  1 => 'type_id',
+  2 => 'asks',
+  3 => 'page',
+  4 => 'start_time',
+  5 => 'end_time',
+  6 => 'keyword',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001623s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.002184s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_lxzk` [ RunTime:0.006633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_lxzk` [ RunTime:0.000484s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_lxzk',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using index',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_lxzk` ORDER BY `create_time` DESC LIMIT 0,10 [ RunTime:0.000937s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_lxzk',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_cms_lxzk` ORDER BY `create_time` DESC LIMIT 0,10  [Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:54+08:00] 118.123.10.155 GET ceshi.jingyie.com/admin/link/index.html
+[运行时间：0.122253s] [吞吐率：8.18req/s] [内存消耗：1,749.13kb] [文件加载：102]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.10.155',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/link/index.html [ array (
+  0 => 'admin',
+  1 => 'links',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001678s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_link` [ RunTime:0.007512s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_link` [ RunTime:0.000557s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_link',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 32,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:23:56+08:00] 118.123.16.21 GET ceshi.jingyie.com/admin/slide/index.html
+[运行时间：0.114912s] [吞吐率：8.70req/s] [内存消耗：1,653.63kb] [文件加载：102]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/slide/index.html [ array (
+  0 => 'admin',
+  1 => 'slides',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_slide` [ RunTime:0.004546s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_slide` WHERE  `delete_time` = 0 [ RunTime:0.000639s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_slide',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 20,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:23:57+08:00] 118.123.16.21 GET ceshi.jingyie.com/cms/admin_form/index.html
+[运行时间：0.150695s] [吞吐率：6.64req/s] [内存消耗：1,653.17kb] [文件加载：106]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_form/index.html [ array (
+  0 => 'admin',
+  1 => 'pages',
+  2 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001096s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.003292s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.003072s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_form` [ RunTime:0.006676s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_form` `a` WHERE  `create_time` >= 0 [ RunTime:0.000718s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_form` `a` WHERE  `create_time` >= 0 ORDER BY `create_time` DESC LIMIT 0,10 [ RunTime:0.000622s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT * FROM `ls_cms_form` `a` WHERE  `create_time` >= :ThinkBind_1_ ORDER BY `create_time` DESC LIMIT 0,10  [Using where; Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:57+08:00] 61.139.126.228 GET ceshi.jingyie.com/cms/admin_tags/index.html
+[运行时间：0.114100s] [吞吐率：8.76req/s] [内存消耗：1,660.01kb] [文件加载：105]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '61.139.126.228',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_tags/index.html [ array (
+  0 => 'admin',
+  1 => 'tags',
+  2 => 't',
+  3 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_tags` [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_tags` [ RunTime:0.000305s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_tags',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using index',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_tags` ORDER BY `id` ASC LIMIT 0,15 [ RunTime:0.000274s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_tags',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:23:59+08:00] 118.123.16.21 GET ceshi.jingyie.com/cms/admin_archives/index.html
+[运行时间：0.168957s] [吞吐率：5.92req/s] [内存消耗：2,051.77kb] [文件加载：112]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_archives/index.html [ array (
+  0 => 'admin',
+  1 => 'start_time',
+  2 => 'end_time',
+  3 => 'keyword',
+  4 => 'articles',
+  5 => 'category_tree',
+  6 => 'category',
+  7 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001745s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.002261s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_archives` [ RunTime:0.005840s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ls_cms_archives` `a` INNER JOIN `ls_user` `u` ON `a`.`user_id`=`u`.`id` INNER JOIN `ls_cms_channel` `b` ON `a`.`channel_id`=`b`.`id` WHERE  `a`.`create_time` >= '0'  AND `a`.`delete_time` = '0' [ RunTime:0.004094s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'u',
+  'type' => 'index',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'user_nickname',
+  'key_len' => '152',
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using index',
+) ]
+[ sql ] [ SQL ] SELECT `a`.*,`u`.`user_login`,`u`.`user_nickname`,`u`.`user_email`,b.name as b_name FROM `ls_cms_archives` `a` INNER JOIN `ls_user` `u` ON `a`.`user_id`=`u`.`id` INNER JOIN `ls_cms_channel` `b` ON `a`.`channel_id`=`b`.`id` WHERE  `a`.`create_time` >= '0'  AND `a`.`delete_time` = '0' ORDER BY `update_time` DESC LIMIT 0,10 [ RunTime:0.002467s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 165,
+  'extra' => 'Using where; Using temporary; Using filesort',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_channel` [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_channel` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000797s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_channel',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 43,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ warn ] SQL:SELECT `a`.*,`u`.`user_login`,`u`.`user_nickname`,`u`.`user_email`,b.name as b_name FROM `ls_cms_archives` `a` INNER JOIN `ls_user` `u` ON `a`.`user_id`=`u`.`id` INNER JOIN `ls_cms_channel` `b` ON `a`.`channel_id`=`b`.`id` WHERE  `a`.`create_time` >= :ThinkBind_1_  AND `a`.`delete_time` = :ThinkBind_2_ ORDER BY `update_time` DESC LIMIT 0,10  [Using where; Using temporary; Using filesort]
+[ warn ] SQL:SELECT * FROM `ls_cms_channel` WHERE  `delete_time` = :ThinkBind_1_ ORDER BY `list_order` ASC [Using where; Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:23:59+08:00] 118.123.10.130 GET ceshi.jingyie.com/cms/admin_channel/index.html
+[运行时间：0.352026s] [吞吐率：2.84req/s] [内存消耗：2,016.90kb] [文件加载：109]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.10.130',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/cms/admin_channel/index.html [ array (
+  0 => 'admin',
+  1 => 'category_tree',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.002086s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001754s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_channel` [ RunTime:0.001689s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_cms_channel` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000662s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_channel',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 43,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_cms_model` [ RunTime:0.149201s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.004978s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `ls_cms_model` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_cms_model',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ warn ] SQL:SELECT * FROM `ls_cms_channel` WHERE  `delete_time` = :ThinkBind_1_ ORDER BY `list_order` ASC [Using where; Using filesort]
+---------------------------------------------------------------
+[2021-07-15T17:24:02+08:00] 118.123.16.21 GET ceshi.jingyie.com/admin/mailer/index.html
+[运行时间：0.113965s] [吞吐率：8.77req/s] [内存消耗：1,418.93kb] [文件加载：94]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/mailer/index.html [ array (
+  0 => 'admin',
+  1 => '',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.001725s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_option` [ RunTime:0.004417s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `ls_option` WHERE  `option_name` = 'smtp_setting' LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:24:03+08:00] 118.123.16.21 GET ceshi.jingyie.com/admin/setting/site.html
+[运行时间：0.119287s] [吞吐率：8.38req/s] [内存消耗：1,560.47kb] [文件加载：97]
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '27.187.226.40',
+  'x-real-ip' => '118.123.16.21',
+  'host' => 'ceshi.jingyie.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'x-forwarded-proto' => 'http',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://ceshi.jingyie.com/admin/index/index.html',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'admin_username=admin; UM_distinctid=17a8ac85d1d172-040795f79e852e-3c3b580e-1fa400-17a8ac85d1e9e6; _ga=GA1.2.495778603.1625826025; PHPSESSID=7pmn2vj149n5rgg6709aonlo30; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf/src/behavior/../lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/app/cms/lang/zh-cn/common.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/vendor/thinkcmf/cmf-app/src/user/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/data/lang//admin_menu.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/haieryiliaoxinphfagimebrnyxiuloivaio0x2ijn/wwwroot/themes/admin_simpleboot3/admin/setting/site.html [ array (
+  0 => 'admin',
+  1 => 'site_info',
+  2 => 'admin_styles',
+  3 => 'templates',
+  4 => 'admin_themes',
+  5 => 'cdn_settings',
+  6 => 'admin_settings',
+  7 => 'cmf_settings',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;port=3306;dbname=haieryiliaoxin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_plugin` [ RunTime:0.004418s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ls_plugin` WHERE  `name` = 'Cms' LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_plugin',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ls_user` [ RunTime:0.002480s ]
+[ sql ] [ SQL ] SELECT * FROM `ls_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'ls_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '8',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => NULL,
+) ]
+---------------------------------------------------------------
+[2021-07-15T17:24:31+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T17:24:34+08:00] 118.123.10.155 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:24:41+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:24:46+08:00] 61.139.126.228 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:24:57+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T17:25:16+08:00] 118.123.10.155 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:25:28+08:00] 118.123.10.155 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:26:11+08:00] 118.123.16.21 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:27:05+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T17:27:17+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:28:20+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:28:27+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:28:31+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:32:15+08:00] 118.123.16.21 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:32:19+08:00] 118.123.10.130 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:33:26+08:00] 61.139.126.228 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T17:35:06+08:00] 61.139.126.228 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T17:36:40+08:00] 118.123.10.155 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T17:55:08+08:00] 118.123.10.155 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T18:06:59+08:00] 118.123.10.155 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T18:08:30+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T18:14:48+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T18:22:41+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T20:45:39+08:00] 118.123.10.130 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T20:46:57+08:00] 118.123.16.21 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
+---------------------------------------------------------------
+[2021-07-15T20:47:16+08:00] 118.123.16.21 GET ceshi.jingyie.com/mxalk.html
+[ error ] [8]未定义变量: country
+[ error ] [8]未定义变量: type_id
+[ error ] [8]未定义变量: type_id
+---------------------------------------------------------------
+[2021-07-15T20:47:47+08:00] 118.123.10.155 GET ceshi.jingyie.com/
+[ error ] [8]未定义变量: category_parent
+[ error ] [8]未定义变量: category
