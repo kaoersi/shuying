@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+	<meta name="keywords" content="{$category.more.seokeyword}"/>
+	<meta name="description" content="{$category.more.seodescription}"/>
+	<link rel="stylesheet" href="/public/css/qs.css">
+	<link rel="stylesheet" href="/public/css/swiper.css">
+	<script src="/public/js/jquery.min.js"></script>
+	<script src="/public/js/swiper.js"></script>
+	<script src="/public/js/qs.js"></script>
+	<include file="public@headertop"/>
+</head>
+<body>
+	<include file="public@header"/>
+	<div class="banner_article">
+    	<div class="breadcrumbs">
+	        <div class="wrapper">
+                <p>当前位置:<a href="__ROOT__/">首页</a> &gt; 
+                    <cms:breadcrumb cid="$category['id']" self="true">
+                        <if condition="$vo['id'] neq 7">
+                            <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name} </a>
+                            <if condition="$i eq count($__BREADCRUMB_ITEMS__)"><else/>&gt;</if>
+                        </if>
+                    </cms:breadcrumb>
+					
+				</p>
+			</div>
+	    </div>
+    </div>
+	<div class="qs-pub">
+		<div class="relative">
+			<div class="swiper-container" id="index-banner-content">
+				<div class="swiper-wrapper">
+					<php>
+						$slide_banner_list= Db::name('SlideItem')->where(array('slide_id'=>'22','status'=>'1'))->order('list_order asc,id desc')->select();
+					</php>
+					<foreach name='slide_banner_list' item="vo" key='k'>
+						<div class="swiper-slide">
+							<img src="{:get_img_url($vo.image)}" alt="" class="w-full pc-img">
+							<img src="{:get_img_url($vo.smallimage)}" alt="" class="w-full m-img">
+						</div>
+					</foreach>
+				</div>
+			</div>
+			<div class="swiper-pagination" id="index-banner"></div>
+		</div>
+		
+		<div>
+			<div class=" wrapper">
+				<div class="content-left">
+					<php>$slide_list2= Db::name('Cms_channel')->where(array('parent_id'=>62,'status'=>1))->order('id dsc')->limit(8)->select()->toArray();</php>
+					<foreach name='$slide_list2' item="vo" key='k'>
+						<div class="title-wrap">
+							<div class="title-class flex justify-between items-center">
+								<div class="title-left-icon flex items-center"><img src="/public/images/qs/pc-icon1.png" alt="" style="margin-right: 6px;">{$vo['name']}</div>
+								<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="">更多 &gt;</a>
+							</div>	
+							<div class="m-title-class flex justify-between items-center">
+								<php>$more=json_decode($vo[more],true);</php>
+								<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img">
+								<img src="{:get_img_url($more[mbanner])}" alt="" class="m-img w-full">
+								<ul class="content-list">
+									<php>
+										$ismobile=cmf_is_mobile();
+										$limits = 10;
+										if($ismobile){
+											$limits = 5;
+										}
+
+										$slide_list3= Db::name('Cms_archives')->where(array('channel_id'=>$vo['id']))->order('update_time desc')->limit($limits)->select()->toArray();
+									</php>
+									<foreach name='$slide_list3' item="vo1" key='k'>
+										<li>
+											<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo1['id'],'cid'=>$vo1['channel_id']))}" title="">
+												<span class="yuandian"></span>
+												<p>{$vo1[title]}</p>
+												<span><php>echo date("Y-m-d H:i:s",$vo1[update_time]);</php></span>
+											</a>
+										</li>
+									</foreach>
+								</ul>
+							</div>
+						</div>
+					</foreach>
+
+					<div class="news-class">
+						<div class="title-wrap">
+							<div class="flex items-center">
+								<img src="/public/images/qs/pc-icon1.png" alt="" style="margin-right: 6px;">
+								<div  class="flex items-end">
+									<p class="lar-text">最新动态</p>
+									<p class="small-text">/最新动态</p>
+								</div>
+							</div>
+						</div>	
+						<div class="">
+							<ul class="flex news-active items-center news-list">
+								<li class="active-news">申请指导</li>
+								<li>日本最新动态</li>
+								<li>热门文章</li>
+								<li>文商</li>
+								<li>日本生活</li>
+							</ul>
+							<div class="news-contnen">
+								<div class="">
+									<ul class="tab-content-wrap">
+										<php>
+											$sq_id = array(40,37,38,52,41);
+											$slide_list4= Db::name('Cms_archives')->where('channel_id','in',$sq_id,'more','neq','')->order('update_time desc')->limit(3)->select()->toArray();
+											
+										</php>
+										<foreach name='$slide_list4' item="vo2" key='k'>
+											<php>$more=json_decode($vo2[more],true);</php>
+											<li class="flex">
+												<div class="tab-img">
+													<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img img-pic">
+													<!-- <img src="/public/images/qs/m-pic1.png" alt="" class="m-img w-full"> -->
+												</div>
+												<div class="tab-content-right">
+													<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}">
+														<h2 class="title">{$vo2[title]}</h2>
+														<div class="flex items-center number">
+															<div class="flex items-center time">
+																<img src="/public/images/qs/time.png" alt=""><span><php>echo date("Y-m-d H:i:s ",$vo2[update_time]);</php></span>
+															</div>
+															<div>
+																<div class="flex items-center liang time">
+																	<img src="/public/images/qs/yuedu.png" alt="">
+																	<php>
+                                                                        if(!empty($vo2['keywords'])){
+                                                                            $article['keywords'] = str_replace('，', ',', $vo2['keywords']);
+                                                                            $keywords_arr = explode(',', $article['keywords']);
+                                                                        }else{
+                                                                            $keywords_arr ='';
+                                                                        }
+                                                                    </php>
+                                                                    <if condition="$keywords_arr neq ''">
+                                                                        <foreach name='keywords_arr' item='vk'>
+                                                                            <if condition="$vk neq ''">
+                                                                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                                            </if>
+                                                                       </foreach>
+                                                                   </if>
+																</div>
+															</div>
+														</div>
+														<p class="content">{$vo2[description]}</p>
+													</a>
+												</div>
+											</li>
+										</foreach>
+									</ul>
+								</div>
+								<div class="hidden">
+									<ul class="tab-content-wrap">
+										<php>
+											$slide_list4= Db::name('Cms_archives')->where('channel_id','eq',37,'more','neq','')->order('update_time desc ')->limit(3)->select()->toArray();
+										</php>
+										<foreach name='$slide_list4' item="vo2" key='k'>
+											<php>$more=json_decode($vo2[more],true);</php>
+											<li class="flex">
+												<div class="tab-img">
+													<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img img-pic">
+													<!-- <img src="/public/images/qs/m-pic1.png" alt="" class="m-img w-full"> -->
+												</div>
+												<div class="tab-content-right">
+													<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}">
+														<h2 class="title">{$vo2[title]}</h2>
+														<div class="flex items-center number">
+															<div class="flex items-center time">
+																<img src="/public/images/qs/time.png" alt=""><php>echo date("Y-m-d H:i:s",$vo2[update_time]);</php>
+															</div>
+															<div>
+																<div class="flex items-center liang time">
+																	<img src="/public/images/qs/yuedu.png" alt="">
+																	<php>
+                                                                        if(!empty($vo2['keywords'])){
+                                                                            $article['keywords'] = str_replace('，', ',', $vo2['keywords']);
+                                                                            $keywords_arr = explode(',', $article['keywords']);
+                                                                        }else{
+                                                                            $keywords_arr ='';
+                                                                        }
+                                                                    </php>
+                                                                    <if condition="$keywords_arr neq ''">
+                                                                        <foreach name='keywords_arr' item='vk'>
+                                                                            <if condition="$vk neq ''">
+                                                                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                                            </if>
+                                                                       </foreach>
+                                                                   </if>
+																</div>
+															</div>
+														</div>
+														<p class="content">{$vo2[description]}</p>
+													</a>
+												</div>
+											</li>
+										</foreach>
+									</ul>
+								</div>
+								<div class="hidden">
+									<ul class="tab-content-wrap">
+										<php>
+											$slide_list4= Db::name('Cms_archives')->where('more','neq','')->order('hits desc ')->limit(3)->select()->toArray();
+											
+										</php>
+										<foreach name='$slide_list4' item="vo2" key='k'>
+											<php>$more=json_decode($vo2[more],true);</php>
+											<li class="flex">
+												<div class="tab-img">
+													<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img img-pic">
+													<!-- <img src="/public/images/qs/m-pic1.png" alt="" class="m-img w-full"> -->
+												</div>
+												<div class="tab-content-right">
+													<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}">
+														<h2 class="title">{$vo2[title]}</h2>
+														<div class="flex items-center number">
+															<div class="flex items-center time">
+																<img src="/public/images/qs/time.png" alt=""><php>echo date("Y-m-d H:i:s",$vo2[update_time]);</php>
+															</div>
+															<div>
+																<div class="flex items-center liang time">
+																	<img src="/public/images/qs/yuedu.png" alt="">
+																	<php>
+                                                                        if(!empty($vo2['keywords'])){
+                                                                            $article['keywords'] = str_replace('，', ',', $vo2['keywords']);
+                                                                            $keywords_arr = explode(',', $article['keywords']);
+                                                                        }else{
+                                                                            $keywords_arr ='';
+                                                                        }
+                                                                    </php>
+                                                                    <if condition="$keywords_arr neq ''">
+                                                                        <foreach name='keywords_arr' item='vk'>
+                                                                            <if condition="$vk neq ''">
+                                                                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                                            </if>
+                                                                       </foreach>
+                                                                   </if>
+																</div>
+															</div>
+														</div>
+														<p class="content">{$vo2[description]}</p>
+													</a>
+												</div>
+											</li>
+										</foreach>
+									</ul>
+								</div>
+								<div class="hidden">
+									<ul class="tab-content-wrap">
+										<php>
+											$slide_list4= Db::name('Cms_archives')->where('channel_id','eq',52,'more','neq','')->order('update_time desc ')->limit(3)->select()->toArray();
+											
+										</php>
+										<foreach name='$slide_list4' item="vo2" key='k'>
+											<php>$more=json_decode($vo2[more],true);</php>
+											<li class="flex">
+												<div class="tab-img">
+													<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img img-pic">
+													<!-- <img src="/public/images/qs/m-pic1.png" alt="" class="m-img w-full"> -->
+												</div>
+												<div class="tab-content-right">
+													<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}">
+														<h2 class="title">{$vo2[title]}</h2>
+														<div class="flex items-center number">
+															<div class="flex items-center time">
+																<img src="/public/images/qs/time.png" alt=""><php>echo date("Y-m-d H:i:s",$vo2[update_time]);</php>
+															</div>
+															<div>
+																<div class="flex items-center liang time">
+																	<img src="/public/images/qs/yuedu.png" alt="">
+																	<php>
+                                                                        if(!empty($vo2['keywords'])){
+                                                                            $article['keywords'] = str_replace('，', ',', $vo2['keywords']);
+                                                                            $keywords_arr = explode(',', $article['keywords']);
+                                                                        }else{
+                                                                            $keywords_arr ='';
+                                                                        }
+                                                                    </php>
+                                                                    <if condition="$keywords_arr neq ''">
+                                                                        <foreach name='keywords_arr' item='vk'>
+                                                                            <if condition="$vk neq ''">
+                                                                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                                            </if>
+                                                                       </foreach>
+                                                                   </if>
+																</div>
+															</div>
+														</div>
+														<p class="content">{$vo2[description]}</p>
+													</a>
+												</div>
+											</li>
+										</foreach>
+									</ul>
+								</div>
+								<div class="hidden">
+									<ul class="tab-content-wrap">
+										<php>
+											$slide_list4= Db::name('Cms_archives')->where('channel_id','eq',41,'more','neq','')->order('update_time desc ')->limit(3)->select()->toArray();
+											
+										</php>
+										<foreach name='$slide_list4' item="vo2" key='k'>
+											<php>$more=json_decode($vo2[more],true);</php>
+											<li class="flex">
+												<div class="tab-img">
+													<img src="{:get_img_url($more[thumbnail])}" alt="" class="pc-img img-pic">
+													<!-- <img src="/public/images/qs/m-pic1.png" alt="" class="m-img w-full"> -->
+												</div>
+												<div class="tab-content-right">
+													<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}">
+														<h2 class="title">{$vo2[title]}</h2>
+														<div class="flex items-center number">
+															<div class="flex items-center time">
+																<img src="/public/images/qs/time.png" alt=""><php>echo date("Y-m-d H:i:s",$vo2[update_time]);</php>
+															</div>
+															<div>
+																<div class="flex items-center liang time">
+																	<img src="/public/images/qs/yuedu.png" alt="">
+																	<php>
+                                                                        if(!empty($vo2['keywords'])){
+                                                                            $article['keywords'] = str_replace('，', ',', $vo2['keywords']);
+                                                                            $keywords_arr = explode(',', $article['keywords']);
+                                                                        }else{
+                                                                            $keywords_arr ='';
+                                                                        }
+                                                                    </php>
+                                                                    <if condition="$keywords_arr neq ''">
+                                                                        <foreach name='keywords_arr' item='vk'>
+                                                                            <if condition="$vk neq ''">
+                                                                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                                            </if>
+                                                                       </foreach>
+                                                                   </if>
+																</div>
+															</div>
+														</div>
+														<p class="content">{$vo2[description]}</p>
+													</a>
+												</div>
+											</li>
+										</foreach>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="content-right">
+					<div class="right-box-wrap">
+						<div class="content-right-title flex items-center" style="font-weight: bold;"><img src="/public/images/qs/flower.png" alt="">最新问答</div>
+						<ul class="content-right-list">
+							<php>
+								$hot_list_wd=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id='25'  order by create_time desc limit 0,8");
+							</php>
+							<foreach name='hot_list_wd' item="vo" key='k'>
+								<li>
+									<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">
+										<span class="right-yuandian"></span>
+										<p>{$vo.title}<span style="display:none">{:date('Y-m-d H:i:s',$vo.published_time)}</span></p>
+									</a>
+								</li>
+							</foreach>
+						</ul>
+					</div>
+					<div class="Hot_aside Hot_tags">
+                        <h2>热门标签</h2>
+                        <div class="Hot_Tags_list clearfix">
+                        	<php>
+                                $foot_list_labels=Db::query("select * from ls_cms_tags order by nums desc limit 0,8");
+                            </php>
+                            <foreach name='foot_list_labels' item="vo" key='k'>
+                                <a href="{:cmf_url('cms/List/indextag',array('id'=>$vo['id']))}" target="_blank" title="{$vo.name}">{$vo.name}</a></if>
+                            </foreach>
+                        </div>
+                    </div>
+				</div>
+			</div>		
+		</div>		
+	</div>
+	<include file="public@footer" />
+	<include file="public@footerjs" />
+	<script type="text/javascript">
+		kao.common();	
+	</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<include file="public@banner" />
+<div class="container bgf2f3f5 containerabout">
+<div class="wrapper">
+<ul class="about_left_nav">
+  <cms:subcategories categoryId="$topid" limit="6" key='k'>
+    <?php if($category['id'] == $vo['id']) $style='hover';else $style='';?>
+<li class="{$style}"><a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}">{$vo.name}</a></li>
+</cms:subcategories>
+</ul>
+<div class="about_right_con">
+<h3>·  联系我们  ·   </h3>
+<div class="contact_head">
+<div class="contact_left">
+<img src="/public/images/contact_logo.png" class="contact_logo" alt="联系我们">
+<h1>商务合作</h1>
+<p>全国免费客服热线</p>
+<strong>400-640-8558</strong>
+</div>
+<div class="contact_mid">
+ <p>· 客服电话：{$site_info.site_tel|default=''}</p>
+  <p>· 客服邮箱：{$site_info.site_admin_email|default=''}</p>
+  <p>· 客服QQ：{$site_info.site_qq|default=''}</p>
+  <p>· 客服微信：{$site_info.site_weixinhao|default=''}</p>
+</div>
+<ul class="contact_right">
+<li>
+<p>院校渠道合作</p>
+<img src="/public/images/contact_wx1.png" alt="院校渠道合作">
+<span>渠道李经理</span>
+<span>shuyingedu</span>
+</li>
+<li>
+<p>客服微信</p>
+<img src="/public/images/contact_wx2.png" alt="塾樱客服微信">
+<span>塾樱客服</span>
+<span>shuying-jp</span>
+</li>
+</ul>
+</div>
+<div class="contact_leave">
+<div id="allmap"></div>
+<div class="map-left">
+<h4>感谢您关注塾樱教育！</h4>
+<p>如果您对我们的网站或者业务服务有任何不满意的情况，请通过以下联系方式与我们取得联系，我们将尽快处理您的需求及诉求。</p>
+<form class="contact_form" action="" id="myform"> 
+<input type="hidden" name="tsby" id="tsby" value="">
+<div class="cell cell2"> 
+<span  class="flag on" data-id="0">表扬</span>
+<span  class="flag" data-id="1">投诉</span>
+</div> 
+<div class="cell"> 
+<label for="">您的姓名：</label> 
+<input type="text" name="username" id="username"  placeholder="" class="inp"> 
+</div> 
+<div class="cell"> 
+<label for="">联系方式：</label> 
+<input type="text" name="tel" id="tel"  laceholder="" pclass="inp"> 
+</div> 
+<div class="cell"> 
+<label for="">电子邮箱：</label> 
+<input type="text" name="email" id="email"  placeholder="" class="inp"> 
+</div> 
+<div class="cell liuyan"> 
+<label for="">留言内容：</label> 
+<textarea name="content" id="content" cols="30" rows="4"></textarea> 
+</div>
+<div class="btns"> 
+<button type="button" id="ajax_btn_submit" class="btn1">提交信息</button> 
+<button type="reset" class="btn2">重置信息</button> 
+</div> 
+</form>
+</div>
+</div></div>
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+	<script type="text/javascript" src="/public/js/layer/layer.js"></script>
+		<script type="text/javascript">
+			kao.common();	
+			kao.checkForm();
+		</script>
+	</body>
+</html>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=67jMQ5DmYTe1TLMBKFUTcZAR"></script>
+	    <script type="text/javascript">
+	        function getInfo(id) {
+	            $.ajax({
+	                type: "POST",
+	                url: "WebUserControl/Contact/GetInfo.ashx",
+	                cache: false,
+	                async: false,
+	                data: { ID: id },
+	                success: function (data) {
+	                    data = eval(data);
+	                    var length = data.length;
+	                    if (length > 0) {
+	                        ShowMap(data[0]["Image"], data[0]["NewsTitle"], data[0]["Address"], data[0]["Phone"], data[0]["NewsTags"], data[0]["NewsNum"]);
+	                    }
+	                }
+	            });
+	        }
+	        // 百度地图API功能
+	        var map = new BMap.Map("allmap");
+	        var point = new BMap.Point(116.289484,40.209197)
+	        map.centerAndZoom(new BMap.Point(116.289484,40.209197),8); 
+	        map.centerAndZoom(point, 19);
+	        //创建小狐狸
+	        var pt = new BMap.Point(116.289484,40.209197);
+	        var myIcon = new BMap.Icon("images/map-icon.png", new BMap.Size(33,46));
+	        var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
+	        map.addOverlay(marker2);
+	        map.enableScrollWheelZoom(true);
+	        map.enableDragging()
+	    </script>

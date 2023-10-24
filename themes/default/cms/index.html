@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<title>{$site_info.site_name|default=''}</title>
+			<meta name="keywords" content="{$site_info.site_seo_keywords|default=''}"/>
+		<meta name="description" content="{$site_info.site_seo_description|default=''}"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="/public/css/common.css" />
+		<link rel="stylesheet" href="/public/css/animate.min.css" />
+		<link rel="stylesheet" href="/public/css/index.css" />
+		<link rel="stylesheet" href="/public/css/swiper.min.css" />
+		<script type="text/javascript" src="/public/js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="/public/js/swiper.min.js"></script>
+		<script type="text/javascript" src="/public/js/swiper.animate1.0.3.min.js"></script>
+		<!--[if lt IE 9]>
+		    <script src="/public/js/html5shiv.min.js"></script>
+		    <script src="/public/js/respond.min.js"></script>
+		<![endif]-->
+		<link type="text/css" rel="stylesheet" href="/public//css/jquery.mmenu.css" />
+		<script type="text/javascript" src="/public//js/jquery.mmenu.js"></script>
+	</head>
+	<body>
+	<include file="public@header" />
+			<div class="clearfix"></div>
+<php>$slide_banner_list= Db::name('SlideItem')->where(array('slide_id'=>'1','status'=>'1'))->order('list_order asc,id desc')->select();</php>
+				<div class="banner" >
+					 <div class="swiper-container">
+						<div class="swiper-wrapper">
+						 <foreach name='slide_banner_list' item="vo" key='k'>
+							<div class="swiper-slide" style="background:url({:get_img_url($vo.image)}) no-repeat; background-size: cover;"></div>
+						</foreach>
+						</div>
+						    <div class="swiper-button-prev swiper-bannerbtn-prev"></div>
+                            <div class="swiper-button-next swiper-bannerbtn-next"></div>
+					</div>
+					<div class="ban-nav wrapper">
+					<div class="swiper-pagination"></div>
+						<ul>
+							<li class="ban-nav-li1">
+								<h3>攻读学位</h3>
+								<div class="ban-nav-list"> 
+								<foreach name='slidelist3' item="vo" >
+							    <a href="{$vo.url}" title="{$vo.title}">{$vo.title}</a>
+								</foreach>
+								</div>
+							</li>
+							<li class="ban-nav-li2">
+								<h3>留学申请</h3>
+								<div class="ban-nav-list">
+								<foreach name='slidelist4' item="vo" >
+								<a href="{$vo.url}" title="{$vo.title}">{$vo.title}</a>
+								</foreach>
+								</div>
+							</li>
+							<li class="ban-nav-li3">
+								<h3>日语学习</h3>
+								<div class="ban-nav-list">
+								<foreach name='slidelist5' item="vo" >
+								<a href="{$vo.url}" title="{$vo.title}">{$vo.title}</a>
+								</foreach>
+								</div>
+							</li>
+							<li class="ban-nav-li4">
+								<h3>升学辅导</h3>
+								<div class="ban-nav-list">
+								<foreach name='slidelist6' item="vo" >
+								<a href="{$vo.url}" title="{$vo.title}">{$vo.title}</a>
+								</foreach>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+	                <div class="section-com section-lxtj clearfix wrapper">
+					<h5 class="section_tit"><label>留学申请</label><span>塾樱设计出属于你的留学方案</span></h5>
+					<ul class="section_list clearfix">
+ <cms:subcategories categoryId="1" limit="6" key='k'><li>
+							<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}">
+							<dl><dt>{$vo.name}</dt>
+								<dd><p><php>$des=str_replace('|','</p>
+								<p>',$vo['description']);</php>{$des}</p></dd>
+							</dl></a></li></cms:subcategories></ul>
+						</div>
+						<div class="section-com section-rypx clearfix">
+						   <div class="wrapper">
+							<h5 class="section_tit section_tit_rypx"><label>日语培训</label><span>课程可满足各阶段群体，等级考试不再是难题！</span></h5>
+							<ul class="section_list_rypx clearfix">
+							<cms:subcategories categoryId="2" limit="4" key='k'><li>
+									<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}">
+							<div class="rypx_top">
+									<img src="/public/images/rypx_img{$k}.png" alt="{$vo.name2}">
+									<h3>日本語レッスン</h3>
+									<strong>{$vo.name}</strong>
+							</div>
+							<div class="rypx_bot">
+									 <p>{$vo.name2}</p>
+										<span><php>$des2=str_replace('|','</span>
+										<span>',$vo['description']);</php>{$des2}</span>
+							</div>
+							<div class="rypx_more"><label>查看更多</label></div></a></li></cms:subcategories></ul></div></div>
+						 <div class="section-com section-tskc clearfix wrapper">
+							<h5 class="section_tit section_tit_tskc"><label>升学考试辅导</label><span>海外导师在线辅导，何时何地都可进行升学辅导！VIP个性化课程设计，最短的时间实现最好的效果！</span></h5>
+							<ul class="section_list_tskc clearfix">
+							<cms:subcategories categoryId="3" limit="5" key='k'><li>
+									<div class="tskc_txt">
+									<img src="/public/images/tskc_img{$k}.png" alt="{$vo.name}">
+									<i></i>
+									<strong>{$vo.name}</strong>
+						</div>
+									<div class="tskc_txt_hover">
+									<h5>{$vo.name}</h5>
+									<p><span><php>$des3=str_replace('|','</span><span>',$vo['description']);
+									</php>{$des3}</span></p>
+									<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}">了解更多</a>
+									</div></li></cms:subcategories>	
+							</ul>
+						</div>
+						 <div class="section-com section-fwys clearfix">
+						    <div class="wrapper">
+							<h5 class="section_tit section_tit_fwys"><label>服务优势</label><span>一站式服务</span></h5>
+							<dl class="fuyw_nav">
+							<dt><img src="/public/images/fwys_logo.png" alt="塾樱教育"></dt>
+							<dd>一站式服务</dd>
+							<dd>留学申请</dd>
+							<dd>日语培训</dd>
+							<dd>特色课程</dd>
+							</dl>
+							<div class="fwyw_con">
+							<dl><dt></dt>
+							<dd>
+								<p>谁负责申请工作？</p>
+								<p>教授研究看不懂？</p>
+								<p>计划书不会写？</p>
+								<p>面试总失败？</p>
+								<p>哑巴日语不会说？</p>
+								<p>是否提供升学考试辅导？</p>
+								<p>专业冷门能否辅导？</p>
+							</dd></dl>
+							<dl>
+							<div class="VS">VS</div>
+							<dt><label>塾樱</label></dt>
+							<dd>
+								<p>六位一体教学系统,专业的人做专业的事</p>
+								<p>研究指导顾问帮你<strong>分析教授</strong>方向</p>
+								<p>海外导师提供<strong>计划书指导</strong>系列课</p>
+								<p>面试辅导顾问提供<strong>视频面试</strong>系列课</p>
+								<p>免费增加<strong>口语课</strong>为之后面试打基础</p>
+								<p><strong>200</strong>+海外导师提供升学考试专业辅导</p>
+								<p>可匹配<strong>93.7%</strong>细分方向的导师</p>
+							</dd></dl>
+							<dl>
+							<dt><label>传统机构</label></dt>
+							<dd>
+								<p>文书老师，仅负责翻译及申请</p>
+								<p>需学员独自完成阅读并理解</p>
+								<p>不提供任何专业知识辅导</p>
+								<p>提供一次电话模拟训练</p>
+								<p>口语强化课另收费</p>
+								<p>没有导师，很难辅导升学考试</p>
+								<p>导师少很难匹配冷门专业</p>
+							</dd></dl>
+							</div></div>
+						</div>
+						 <div class="section-com section-team clearfix">
+						    <div class="wrapper">
+							<h5 class="section_tit section_tit_team"><label>六位一体一站式教学团队</label></h5>
+							<ul class="section_list_team clearfix">
+<php>$slide_list2= Db::name('SlideItem')->where(array('slide_id'=>'2','status'=>'1'))->order('list_order asc,id desc')->select();</php>
+ <foreach name='slide_list2' item="vo" key='k'>
+								<li>
+									<div class="team_txt">
+									<i></i><strong>{$vo.title}</strong>
+									<p><span><php>$content=str_replace('|','</span><span>',$vo['content']);</php>{$content}</span></p></div>
+									<div class="team_txt_hover">
+									<em></em><h5>{$vo.title}</h5>
+									<p><span>{$content}</span></p>
+									</div></li>
+								</foreach></ul>
+						</div>
+						</div>
+						<div class="section-com section-teacher clearfix">
+						    <div class="wrapper">
+							<h5 class="section_tit section_tit_teacher" ><label>海外导师库</label><a href="https://www.shuyingjp.com/tutor/" class="more" title="海外导师库">全部 ></a></h5>
+<include file="public@teacher_list" /> </div></div>
+						<div class="section-news clearfix">
+						<div class="wrapper">
+						<div class="section-news-nav">
+						<php>$news_bot_case= Db::name('CmsLxzk')->alias('a')->limit(7)->order('create_time desc')->select()->toArray();</php>
+						<div class="news_item">
+						<div style="display:flex;align-items: flex-end;justify-content: space-between;">
+						    <h5>名校案例库 <span>/ オファー</span></h5>   
+						    <a href="https://www.shuyingjp.com/mxalk/" class="more" style="padding-bottom:18px;color:#d5417b;" title="名校案例库">查看更多</a>
+						</div>
+						    <div class="news_top" style="overflow:hidden;border-radius:10px;">
+						    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="">  
+						    <a class="top_img_a" title="名校案例库" style="position: relative;"><img src="/public/images/indexnews1.png" alt="名校案例库"><span class="news_time">{:date('Y-m-d H:i:s',$vo.create_time)}</span></a>
+						    <foreach name='news_bot_case' item="vo" key='k'>
+						    <if condition="$k lt 1">
+						    <p>{$vo.title}{$vo.mbyx}{$vo.sqzy}</p>
+						    <span>{$vo.description}</span>
+						    </if>
+						    </foreach>
+						    </a>
+						    </div>
+						
+						<div class="news_bot">
+						<foreach name='news_bot_case' item="vo" key='k'>
+						<if condition="$k gt 0">
+						<p><a href="{:cmf_url('cms/Abroad/index',array('id'=>$vo['id']))}" title="{$vo.title}{$vo.mbyx}{$vo.sqzy}">{$vo.title}{$vo.mbyx}{$vo.sqzy}</a><span style="position: absolute;top:-5px;left:0;display:none;">{:date('Y-m-d H:i:s',$vo.create_time)}</span></p>
+						</if>
+						</foreach>
+						</div>
+						</div>
+						<php>
+                            $whereArr['channel_id'] = array(37,38,41,49,52,53,54,55,56,57,58,59,61,63,64,65,66,67,68,69,70); // 其他条件
+                            $whereArr['status'] = 1;
+                            $whereArr['delete_time'] = 0;
+                            $news_bot2= Db::name('CmsArchives')->alias('a')->join('ls_cms_appnews b','a.id = b.id')->where($whereArr)->order('create_time desc')->limit(7)->select()->toArray();
+                        </php>
+		                <div class="news_item">
+    						<div style="display:flex;align-items: flex-end;justify-content: space-between;">
+    						    <h5>留学资讯 <span>/ お問い合わせ</span></h5>  
+    						    <a href="https://www.shuyingjp.com/news/" class="more" style="padding-bottom:18px;color:#d5417b;" title="留学资讯">查看更多</a>
+    						</div>
+                            <foreach name='news_bot2' item="vo" key='k'>
+                                <if condition="$k eq 0">
+                                     <php>
+                                     $more=json_decode($vo['more'],true);
+                                     </php>
+            						    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}" >
+            						    <span style="position: absolute;top:-5px;left:0;display:none;">{:date('Y-m-d H:i:s',$vo.create_time)}</span>
+                						<div class="news_top" style="position: relative;overflow:hidden;border-radius:10px;">
+                    						<img src="{:get_img_url($more.thumbnail)}" alt=""class="top_img_a" title="{$vo.title}">
+                    						<span class="news_time" style="top:0px;">{:date('Y-m-d H:i:s',$vo.create_time)}</span>
+                    						<p>{$vo.title}</p>
+                    						<span>{$vo.description}</span>
+                						</div>
+            						</a>
+        						</if>
+    						</foreach>
+    						<div class="news_bot">
+        						<foreach name='news_bot2' item="vo" key='k1'>
+            						<if condition="$k1 gt 0">
+            						    <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}</a></p>
+            						    <span style="position: absolute;top:-5px;left:0;display:none;">{:date('Y-m-d H:i:s',$vo.create_time)}</span>
+            						</if>
+        						</foreach>
+    						</div>
+						</div>
+						<div class="news_item">
+						<div style="display:flex;align-items: flex-end;justify-content: space-between;">
+						    <h5>留学问答 <span>/ FAQs</span></h5>
+						    <a href="https://www.shuyingjp.com/faqs/" class="more" style="padding-bottom:18px;color:#d5417b;" title="留学问答">查看更多</a>
+						</div>
+                        <php>
+                        $news_bot= Db::name('CmsArchives')->alias('a')->join('ls_cms_appask b','a.id = b.id')->
+                        where(array('channel_id'=>'25'))->order('create_time desc')->limit(7)->select()->toArray();</php>
+                        <foreach name='news_bot' item="vo" key='k'>
+                        <if condition="$k eq 0">
+                         <php>
+                         $more=json_decode($vo['more'],true);
+                         </php>
+						<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">
+						<div class="news_top" style="position: relative;overflow:hidden;border-radius:10px;">
+						<img src="{:get_img_url($more.thumbnail)}" alt="{$vo.title}" class="top_img_a" title="{$vo.title}">
+						<span class="news_time" style="top:0px;">{:date('Y-m-d H:i:s',$vo.create_time)}</span>
+						<p>{$vo.title}</p>
+						<span>{$vo.description}</span>
+						</div>
+						</a>
+						</if>
+						</foreach>
+						<div class="news_bot">
+						<foreach name='news_bot' item="vo" key='k'>
+						<if condition="$k gt 0">
+						<p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}</a><span style="position: absolute;top:-5px;left:0;display:none;">{:date('Y-m-d H:i:s',$vo.create_time)}</span></p>
+						
+						</if>
+						</foreach>
+						</div>
+						</div>
+						</div>
+						<div class="section-news-vedio" >
+						<h5>视频区 <span>/ 動画リスト</span><a href="{:cmf_url('cms/List/index',array('id'=>42))}" class="more_tit" title="视频区">查看更多>></a></h5>
+						<ul>
+<php>
+$vediolist=Db::query("select * from ls_cms_archives as a left join ls_cms_appvedio as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='42' and is_top =1 order by a.create_time desc limit 0,4");
+</php>
+<foreach name='vediolist' item="vo" key='k'>
+<php>
+ $more=json_decode($vo['more'],true);
+ </php>
+						<li class="video-list-li">
+							<div class="vedio_box"><i class="btn_on"  data-id="react-video{$vo['id']}" vpath="{:get_img_url($more.thumbnail)}" ipath="{:get_img_url($vo['vediourl'])}"></i>
+							<img src="{:get_img_url($more.thumbnail)}" class="imgvediobz" alt="{$vo.title}"></div><p><a style="cursor: default;">{$vo.title}</a></p>
+						</li></foreach>		
+						</ul> </div>
+						</div>
+						</div>
+						</div>
+<include file="public@footer" />
+		<span class="close-bottom-fixed"></span>
+			<div class="bottom-fixed">
+				<php>$slideitem21= Db::name('SlideItem')->where(array('slide_id'=>'21'))->select();</php>
+				<div class="wrapper">
+ <foreach name='slideitem21' item='vo' key='k1' offset='0' length='1'>
+					<a href="/" class="bottom-logo"><img src="{:get_img_url($vo.image)}" alt="{$vo.title}"></a>
+					<h5 class="">{$vo.title}</h5>
+					<a rel="nofollow" href="{$vo.url|default=''}" target="_blank" class="bottom-zixun">立即咨询</a>
+					</foreach>
+				</div> 
+			</div>
+			<a class="botClose"></a>
+<include file="public@footerjs" />
+	</body>
+</html>

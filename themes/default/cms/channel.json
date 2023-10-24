@@ -1,0 +1,8 @@
+{
+    "name": "要跳转子栏目的页",
+    "action": "cms/Channel/index",
+    "description": "栏目主页模板文件",
+    "order": 10.0,
+    "more": {
+    }
+}

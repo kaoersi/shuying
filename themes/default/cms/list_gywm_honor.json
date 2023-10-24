@@ -1,0 +1,9 @@
+{
+    "name": "关于我们-企业荣誉",
+    "action": "cms/List/index",
+    "description": "关于我们-企业荣誉列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

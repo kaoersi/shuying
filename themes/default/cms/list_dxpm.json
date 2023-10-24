@@ -1,0 +1,9 @@
+{
+    "name": "大学排行首页",
+    "action": "cms/List/index",
+    "description": "大学排行首页模板",
+    "order": 10.0,
+    "more": {
+
+    }
+}

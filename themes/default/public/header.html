@@ -1,0 +1,70 @@
+	<taglib name="app\cms\taglib\Cms" />
+	<header class="header hidden-xs hidden-sm">
+		<div class="wrapper"><a href="https://www.shuyingjp.com/" class="logo" title="塾樱教育"><img src="/public/images/logo.png" alt="塾樱教育"></a>
+			<if condition="$category_parent['id'] neq ''">
+				<php>$topid=$category_parent['id'];</php>
+				<elseif condition="$category['id'] neq ''"/>
+				<php>$topid=$category['id'];</php>
+				<else/>
+				<php>$topid=0;</php>
+			</if>
+			<nav>
+				<ul class="nav">
+					<li <if condition="$topid eq 0"> class='active'</if>><a href="/" title="">首页</a></li>
+					<cms:categories ids='[1,2,3,4,5,6,7,8]' order='list_order asc,id asc'>
+						<li <if condition="$topid eq $vo['id']"> class='active'</if>>
+							
+							<if condition="$vo['type'] eq 'page'">
+						    	<a href="{:cmf_url('cms/Page/index',array('id'=>$vo['id']))}" title="" target="_self" id="a_li_{$vo.id}">{$vo.name}</a>
+							<else/>
+								<if condition="$vo['id'] eq '1' || $vo['id'] eq '2' || $vo['id'] eq '3'">
+									<a title="" target="_self" id="a_li_{$vo.id}">{$vo.name}</a>
+								<elseif condition="$vo['id'] eq '7'">
+									<a href="/news/" title="" target="_self" id="a_li_{$vo.id}">{$vo.name}</a>
+								<else/>
+									<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="" target="_self" id="a_li_{$vo.id}">{$vo.name}</a>
+								</if>
+							</if>
+							<php>
+								$toparr_submenu= Db::name('CmsChannel')->where(array('parent_id'=>$vo['id'],'status'=>'1'))->order('list_order asc,id asc')->select()->toArray();
+								$second_count=count($toparr_submenu);
+							</php>
+							<if condition="$second_count gt 0">
+								<dl>
+									<foreach name="toparr_submenu" item="vo2" key='k1'>
+
+										<if condition="$vo2['id'] eq 24">
+											<dd><a href="/zuixin/" title="最新资讯">最新资讯</a></dd>
+										<elseif condition="$vo2['id'] neq 71">
+									 		<dd><a href="{:cmf_url('cms/List/index',array('id'=>$vo2['id']))}" title="">{$vo2.name}</a></dd>
+									 	</if>
+									</foreach>
+								</dl>
+							</if>
+						</li>
+					</cms:categories>
+				</ul>
+			</nav>
+			<span class="header_search search_top"></span>
+			<span class="header-tel"></span>
+		</div>
+		<base target="-blank">
+	</header>
+	<php>
+		$slidelist3= Db::name('SlideItem')->where(array('slide_id'=>'3'))->select();
+		$slidelist4= Db::name('SlideItem')->where(array('slide_id'=>'4'))->select();
+		$slidelist5= Db::name('SlideItem')->where(array('slide_id'=>'5'))->select();
+		$slidelist6= Db::name('SlideItem')->where(array('slide_id'=>'6'))->select();
+	</php>
+	<div class="soso-show rel">
+		<a href="javascript:void(0);" class="soso-close" title="">关闭</a>
+		<div class="soso-con">
+			<span>
+				<form action="/cms/search/index" method="post"  name="site-search" id="site-search" >
+					<input name="keyword" id="keyword_header" type="text" class="soso-text" placeholder="请输入要搜索的内容">
+					<a class="soso-btn" href="javascript:void(0);" id="header-search-submit">search</a>
+				</form>
+			</span>
+		</div>
+	</div>
+	<include file="public@header_mob" />

@@ -1,0 +1,621 @@
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+
+      <li class="active"><a href="#A" data-toggle="tab">设置中小学辅导</a></li>
+
+		</ul>
+		<form class="form-horizontal js-ajax-form margin-top-20" method="post" action="{:url('setting/childfdPost')}">
+
+   <fieldset>
+            <div class="tabbable">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="A">
+
+    <div class="form-group">
+        <label for="input-old-password" class="col-sm-2 control-label">标题</label>
+        <div class="col-md-6 col-sm-10">
+          <input type="text" class="form-control" id="childbt" name="options[childbt]" value="{$company_info.childbt|default=''}">
+        </div>
+      </div>
+
+       <div class="form-group">
+        <label for="input-old-password" class="col-sm-2 control-label">标题-英文</label>
+        <div class="col-md-6 col-sm-10">
+          <input type="text" class="form-control" id="childbt_en" name="options[childbt_en]" value="{$company_info.childbt_en|default=''}">
+        </div>
+      </div>
+        <div class="form-group">
+                            <label for="input-child_jianjie" class="col-sm-2 control-label">简介部分</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="child_jianjie"
+                                          name="options[child_jianjie]">{$company_info.child_jianjie|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IB课程|IB课程描述........
+                             </label>
+
+      </div>
+
+          <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">简介部分-图片上</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[jianjieimg2]" id="jianjieimg2" value="{$company_info.jianjieimg2|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#jianjieimg2');">
+                                    <if condition="empty($company_info['jianjieimg2'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="jianjieimg2-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['jianjieimg2'])}" id="jianjieimg2-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#jianjieimg2-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#jianjieimg2').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+
+                        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">简介部分-图片下</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[jianjieimg1]" id="jianjieimg1" value="{$company_info.jianjieimg1|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#jianjieimg1');">
+                                    <if condition="empty($company_info['jianjieimg1'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="jianjieimg1-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['jianjieimg1'])}" id="jianjieimg1-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#jianjieimg1-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#jianjieimg1').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+
+              <div class="form-group">
+                            <label for="input-flowms1" class="col-sm-2 control-label">流程描述1</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="flowms1"
+                                          name="options[flowms1]">{$company_info.flowms1|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IIB申请认可度|在IBDP的学习过程中........
+                             </label>
+
+      </div>   
+           <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">流程描述1-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[flowmsimg1]" id="flowmsimg1" value="{$company_info.flowmsimg1|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#flowmsimg1');">
+                                    <if condition="empty($company_info['flowmsimg1'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="flowmsimg1-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['flowmsimg1'])}" id="flowmsimg1-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#flowmsimg1-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#flowmsimg1').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>   
+             <div class="form-group">
+                            <label for="input-flowms2" class="col-sm-2 control-label">流程描述2</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="flowms2"
+                                          name="options[flowms2]">{$company_info.flowms2|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IIB申请认可度|在IBDP的学习过程中........
+                             </label>
+
+      </div>  
+           <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">流程描述2-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[flowmsimg2]" id="flowmsimg2" value="{$company_info.flowmsimg2|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#flowmsimg2');">
+                                    <if condition="empty($company_info['flowmsimg2'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="flowmsimg2-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['flowmsimg2'])}" id="flowmsimg2-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#flowmsimg2-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#flowmsimg2').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+           <div class="form-group">
+                            <label for="input-flowms3" class="col-sm-2 control-label">流程描述3</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="flowms3"
+                                          name="options[flowms3]">{$company_info.flowms3|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IIB申请认可度|在IBDP的学习过程中........
+                             </label>
+
+      </div>  
+           <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">流程描述3-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[flowmsimg3]" id="flowmsimg3" value="{$company_info.flowmsimg3|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#flowmsimg3');">
+                                    <if condition="empty($company_info['flowmsimg3'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="flowmsimg3-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['flowmsimg3'])}" id="flowmsimg3-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#flowmsimg3-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#flowmsimg3').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>   
+
+         <div class="form-group">
+                            <label for="input-flowms4" class="col-sm-2 control-label">流程描述4</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="flowms4"
+                                          name="options[flowms4]">{$company_info.flowms4|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IIB申请认可度|在IBDP的学习过程中........
+                             </label>
+
+      </div>
+           <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">流程描述4-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[flowmsimg4]" id="flowmsimg4" value="{$company_info.flowmsimg4|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#flowmsimg4');">
+                                    <if condition="empty($company_info['flowmsimg4'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="flowmsimg4-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['flowmsimg4'])}" id="flowmsimg4-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#flowmsimg4-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#flowmsimg4').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>     
+        <div class="form-group">
+                            <label for="input-flowms5" class="col-sm-2 control-label">流程描述5</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="flowms5"
+                                          name="options[flowms5]">{$company_info.flowms5|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             IIB申请认可度|在IBDP的学习过程中........
+                             </label>
+
+      </div>   
+           <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">流程描述5-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[flowmsimg5]" id="flowmsimg5" value="{$company_info.flowmsimg5|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#flowmsimg5');">
+                                    <if condition="empty($company_info['flowmsimg5'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="flowmsimg5-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['flowmsimg5'])}" id="flowmsimg5-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#flowmsimg5-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#flowmsimg5').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+
+          <div class="form-group">
+                            <label for="input-tesekecheng1" class="col-sm-2 control-label">特色课程01</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="tesekecheng1"
+                                          name="options[tesekecheng1]">{$company_info.tesekecheng1|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             PRE-IB衔接课程|pre-是为了那些在文化课上........
+                             </label>
+
+      </div> 
+
+       <div class="form-group">
+                            <label for="input-tesekecheng2" class="col-sm-2 control-label">特色课程02</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="tesekecheng2"
+                                          name="options[tesekecheng2]">{$company_info.tesekecheng2|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             PRE-IB衔接课程|pre-是为了那些在文化课上........
+                             </label>
+
+      </div>  
+       <div class="form-group">
+                            <label for="input-tesekecheng3" class="col-sm-2 control-label">特色课程03</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="tesekecheng3"
+                                          name="options[tesekecheng3]">{$company_info.tesekecheng3|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             PRE-IB衔接课程|pre-是为了那些在文化课上........
+                             </label>
+
+      </div>  
+
+       <div class="form-group">
+                            <label for="input-tesekecheng4" class="col-sm-2 control-label">特色课程04</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="tesekecheng4"
+                                          name="options[tesekecheng4]">{$company_info.tesekecheng4|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             PRE-IB衔接课程|pre-是为了那些在文化课上........
+                             </label>
+
+      </div>  
+
+        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">特色课程-图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[tesekechengimg]" id="tesekechengimg" value="{$company_info.tesekechengimg|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#tesekechengimg');">
+                                    <if condition="empty($company_info['tesekechengimg'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="tesekechengimg-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['tesekechengimg'])}" id="tesekechengimg-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#tesekechengimg-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#tesekechengimg').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div> 
+
+
+
+
+
+
+         <div class="form-group">
+                            <label for="input-kcxs_tit1" class="col-sm-2 control-label">课程形式标题1</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_tit1"
+                                          name="options[kcxs_tit1]">{$company_info.kcxs_tit1|default=''}</textarea>
+                            </div>
+                           
+
+      </div> 
+ 
+        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">课程形式-图片1</label>
+                            <div class="col-md-6 col-sm-10">
+                <script type="text/html" id="photos-item-tplxs1">
+    <li id="saved-imagexs1{id}">
+        <input id="photoxs1-{id}" type="hidden" name="photo_urls_xs1[]" value="{filepath}">
+        <input class="form-control" id="photo-{id}-namexs1" type="text" name="photo_namesxs1[]" value="{name}"
+               style="width: 200px;" title="图片名称">
+        <img id="photo-{id}-previewxs1" src="{url}" style="height:36px;width: 36px;"
+             onclick="imagePreviewDialog(this.src);">
+        <a href="javascript:uploadOneImage('图片上传','#photoxs1-{id}');">替换</a>
+        <a href="javascript:(function(){$('#saved-imagexs1{id}').remove();})();">移除</a>
+    </li>
+</script>
+
+                            <ul id="photosxs1"   class="pic-list list-unstyled form-inline">
+                  <notempty name="more_xs1['photo']">
+                    <foreach name="more_xs1['photo']" item="vo">
+                    <php>$img_url=cmf_asset_relative_url($vo['url']);</php>
+                    <li id="savedimagexs1{$key}">
+                      <input id="photoxs1-{$key}" type="hidden" name="photo_urls_xs1[]" value="{$img_url}"> 
+                      <img id="photoxs1-{$key}-preview" src="{:cmf_asset_relative_url($vo['url'])}" style="width: 50px;" onclick="parent.imagePreviewDialog(this.src);">
+                      <a href="javascript:uploadOneImage('图片上传','#photoxs1-{$key}');" class="btn btn-small">替换</a>
+                      <a href="javascript:(function(){ $('#savedimagexs1{$key}').remove();})();" class="btn btn-small">移除</a>
+                    </li>
+                    </foreach>
+                  </notempty>
+                </ul>
+                <a href="javascript:uploadMultiImage('图片上传','#photosxs1','photos-item-tplxs1');" class="btn">选择课程形式1图片</a>
+    
+         
+
+
+
+                
+                            </div>
+       </div> 
+
+             <div class="form-group">
+                            <label for="input-kcxs_con1" class="col-sm-2 control-label">课程形式内容1</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_con1"
+                                          name="options[kcxs_con1]">{$company_info.kcxs_con1|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             每条之间用|分割
+                             </label>
+
+      </div> 
+
+               <div class="form-group">
+                            <label for="input-kcxs_tit2" class="col-sm-2 control-label">课程形式标题2</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_tit2"
+                                          name="options[kcxs_tit2]">{$company_info.kcxs_tit2|default=''}</textarea>
+                            </div>
+                           
+
+      </div> 
+ 
+        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">课程形式-图片2</label>
+                            <div class="col-md-6 col-sm-10">
+                 <script type="text/html" id="photos-item-tplxs2">
+    <li id="saved-imagexs2{id}">
+        <input id="photoxs2-{id}" type="hidden" name="photo_urls_xs2[]" value="{filepath}">
+        <input class="form-control" id="photo-{id}-namexs2" type="text" name="photo_namesxs2[]" value="{name}"
+               style="width: 200px;" title="图片名称">
+        <img id="photo-{id}-previewxs2" src="{url}" style="height:36px;width: 36px;"
+             onclick="imagePreviewDialog(this.src);">
+        <a href="javascript:uploadOneImage('图片上传','#photoxs2-{id}');">替换</a>
+        <a href="javascript:(function(){$('#saved-imagexs2{id}').remove();})();">移除</a>
+    </li>
+</script>
+
+                            <ul id="photosxs2"   class="pic-list list-unstyled form-inline">
+                  <notempty name="more_xs2['photo']">
+                    <foreach name="more_xs2['photo']" item="vo">
+                    <php>$img_url=cmf_asset_relative_url($vo['url']);</php>
+                    <li id="savedimagexs2{$key}">
+                      <input id="photoxs2-{$key}" type="hidden" name="photo_urls_xs2[]" value="{$img_url}"> 
+                      <img id="photoxs2-{$key}-preview" src="{:cmf_asset_relative_url($vo['url'])}" style="width: 50px;" onclick="parent.imagePreviewDialog(this.src);">
+                      <a href="javascript:uploadOneImage('图片上传','#photoxs2-{$key}');" class="btn btn-small">替换</a>
+                      <a href="javascript:(function(){ $('#savedimagexs2{$key}').remove();})();" class="btn btn-small">移除</a>
+                    </li>
+                    </foreach>
+                  </notempty>
+                </ul>
+                <a href="javascript:uploadMultiImage('图片上传','#photosxs2','photos-item-tplxs2');" class="btn">选择课程形式2图片</a>
+   
+                
+                
+                            </div>
+       </div> 
+
+             <div class="form-group">
+                            <label for="input-kcxs_con2" class="col-sm-2 control-label">课程形式内容2</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_con2"
+                                          name="options[kcxs_con2]">{$company_info.kcxs_con2|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             每条之间用|分割
+                             </label>
+
+      </div> 
+
+         <div class="form-group">
+                            <label for="input-kcxs_tit3" class="col-sm-2 control-label">课程形式标题3</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_tit3"
+                                          name="options[kcxs_tit3]">{$company_info.kcxs_tit3|default=''}</textarea>
+                            </div>
+                           
+
+      </div> 
+ 
+        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">课程形式-图片3</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <script type="text/html" id="photos-item-tplxs3">
+    <li id="saved-imagexs3{id}">
+        <input id="photoxs3-{id}" type="hidden" name="photo_urls_xs3[]" value="{filepath}">
+        <input class="form-control" id="photo-{id}-namexs3" type="text" name="photo_namesxs3[]" value="{name}"
+               style="width: 200px;" title="图片名称">
+        <img id="photo-{id}-previewxs3" src="{url}" style="height:36px;width: 36px;"
+             onclick="imagePreviewDialog(this.src);">
+        <a href="javascript:uploadOneImage('图片上传','#photoxs3-{id}');">替换</a>
+        <a href="javascript:(function(){$('#saved-imagexs3{id}').remove();})();">移除</a>
+    </li>
+</script>
+
+                            <ul id="photosxs3"   class="pic-list list-unstyled form-inline">
+                  <notempty name="more_xs3['photo']">
+                    <foreach name="more_xs3['photo']" item="vo">
+                    <php>$img_url=cmf_asset_relative_url($vo['url']);</php>
+                    <li id="savedimagexs3{$key}">
+                      <input id="photoxs3-{$key}" type="hidden" name="photo_urls_xs3[]" value="{$img_url}"> 
+                      <img id="photoxs3-{$key}-preview" src="{:cmf_asset_relative_url($vo['url'])}" style="width: 50px;" onclick="parent.imagePreviewDialog(this.src);">
+                      <a href="javascript:uploadOneImage('图片上传','#photoxs3-{$key}');" class="btn btn-small">替换</a>
+                      <a href="javascript:(function(){ $('#savedimagexs3{$key}').remove();})();" class="btn btn-small">移除</a>
+                    </li>
+                    </foreach>
+                  </notempty>
+                </ul>
+                <a href="javascript:uploadMultiImage('图片上传','#photosxs3','photos-item-tplxs3');" class="btn">选择课程形式3图片</a>
+
+                
+                            </div>
+       </div> 
+
+             <div class="form-group">
+                            <label for="input-kcxs_con3" class="col-sm-2 control-label">课程形式内容3</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_con3"
+                                          name="options[kcxs_con3]">{$company_info.kcxs_con3|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             每条之间用|分割
+                             </label>
+
+      </div> 
+
+               <div class="form-group">
+                            <label for="input-kcxs_tit4" class="col-sm-2 control-label">课程形式标题4</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_tit4"
+                                          name="options[kcxs_tit4]">{$company_info.kcxs_tit4|default=''}</textarea>
+                            </div>
+                           
+
+      </div> 
+ 
+        <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">课程形式-图片4</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+          <script type="text/html" id="photos-item-tplxs4">
+    <li id="saved-imagexs4{id}">
+        <input id="photoxs4-{id}" type="hidden" name="photo_urls_xs4[]" value="{filepath}">
+        <input class="form-control" id="photo-{id}-namexs4" type="text" name="photo_namesxs4[]" value="{name}"
+               style="width: 200px;" title="图片名称">
+        <img id="photo-{id}-previewxs4" src="{url}" style="height:36px;width: 36px;"
+             onclick="imagePreviewDialog(this.src);">
+        <a href="javascript:uploadOneImage('图片上传','#photoxs4-{id}');">替换</a>
+        <a href="javascript:(function(){$('#saved-imagexs4{id}').remove();})();">移除</a>
+    </li>
+</script>
+
+                            <ul id="photosxs4"   class="pic-list list-unstyled form-inline">
+                  <notempty name="more_xs4['photo']">
+                    <foreach name="more_xs4['photo']" item="vo">
+                    <php>$img_url=cmf_asset_relative_url($vo['url']);</php>
+                    <li id="savedimagexs4{$key}">
+                      <input id="photoxs4-{$key}" type="hidden" name="photo_urls_xs4[]" value="{$img_url}"> 
+                      <img id="photoxs4-{$key}-preview" src="{:cmf_asset_relative_url($vo['url'])}" style="width: 50px;" onclick="parent.imagePreviewDialog(this.src);">
+                      <a href="javascript:uploadOneImage('图片上传','#photoxs4-{$key}');" class="btn btn-small">替换</a>
+                      <a href="javascript:(function(){ $('#savedimagexs4{$key}').remove();})();" class="btn btn-small">移除</a>
+                    </li>
+                    </foreach>
+                  </notempty>
+                </ul>
+                <a href="javascript:uploadMultiImage('图片上传','#photosxs4','photos-item-tplxs4');" class="btn">选择课程形式4图片</a>
+
+
+                
+                            </div>
+       </div> 
+
+             <div class="form-group">
+                            <label for="input-kcxs_con4" class="col-sm-2 control-label">课程形式内容4</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="kcxs_con4"
+                                          name="options[kcxs_con4]">{$company_info.kcxs_con4|default=''}</textarea>
+                            </div>
+                             <label>格式：<br/>
+                             每条之间用|分割
+                             </label>
+
+      </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+               </div>
+
+                  
+
+
+
+
+
+
+
+
+            </div>
+        </fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+             editorcontent2 = new baidu.editor.ui.Editor();
+              editorcontent3 = new baidu.editor.ui.Editor();
+              editorcontent4 = new baidu.editor.ui.Editor();
+              editorcontent5 = new baidu.editor.ui.Editor();
+            editorcontent.render('full1');
+             editorcontent2.render('full2');
+              editorcontent3.render('area');
+               editorcontent4.render('licheng');
+               editorcontent5.render('xieyi');
+            try {
+                editorcontent.sync();
+                 editorcontent2.sync();
+                   editorcontent3.sync();
+                    editorcontent4.sync();
+                    editorcontent5.sync();
+            } catch (err) {
+            }
+
+		
+		})
+    </script>

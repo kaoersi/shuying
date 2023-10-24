@@ -1,0 +1,39 @@
+<div class="yxk-remrak">
+    <div class="wrap-l-wechat-l fl">
+        <p>日本高中、本科、研究生、大学院申请;N1~N5日语培训;以及日本高中大学同步课程辅导、作业讲解、考前突击辅导等</p>
+        <p>添加微信<label>【shuying-jp】</label>【备注官网】咨询。</p>
+        <a rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" class="zx" title="塾樱咨询客服">立即咨询</a>
+    </div>
+    <div class="wrap-l-wechat-r fr">
+        <span><img src="/public/images/remark_wx.png" alt="塾樱客服微信"></span>
+        <p>扫码咨询我们</p>
+    </div>
+</div>
+<div class="foot_bm_item clearfix">
+    <div class="bm_item_top">
+        <php>
+            $slide_list18= Db::name('SlideItem')->where(array('slide_id'=>'18','status'=>'1'))->order('list_order asc,id desc')->select();
+            $slide_list19= Db::name('SlideItem')->where(array('slide_id'=>'19','status'=>'1'))->order('list_order asc,id desc')->select();
+            $slide_list20= Db::name('SlideItem')->where(array('slide_id'=>'20','status'=>'1'))->order('list_order asc,id desc')->select();
+        </php>
+        <a title="留学申请" class="hover">留学申请</a>
+        <a title="日语学习" >日语学习</a>
+        <a title="特色课程" >特色课程</a> </div>
+    <div class="bm_item_con clearfix">
+        <ul class="ul_lxsq">
+        <foreach name='slide_list18' item='vo'>
+            <li><a href="{$vo.url}" title="日本{$vo.title}申请"><p><i>{$vo.title}申请</i></p></a></li>
+        </foreach>
+        </ul>
+        <ul class="ul_ryxx" style="display: none;">
+        <foreach name='slide_list19' item='vo'>
+            <li><a href="{$vo.url}" title="日语{$vo.title}培训"><p><i>日语{$vo.title}</i></p></a></li>
+        </foreach>
+        </ul>
+        <ul class="ul_tskc" style="display: none;">
+        <foreach name='slide_list20' item='vo'>
+            <li><a href="{$vo.url}" title="{$vo.title}"><p><i>{$vo.title}</i></p></a></li>
+        </foreach>
+        </ul>
+    </div>
+</div>

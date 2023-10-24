@@ -1,0 +1,9 @@
+{
+    "name": "留学攻略-留学资讯",
+    "action": "cms/List/index",
+    "description": "留学攻略-留学资讯列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

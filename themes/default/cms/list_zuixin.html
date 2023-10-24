@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <php>
+        $taginfo=  Db::name('CmsTags')->where(array('id'=>$id))->find();
+        
+    </php>
+    <meta charset="UTF-8">
+    <title>
+        <empty name="category.more.seotitle">
+            {$category.name}
+        <else/>
+                {$category.more.seotitle}
+        </empty>
+            _
+        <empty name="site_info.site_seo_title">
+            {$site_info.site_name|default=''}
+        <else/>
+            {$site_info.site_seo_title|default=''}
+        </empty>
+    </title>
+    <meta name="keywords" content="{$category.more.seokeyword}"/>
+    <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+</head>
+<body>
+    <include file="public@header" />
+    <div class="banner banner_wenda"></div>
+    <div class="all_labels wrapper">
+        <label>最新文章</label>
+        
+    </div>
+
+    <div class="inside-wrap wrapper clearfix" id="inside-wrap-case">
+    <div class="yxk-show-l">
+
+    <div class="case-show-list clearfix">
+
+    <div class="school_news_list school_case_list"> 
+
+        <php>
+            $news_list=  Db::name('CmsArchives')->where('channel_id','in','37,38,40,56,57,58,59,60,61,41,49,52,53,54,55,64,65,66,67,68,69,70,71')->order('create_time desc')->paginate(10);
+        </php>
+
+
+
+    <foreach name="news_list" item="vo" >
+     <php>
+     $more=json_decode($vo['more'],true);
+     </php>
+        <dl> 
+            <dt>
+                <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" class="scale-img"><img src="{:get_img_url($more.thumbnail)}"></a>
+            </dt> 
+            <dd> 
+                <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.title}</a></h3> 
+                <div class="tit_addon">
+                <span class="time">{:date('Y-m-d H:i:s',$vo.published_time)}</span>
+                 
+                <span class="tags">
+                  
+                    <php>
+                        if(!empty($vo['keywords'])){
+                            $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+                            $keywords_arr = explode(',', $vo['keywords']);
+                        }else{
+                        $keywords_arr ='';
+                        }
+                    </php>
+                    <if condition="$keywords_arr neq ''">
+                        <foreach name='keywords_arr' item='vk'>
+                            <if condition="$vk neq ''">
+                            <php>
+                              $taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();
+                            </php>
+                            <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank">{$vk}</a></if>
+                        </foreach>
+                                                 
+                    </if>
+
+
+                 </span>
+            </if>
+             </div> 
+             <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.description|mb_substr=0,70,'utf-8'}...</a></p> 
+            </dd> 
+            <a class="plus">+</a>
+       </dl>
+    </foreach>
+
+    </div>
+
+
+    <div class="listpage clearfix">
+        <php>
+            $str_page=$news_list->render();
+            $str_pagenew=str_replace('?','/?',$str_page);
+        </php>
+        {$str_pagenew}  
+    </div>
+
+
+    </div>
+
+
+    <include file="public@footer_tabinfo" />
+
+
+    </div>
+
+        <div class="wrap-r">
+
+            <include file="public@right_hotlabel" />
+            <div class="Hot_aside Hot_Ask">
+                <h2>最新问答</h2>
+                <ul class="hot_list clearfix">
+                   <php>
+                        $whereask['channel_id'] = 25; // 其他条件
+                          
+                        $relation_list_wd= Db::name('CmsArchives')->where($whereask)->order('create_time desc')->limit(0,8)->select()->toArray();
+                    </php>
+                    <foreach name='relation_list_wd' item="vo" key='k'>
+                        <li>
+                            <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <include file="public@footer" />
+    <include file="public@footerjs" />
+    		<script type="text/javascript">
+    			kao.common();	
+    			kao.home();
+    		</script>
+    	</body>
+    </html>

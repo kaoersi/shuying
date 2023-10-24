@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>{$article.title|default=''}留学_本科|研究生申请条件_排名_费用_辅导机构_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+    <meta name="keywords" content="{$article.keywords}"/>
+    <meta name="description" content="{$article.description}"/>
+			<include file="public@headertop" />
+	</head>
+	<body>
+  <include file="public@header" />
+<div class="banner banner_showschool">
+	<div class="wrapper">
+        <div class="ban-con-yxk">
+			<div class="ban-show-yxk-l fl">
+				<a rel="nofollow" href="" class="ban-show-yxk-l-img fl" title="">
+					<span><img src="{:get_img_url($article.slogo)}" alt=""></span>
+				</a>
+				<div class="ban-show-yxk-l-r fr">
+					<div>
+						<em>{$article.rw_title}</em>
+						<h4>{$article.title}</h4>				
+						<p>地理位置：{$article.address} </p>
+						<p>学校类别：综合类</p>
+						<div class="school_link">
+							<!--<a rel="nofollow" href="{$article.weburl}" target="_blank" class="a_s_link hover" title="点击查看官网">点击查看官网</a>-->
+							<a rel="nofollow" href="{$site_info.online_url|default=''}" target="_blank" class="a_s_link" title="点击咨询我们">点击咨询我们</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ban-show-yxk-r fr">
+				<div>
+					<span>第 <strong>{$article.rank_qs}</strong> 位</span>
+					<p>QS世界大学排名</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="inside-wrap wrapper clearfix">
+    <div class="yxk-show-l">
+        <div class="yxk-show-nav clearfix">
+            <p class="hover"><i></i>学校介绍</p>
+            <p><i></i>申请要求</p>
+            <p><i></i>院校动态</p>
+        </div>
+        <div class="yxk-show-article  yxk-show-article-tab hover clearfix">
+            <div class="yxk-article_left">
+                <p><img src="{:get_img_url($article.slogo)}" alt="{$article.title}"></p>
+                <php>echo htmlspecialchars_decode($article['content'])</php>
+            </div>
+            <img src="{:get_img_url($article.more.thumbnail)}" class="yxk_articleshow_img" alt="{$article.title}">
+        </div>
+        <div class="yxk-show-article yxk-show-article-tab clearfix">
+        <div class="yxk-article_left" style="padding-right: 0px;">
+        <php>echo htmlspecialchars_decode($article['yaoqiu'])</php>
+    </div>
+</div>
+
+<div class="yxk-show-article yxk-show-articlenew  yxk-show-article-tab clearfix">
+    <div class="school_news_list">
+        <php>
+            if(!empty($article['keywords'])){
+    
+            $article['keywords'] = str_replace('，', ',', $article['keywords']);
+            $keywords_arr = explode(',', $article['keywords']);
+              }else{
+            $keywords_arr ='';
+            }
+              $tags_arc= Db::name('CmsTags')->where("type = 1")->where('name','in',$keywords_arr)->order('nums desc')->select()->toArray();
+             $fields_archivesarc = array_column($tags_arc,'archives');
+             $fields_archivesarca=explode(',',implode(',',$fields_archivesarc));
+             $fields_archivesarca=array_unique($fields_archivesarca);
+             $relation_list_zixun= Db::name('CmsArchives')->where('id','in',$fields_archivesarca)->order('create_time desc')->paginate(8);
+            if(empty($relation_list_zixun)){
+                $relation_list_zixun=array();
+            }
+        </php>
+        <foreach name="relation_list_zixun" item="vo" >
+            <php>$more1=json_decode($vo['more'],true);</php>
+            <dl> 
+                <dt><a href="javascript:void(0);" target="_self" class="scale-img" title=""><img src="{:get_img_url($more1.thumbnail)}" alt="{$vo.title}"></a></dt> 
+                <dd> 
+                    <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="{$vo.title}">{$vo.title}</a></h3> 
+                    <div class="tit_addon">
+                        <span class="time">{:date('Y-m-d',$vo.create_time)}</span><span class="tags">
+                            <php>
+                                if(!empty($vo['keywords'])){
+                                    $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+                                    $keywords_arr = explode(',', $vo['keywords']);
+                                }else{
+                                    $keywords_arr ='';
+                                }
+                            </php>
+                            <foreach name='keywords_arr' item='vk'>
+                                <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                <a href="javascript:void(0);" title="">{$vk}</a>
+                            </foreach>
+                         </span>
+                    </div> 
+                    <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.description|mb_substr=0,80,'utf-8'}...</a></p> 
+                </dd> 
+            </dl>
+        </foreach>
+    </div>
+</div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<include file="public@right_relation_wd" />
+<include file="public@right_hotlabel" />
+</div>
+</div>
+<include file="public@footer_yxk" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.mxalk();	
+		</script>
+	</body>
+</html>

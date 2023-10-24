@@ -1,0 +1,513 @@
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+
+      <li class="active"><a href="#A" data-toggle="tab">设置名师团队</a></li>
+		</ul>
+		<form class="form-horizontal js-ajax-form margin-top-20" method="post" action="{:url('setting/teacherPost')}">
+
+   <fieldset>
+            <div class="tabbable">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="A">
+
+       <div class="form-group">
+                            <label for="input-dituinfo" class="col-sm-2 control-label">地图标题</label>
+                            <div class="col-md-6 col-sm-10">
+                              <input type="text" class="form-control" value="{$company_info.dituinfo|default=''}"  name="options[dituinfo]"/>
+                            </div>
+
+                        </div>
+
+                         <div class="form-group">
+                            <label for="input-ditu_city1" class="col-sm-2 control-label">地图-国家1</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city1"
+                                          name="options[ditu_city1]" style="height: 80px;">{$company_info.ditu_city1|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家1-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city1_logo]" id="ditu_city1_logo" value="{$company_info.ditu_city1_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city1_logo');">
+                                    <if condition="empty($company_info['ditu_city1_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city1_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city1_logo'])}" id="ditu_city1_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city1_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city1_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+
+                        <div class="form-group">
+                            <label for="input-ditu_city1_info" class="col-sm-2 control-label">地图-国家1-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city1_info"
+                                          name="options[ditu_city1_info]" style="height: 160px;">{$company_info.ditu_city1_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-ditu_city2" class="col-sm-2 control-label">地图-国家2</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city2"
+                                          name="options[ditu_city2]" style="height: 80px;">{$company_info.ditu_city2|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家2-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city2_logo]" id="ditu_city2_logo" value="{$company_info.ditu_city2_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city2_logo');">
+                                    <if condition="empty($company_info['ditu_city2_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city2_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city2_logo'])}" id="ditu_city2_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city2_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city2_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city2_info" class="col-sm-2 control-label">地图-国家2-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city2_info"
+                                          name="options[ditu_city2_info]" style="height: 160px;">{$company_info.ditu_city2_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="input-ditu_city3" class="col-sm-2 control-label">地图-国家3</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city3"
+                                          name="options[ditu_city3]" style="height: 80px;">{$company_info.ditu_city3|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家3-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city3_logo]" id="ditu_city3_logo" value="{$company_info.ditu_city3_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city3_logo');">
+                                    <if condition="empty($company_info['ditu_city3_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city3_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city3_logo'])}" id="ditu_city3_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city3_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city3_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city3_info" class="col-sm-2 control-label">地图-国家3-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city3_info"
+                                          name="options[ditu_city3_info]" style="height: 160px;">{$company_info.ditu_city3_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+                         <div class="form-group">
+                            <label for="input-ditu_city4" class="col-sm-2 control-label">地图-国家4</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city4"
+                                          name="options[ditu_city4]" style="height: 80px;">{$company_info.ditu_city4|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家4-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city4_logo]" id="ditu_city4_logo" value="{$company_info.ditu_city4_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city4_logo');">
+                                    <if condition="empty($company_info['ditu_city4_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city4_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city4_logo'])}" id="ditu_city4_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city4_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city4_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city4_info" class="col-sm-2 control-label">地图-国家4-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city4_info"
+                                          name="options[ditu_city4_info]" style="height: 160px;">{$company_info.ditu_city4_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="input-ditu_city5" class="col-sm-2 control-label">地图-国家5</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city5"
+                                          name="options[ditu_city5]" style="height: 80px;">{$company_info.ditu_city5|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家5-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city5_logo]" id="ditu_city5_logo" value="{$company_info.ditu_city5_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city5_logo');">
+                                    <if condition="empty($company_info['ditu_city5_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city5_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city5_logo'])}" id="ditu_city5_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city5_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city5_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+                        <div class="form-group">
+                            <label for="input-ditu_city5_info" class="col-sm-2 control-label">地图-国家5-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city5_info"
+                                          name="options[ditu_city5_info]" style="height: 160px;">{$company_info.ditu_city5_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+
+
+
+                         <div class="form-group">
+                            <label for="input-ditu_city6" class="col-sm-2 control-label">地图-国家6</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city6"
+                                          name="options[ditu_city6]" style="height: 80px;">{$company_info.ditu_city6|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家6-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city6_logo]" id="ditu_city6_logo" value="{$company_info.ditu_city6_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city6_logo');">
+                                    <if condition="empty($company_info['ditu_city6_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city6_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city6_logo'])}" id="ditu_city6_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city6_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city6_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city6_info" class="col-sm-2 control-label">地图-国家6-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city6_info"
+                                          name="options[ditu_city6_info]" style="height: 160px;">{$company_info.ditu_city6_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+                         <div class="form-group">
+                            <label for="input-ditu_city7" class="col-sm-2 control-label">地图-国家7</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city7"
+                                          name="options[ditu_city7]" style="height: 80px;">{$company_info.ditu_city7|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家7-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city7_logo]" id="ditu_city7_logo" value="{$company_info.ditu_city7_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city7_logo');">
+                                    <if condition="empty($company_info['ditu_city7_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city7_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city7_logo'])}" id="ditu_city7_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city7_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city7_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city7_info" class="col-sm-2 control-label">地图-国家7-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city7_info"
+                                          name="options[ditu_city7_info]" style="height: 160px;">{$company_info.ditu_city7_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+                         <div class="form-group">
+                            <label for="input-ditu_city8" class="col-sm-2 control-label">地图-国家8</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city8"
+                                          name="options[ditu_city8]" style="height: 80px;">{$company_info.ditu_city8|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家8-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city8_logo]" id="ditu_city8_logo" value="{$company_info.ditu_city8_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city8_logo');">
+                                    <if condition="empty($company_info['ditu_city8_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city8_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city8_logo'])}" id="ditu_city8_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city8_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city8_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                        <div class="form-group">
+                            <label for="input-ditu_city8_info" class="col-sm-2 control-label">地图-国家8-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city8_info"
+                                          name="options[ditu_city8_info]" style="height: 160px;">{$company_info.ditu_city8_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+                             <div class="form-group">
+                            <label for="input-ditu_city9" class="col-sm-2 control-label">地图-国家9</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city9"
+                                          name="options[ditu_city9]" style="height: 80px;">{$company_info.ditu_city9|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             美国|120名老师
+                             </label>
+                        </div>
+                         <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">地图-国家9-logo</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="options[ditu_city9_logo]" id="ditu_city9_logo" value="{$company_info.ditu_city9_logo|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#ditu_city9_logo');">
+                                    <if condition="empty($company_info['ditu_city9_logo'])">
+                                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="ditu_city9_logo-preview" height="30" style="cursor: hand"/>
+                                        <else/>
+                                        <img src="{:cmf_get_image_preview_url($company_info['ditu_city9_logo'])}" id="ditu_city9_logo-preview"
+                                             height="50" style="cursor: hand"/>
+                                    </if>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#ditu_city9_logo-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#ditu_city9_logo').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+                         <div class="form-group">
+                            <label for="input-ditu_city9_info" class="col-sm-2 control-label">地图-国家9-数据</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea class="form-control" id="ditu_city9_info"
+                                          name="options[ditu_city9_info]" style="height: 160px;">{$company_info.ditu_city9_info|default=''}</textarea>
+                            </div>
+                            <label>格式：<br/>
+                             硕士|<i>58</i>%<br/>
+                             博士及以上|<i>46</i>%<br/>
+                              教龄|<i>3-20</i>年<br/>
+                              导师录取率|<i>3</i>%<br/>
+                               双语教学|<i>95</i>%<br/>
+                              毕业于世界TOP100院校|<i>100%</i>导师<br/>
+                             </label>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+               </div>
+
+  
+
+
+
+
+
+
+
+            </div>
+        </fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+             editorcontent2 = new baidu.editor.ui.Editor();
+              editorcontent3 = new baidu.editor.ui.Editor();
+              editorcontent4 = new baidu.editor.ui.Editor();
+              editorcontent5 = new baidu.editor.ui.Editor();
+            editorcontent.render('full1');
+             editorcontent2.render('full2');
+              editorcontent3.render('area');
+               editorcontent4.render('licheng');
+               editorcontent5.render('xieyi');
+            try {
+                editorcontent.sync();
+                 editorcontent2.sync();
+                   editorcontent3.sync();
+                    editorcontent4.sync();
+                    editorcontent5.sync();
+            } catch (err) {
+            }
+
+		
+		})
+    </script>

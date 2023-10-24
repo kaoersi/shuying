@@ -1,0 +1,12 @@
+<div class="all_labels wrapper">
+<label>文章标签</label>
+<p class="top_label_show" style="margin-bottom: 2px;">
+<php>
+$top_label_all=Db::query("select * from ls_cms_tags   order by nums desc limit 0,7");
+</php>
+<foreach name='top_label_all' item="vo" key='k'>
+ <a href="{:cmf_url('cms/List/indextag',array('id'=>$vo['id']))}" target="_self" title="{$vo.name}">{$vo.name}</a>
+</foreach>
+</p>
+<a href="{:cmf_url('cms/List/tag')}" class="btn_all_tags" title="">全部标签&nbsp;&nbsp;></a>
+</div>

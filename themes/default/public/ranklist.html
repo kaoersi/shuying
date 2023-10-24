@@ -1,0 +1,12 @@
+<div class="starcse_right">
+<img src="/public/images/star_school_bg.png" alt="大学排名">
+<strong>大学排名</strong>
+<ul class="star_pm ">
+<php>
+  $rankset = cmf_get_option('rankset');
+</php>
+ <foreach name='rankset[rankname_titles]' item="vo" key='k'>
+<li><em>{$rankset[rankname_en][$k]}</em><a href="{$rankset[rankname_descs][$k]}" title="{$vo}">{$vo}</a></li>
+</foreach>
+</ul>
+</div>

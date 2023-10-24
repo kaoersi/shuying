@@ -1,0 +1,16 @@
+<div class="QA_con clearfix">
+<if condition="$keywords_arr neq ''">
+<php>
+$whereask['channel_id'] = 25; // 其他条件
+$whereask['status'] = 1;
+$whereask['delete_time'] = 0;
+  $tags_arc_wd= Db::name('CmsTags')->where("type = 1")->where('name','in',$keywords_arr)->order('nums desc')->select()->toArray();
+ $fields_archivesarc_wd = array_column($tags_arc_wd,'archives');
+ $fields_archivesarc_wda=explode(',',implode(',',$fields_archivesarc_wd));
+ $fields_archivesarc_wda=array_unique($fields_archivesarc_wda);
+  $relation_list_wd= Db::name('CmsArchives')->where('id','in',$fields_archivesarc_wda)->where($whereask)->order('create_time desc')->limit(0,8)->select()->toArray();
+  </php>
+  </if>
+<foreach name='relation_list_wd' item="vo" key='k'><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}"><dl><dt>{$vo.title}</dt><dd>{$vo.description|mb_substr=0,30,'utf-8'}...</dd></dl></a>
+</foreach>
+</div>

@@ -1,0 +1,142 @@
+<include file="public@header" />
+</head>
+<body>
+
+<script type="text/html" id="photos-item-tpl">
+    <li id="saved-image{id}">
+        <input id="photo-{id}" type="hidden" name="photo_urls[]" value="{filepath}">
+        <input class="form-control" id="photo-{id}-name" type="text" name="photo_names[]" value="{name}"
+               style="width: 200px;" title="图片名称">
+        <img id="photo-{id}-preview" src="{url}" style="height:36px;width: 36px;"
+             onclick="imagePreviewDialog(this.src);">
+        <a href="javascript:uploadOneImage('图片上传','#photo-{id}');">替换</a>
+        <a href="javascript:(function(){$('#saved-image{id}').remove();})();">移除</a>
+    </li>
+</script>
+
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+
+      <li class="active"><a href="#A" data-toggle="tab">排名设置</a></li>
+		</ul>
+		<form class="form-horizontal js-ajax-form margin-top-20" method="post" action="{:url('setting/rannksetPost')}">
+
+   <fieldset>
+            <div class="tabbable">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="A">
+   
+
+                        <div class="form-group">
+                            <label for="input-leftdes1" class="col-sm-2 control-label">排名设置</label>
+                            <div class="col-md-6 col-sm-10">
+                           
+
+
+
+               
+                               
+                                        <ul id="rankname" class="pic-list list-unstyled form-inline">
+                  <notempty name="rankset">
+                    <foreach name="rankset['rankname_titles']" item="vo">
+                  <li id="saved-manyinfo{$key}" style="margin-bottom: 15px;">
+                    <input class="form-control" type="text" name="rankname_en[]" style="width: 250px;" placeholder="排名首字母" value="{$rankset['rankname_en'][$key]}">
+
+                    <input class="form-control" type="text" name="rankname_titles[]" style="width: 250px;" placeholder="排名名称" value="{$vo}">
+                                <input class="form-control" type="text" name="rankname_descs[]" style="width: 250px;" placeholder="链接地址" value="{$rankset['rankname_descs'][$key]}">
+
+                                  <a href="javascript:(function(){ $('#saved-manyinfo{$key}').remove();})();" class="btn btn-small">移除</a>
+
+                    </li>
+                    </foreach>
+                  </notempty>
+                </ul>
+                                    
+
+                                <a href="javascript:addManyinfo('#rankname','rankname-item-tpl');" class="btn btn-default btn-sm">添加一组</a> 
+                               <input type="hidden" name="options[manyinfo][]" value="rankname">
+              
+
+                               <script type="text/html" id="rankname-item-tpl">
+                                <li id="saved-manyinfo{id}" style="margin-bottom: 15px;">
+                          <input class="form-control" type="text" name="rankname_en[]" style="width: 250px;" placeholder="排名首字母">
+                                <input class="form-control" type="text" name="rankname_titles[]" style="width: 250px;" placeholder="排名名称">
+                                <input class="form-control" type="text" name="rankname_descs[]" style="width: 250px;" placeholder="链接地址">
+                                <a href="javascript:(function(){$(\'#saved-manyinfo{id}\').remove();})();">移除</a>
+                                </li>
+                                </script>
+
+
+                            </div>
+                        </div>
+
+                         
+
+
+
+
+
+
+ <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+
+             
+
+          
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+             editorcontent2 = new baidu.editor.ui.Editor();
+              editorcontent3 = new baidu.editor.ui.Editor();
+              editorcontent4 = new baidu.editor.ui.Editor();
+              editorcontent5 = new baidu.editor.ui.Editor();
+            editorcontent.render('full1');
+             editorcontent2.render('full2');
+              editorcontent3.render('area');
+               editorcontent4.render('licheng');
+               editorcontent5.render('xieyi');
+            try {
+                editorcontent.sync();
+                 editorcontent2.sync();
+                   editorcontent3.sync();
+                    editorcontent4.sync();
+                    editorcontent5.sync();
+            } catch (err) {
+            }
+
+		
+		})
+    </script>

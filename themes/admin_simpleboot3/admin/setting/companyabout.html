@@ -1,0 +1,114 @@
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+
+      <li class="active"><a href="#A" data-toggle="tab">设置服务特色</a></li>
+        <li><a href="#B" data-toggle="tab">设置服务协议</a></li>
+        <li><a href="#C" data-toggle="tab">设置院校合作</a></li>
+		</ul>
+		<form class="form-horizontal js-ajax-form margin-top-20" method="post" action="{:url('setting/companyaboutPost')}">
+
+   <fieldset>
+            <div class="tabbable">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="A">
+
+		
+                   <div class="form-group">
+                            <label for="input-fwts" class="col-sm-2 control-label">服务特色</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea id="fwts"
+                                          name="options[fwts]">{$company_info.fwts|default=''}</textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+               </div>
+
+                  <div class="tab-pane" id="B">
+ <div class="form-group">
+                            <label for="input-xieyi" class="col-sm-2 control-label">服务协议</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  id="xieyi"
+                                          name="options[xieyi]">{$company_info.xieyi|default=''}</textarea>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+
+               </div>
+
+
+                <div class="tab-pane" id="C">
+
+            <div class="form-group">
+                            <label for="input-hezuo" class="col-sm-2 control-label">院校合作</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  id="hezuo"
+                                          name="options[hezuo]">{$company_info.hezuo|default=''}</textarea>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary js-ajax-submit" data-refresh="0">
+                                    {:lang('SAVE')}
+                                </button>
+                            </div>
+                        </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+             editorcontent2 = new baidu.editor.ui.Editor();
+              editorcontent3 = new baidu.editor.ui.Editor();
+            editorcontent.render('fwts');
+             editorcontent2.render('xieyi');
+              editorcontent3.render('hezuo');
+            try {
+                editorcontent.sync();
+                 editorcontent2.sync();
+                   editorcontent3.sync();
+            } catch (err) {
+            }
+
+		
+		})
+    </script>

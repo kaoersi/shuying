@@ -1,0 +1,11 @@
+<div class="Hot_aside Hot_tags">
+<h2>热门标签</h2>
+<div class="Hot_Tags_list clearfix">
+	<php>
+$foot_list_labels=Db::query("select * from ls_cms_tags   order by nums desc limit 0,8");
+</php>
+<foreach name='foot_list_labels' item="vo" key='k'>
+ <a href="{:cmf_url('cms/List/indextag',array('id'=>$vo['id']))}" target="_blank" title="{$vo.name}">{$vo.name}</a></if>
+</foreach>
+</div>
+</div>

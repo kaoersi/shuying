@@ -1,0 +1,9 @@
+{
+    "name": "全部资讯",
+    "action": "cms/List/index",
+    "description": "最新资讯列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

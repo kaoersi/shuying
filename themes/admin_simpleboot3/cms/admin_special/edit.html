@@ -1,0 +1,96 @@
+<include file="public@header"/>
+</head>
+<body>
+<include file="admin_major/fx_jd" />
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+            <li><a href="{:url('AdminSpecial/index')}">专题列表</a></li>
+           <li  class="active"><a href="javascript:void(0);">修改专题</a></li> 
+	</ul>
+	<form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('AdminSpecial/editPost')}">
+<input type="hidden" name="post[id]" value="{$result.id}">
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[title]" id="title" required value="{$result.title}"
+                                    placeholder="请输入标题" />
+			</div>
+		</div>
+		
+			<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seotitle]" id="seotitle" required 
+                                    placeholder="请输入SEO标题" value="{$result.seotitle}" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO关键词:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seokeyword]" id="seokeyword" required
+                                    placeholder="请输入SEO关键词" value="{$result.seokeyword}" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO描述:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seodescription]" id="seodescription" required 
+                                    placeholder="请输入SEO描述" value="{$result.seodescription}" />
+			</div>
+		</div>
+		
+
+         <div class="form-group">
+                            <label for="input-content" class="col-sm-2 control-label">内容</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea id="content"
+                                          name="post[content]">{$result.content}</textarea>
+                            </div>
+                        </div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">发布时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text"
+                                    name="post[create_time]" value="{:date('Y-m-d H:i',$result['create_time'])}">
+			</div>
+		</div>
+
+
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-primary js-ajax-submit">{:lang("SAVE")}</button>
+			<a class="btn btn-default" href="__URL__">返回</a>
+		</div>
+	</form>
+
+</div>
+
+</body>
+</html>
+ <script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+  <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+
+               editorcontent.render('content');
+
+            try {
+                editorcontent.sync();
+
+            } catch (err) {
+            }
+
+		
+		})
+    </script>
+
+
+	

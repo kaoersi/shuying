@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>{$article.title|default=''}_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+    <meta name="keywords" content="{$article.keywords}"/>
+    <meta name="description" content="{$article.description}"/>
+			<include file="public@headertop" />
+			<link rel="stylesheet" href="/public/js/prohibit.css" />
+            <script type="text/javascript" src="/public/js/prohibit.js"></script>
+            <meta name="browsermode" content="application"/>
+	</head>
+	<body>
+   <include file="public@header" />
+<div class="banner_article">
+    <div class="breadcrumbs">
+        <div class="wrapper">
+            <p>当前位置:<a href="__ROOT__/">首页</a> &gt; 
+                <cms:breadcrumb cid="$category['id']" self="true">
+                    <if condition="$vo['id'] neq 7">
+                        <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name} </a>
+                        <if condition="$i eq count($__BREADCRUMB_ITEMS__)"><else/>&gt;</if>
+                    </if>
+                </cms:breadcrumb>
+				<a href="{:cmf_url('cms/List/index',array('id'=>$category_parent['id']))}" class="go_back" title="返回">返回</a>
+			</p>
+		</div>
+    </div>
+</div>
+<div class="inside-wrap wrapper clearfix" id="inside-wrap-new">
+<div class="yxk-show-l">
+<div class="wd-show-box clearfix">
+ <div class="new-details-head">
+     <h1 class="detail-tit">{$article.title}</h1>
+     <div class="tit_addon tit_addon2">
+     <span class="time">{:date('Y-m-d H:i:s',$article.published_time)}</span>
+     <span class="writer">
+           <php>
+                                            if(!empty($article['keywords'])){
+
+        $article['keywords'] = str_replace('，', ',', $article['keywords']);
+        $keywords_arr = explode(',', $article['keywords']);
+                                            }else{
+                                            $keywords_arr ='';
+                                            }
+                                            </php>
+                                            <if condition="$keywords_arr neq ''">
+                                                <foreach name='keywords_arr' item='vk'>
+                                                 <if condition="$vk neq ''">
+<php>
+  $taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();
+</php>
+    <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}</a></if></foreach></if></span></div>
+ </div>
+ <p class="wd_description">
+{$article.description}
+ </p>
+<php>
+$answer_avatar=array('课程顾问-Lea'=>'1','课程顾问-Eva'=>'2','课程顾问-Frank'=>'3','课程顾问-Lydia'=>"4",'课程顾问-Alan'=>'5','课程顾问-小管家'=>'6','课程顾问-Lucky'=>'7');
+</php>
+<div class="show-wenda-div">
+							<h5 class="best">满意回答<span>时间：{$article.answer_time}</span></h5>
+							<ul>
+								<li class="nobor">
+									<div class="show-wenda-li1">
+										<img src="/public/images/answeravatar/{$answer_avatar[$article['answer_user']]}.jpg" alt="{$article.answer_user}">
+										<span>
+											<div><i>{$article.answer_user}</i></div>
+											<a  rel="nofollow" href="{$site_info.online_url|default=''}" class="zxnow" target="_blank" title="塾樱咨询客服">立即咨询</a>
+										</span>
+									</div>
+									<div class="show-wenda-li2">
+										 <php>
+                            $con=htmlspecialchars_decode($article['content']);
+                            $con=str_replace('src="default/','src="/upload/default/',$con);
+                            echo $con;</php>
+									</div>
+								</li>
+							</ul></div></div>
+<div class="wd-show-box clearfix pt0">
+<div class="show-wenda-div">
+							<h5  class="other">其他回答</h5>
+							<ul class="show-wenda-div-ul">
+							<if condition="$article['content2'] neq ''">
+								<li>
+									<div class="show-wenda-li1">
+										<img src="/public/images/answeravatar2/{$answer_avatar[$article['answer_user2']]}.jpg" alt="">
+										<span>
+											<div>
+												<i>{$article.answer_user2|default="匿名"}</i>
+												<em>编辑于{$article.answer_time2}</em></div>
+											<a rel="nofollow" href="{$site_info.online_url|default=''}" class="zxnow" target="_blank" title="塾樱咨询客服">立即咨询</a></span>
+									</div>
+									<div class="show-wenda-li2">
+										<php>
+									$con2=htmlspecialchars_decode($article['content2']);
+									</php>
+										{$con2}
+									</div>
+								</li>
+								</if>
+<if condition="$article['content3'] neq ''">
+								<li>
+									<div class="show-wenda-li1">
+										<img src="/public/images/answeravatar3/{$answer_avatar[$article['answer_user3']]}.jpg" alt="塾樱咨询微信">
+										<span>
+											<div>
+												<i>{$article.answer_user3|default="匿名"}</i>
+												<em>编辑于{$article.answer_time3}</em>
+											</div>
+											<a rel="nofollow" href="{$site_info.online_url|default=''}" class="zxnow" target="_blank" title="塾樱咨询客服">立即咨询</a>
+										</span>
+									</div>
+									<div class="show-wenda-li2">
+										<php>$con3=htmlspecialchars_decode($article['content3']);</php>{$con3}
+									</div>
+								</li>
+								</if>
+							</ul>
+						</div></div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<div class="Hot_aside Hot_Ask">
+<h2>最新问答</h2>
+<ul class="hot_list clearfix">
+	<php>
+$zx_wd_list_wd=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id='25'  order by  create_time desc limit 0,8");
+</php>
+<foreach name='zx_wd_list_wd' item="vo" key='k'>
+<li><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}<span style="display:none">{:date('Y-m-d H:i:s',$vo.published_time)}</span></a></li>
+</foreach>
+</ul>
+</div>
+<include file="public@right_relation_wd" />
+<include file="public@right_hotlabel" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+	$("#a_li_7").parent().addClass('active');
+		</script>
+	</body>
+</html>

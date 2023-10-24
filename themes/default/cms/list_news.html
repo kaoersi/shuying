@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+</head>
+<body>
+	<include file="public@header" />
+    <div class="banner_article">
+        <div class="breadcrumbs">
+            <div class="wrapper">
+                <p>当前位置:
+        			<a href="__ROOT__/">首页 </a> &gt;
+                    <cms:breadcrumb cid="$category['id']" self="true">
+                        <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name} </a>
+                        <if condition="$i eq count($__BREADCRUMB_ITEMS__)"><else/>&gt;</if>
+                    </cms:breadcrumb>
+            			<a href="{:cmf_url('cms/List/index',array('id'=>$category_parent['id']))}" class="go_back">返回</a>
+        		</p>
+        	</div>
+    	</div>
+    </div>
+
+    <include file="public@label_top_all" />
+    <div class="inside-wrap wrapper clearfix" id="inside-wrap-case">
+
+        <div class="yxk-show-l">
+            <div class="yxk-show-article yxk-show-articlenew clearfix">
+                <div class="school_news_list">
+                    <if condition="$category['id'] == 37">
+                        <php>
+                            $whereArr['channel_id'] = array(37,38,40,56,57,58,59,60,61,41,49,52,53,54,55,64,65,66,67,68,69,70,71); // 其他条件
+                            
+                            $ids=explode(',',$taginfo['archives']);
+                            $news_list=  Db::name('CmsArchives')->where($whereArr)->order('hits desc')->paginate(10);
+                            
+                        </php>
+
+                        <foreach name="news_list" item="vo">
+                            <php>
+                                $more=json_decode($vo['more'],true);
+                            </php>
+                            <dl> 
+                                <dt>
+                                    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" class="scale-img">
+                                        <if condition="$more.thumbnail neq ''">
+                                            <img src="{:get_img_url($more.thumbnail)}" alt="">
+                                        <else/>
+                                            <img src="/public/images/schoolnews.jpg" alt="">
+                                        </if>
+                                    </a>
+                                </dt> 
+                                <dd>
+                                    <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self">{$vo['title']}</a></h3> 
+                                    <div class="tit_addon">
+                                        <span class="time">{:date('Y-m-d',$vo.published_time)}</span>
+                                        <span class="tags">
+                                            <php>
+                                                if(!empty($vo['keywords'])){
+                                                    $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+                                                    $keywords_arr = explode(',', $vo['keywords']);
+                                                }else{
+                                                    $keywords_arr ='';
+                                                }
+                                            </php>
+                                            <if condition="$keywords_arr neq ''">
+                                                <foreach name='keywords_arr' item='vk'>
+                                                <if condition="$vk neq ''">
+                                                    <php>
+                                                        $taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();
+                                                    </php>
+                                                    <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank">{$vk}</a></if>
+                                                </foreach>                           
+                                            </if>
+                                         </span>
+                                    </div> 
+                                    <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.description}...</a></p>
+                                </dd> 
+                            </dl>
+                        </foreach>
+                    <else/>
+                        <php>
+                            $where= function($query){
+                                $query->where('a.create_time','egt',0);
+                            };
+                            $page=[
+                                'list_rows'=>6,
+                                'next'=>'>',
+                                'prev'=>'<',
+                                'path' => '/'.$category['alias'].'page_[PAGE].html',
+                            ];
+                        </php>
+                        <cms:articles categoryIds="$category['id']" page="$page" relation="true">
+                            <dl> 
+                                <dt>
+                                    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" class="scale-img">
+                                        <if condition="$vo.more.thumbnail neq ''">
+                                            <img src="{:get_img_url($vo.more.thumbnail)}" alt="">
+                                        <else/>
+                                            <img src="/public/images/schoolnews.jpg" alt="">
+                                        </if>
+                                    </a>
+                                </dt> 
+                                <dd>
+                                    <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self">{$vo.title}</a></h3> 
+                                    <div class="tit_addon">
+                                        <span class="time">{:date('Y-m-d',$vo.published_time)}</span>
+                                        <span class="tags">
+                                            <php>
+                                                if(!empty($vo['keywords'])){
+                                                    $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+                                                    $keywords_arr = explode(',', $vo['keywords']);
+                                                }else{
+                                                    $keywords_arr ='';
+                                                }
+                                            </php>
+                                            <if condition="$keywords_arr neq ''">
+                                                <foreach name='keywords_arr' item='vk'>
+                                                <if condition="$vk neq ''">
+                                                    <php>
+                                                        $taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();
+                                                    </php>
+                                                    <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank">{$vk}</a></if>
+                                                </foreach>                           
+                                            </if>
+                                         </span>
+                                    </div> 
+                                    <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.description}...</a></p>
+                                </dd> 
+                            </dl>
+                        </cms:articles>
+                    </if>
+                </div>
+                <div class="listpage clearfix">
+                    <if condition="$category['id'] == 37">
+                        <php>
+                            $str_page=$news_list->render();
+                            $str_pagenew=str_replace('?','/?',$str_page);
+                        </php>
+                        {$str_pagenew}
+                    <else/>
+                        <page/> 
+                    </if>	
+                </div>
+            </div>
+            <include file="public@footer_tabinfo" />
+        </div>
+
+        <div class="wrap-r">
+            <include file="public@right_zuixin_news" />
+            <include file="public@right_hotlabel" />
+            <include file="public@right_relation_news" />
+        </div>
+    </div>
+
+    <include file="public@footer" />
+    <include file="public@footerjs" />
+    <script type="text/javascript">
+    	kao.common();	
+    </script>
+</body>
+</html>

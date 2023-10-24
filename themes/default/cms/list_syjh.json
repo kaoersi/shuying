@@ -1,0 +1,9 @@
+{
+    "name": "塾樱计划",
+    "action": "cms/List/index",
+    "description": "塾樱计划列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

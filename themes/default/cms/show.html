@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{$article.title|default=''}_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+    <meta name="keywords" content="{$article.keywords}"/>
+    <meta name="description" content="{$article.description}"/>
+			<include file="public@headertop" />
+			<link rel="stylesheet" href="/public/js/prohibit.css" />
+            <script type="text/javascript" src="/public/js/prohibit.js"></script>
+            <meta name="browsermode" content="application"/>
+</head>
+	<body>
+   <include file="public@header" />
+   
+<div class="banner_article">
+    <div class="breadcrumbs">
+        <div class="wrapper">
+            <p>当前位置:<a href="__ROOT__/">首页</a> &gt; 
+                <cms:breadcrumb cid="$category['id']" self="true">
+                    <if condition="$vo['id'] neq 7">
+                        <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name} </a>
+                        <if condition="$i eq count($__BREADCRUMB_ITEMS__)"><else/>&gt;</if>
+                    </if>
+                </cms:breadcrumb>
+				<a href="{:cmf_url('cms/List/index',array('id'=>$category_parent['id']))}" class="go_back" title="返回">返回</a>
+			</p>
+		</div>
+    </div>
+</div>
+<div class="inside-wrap wrapper clearfix" id="inside-wrap-new">
+    <div class="yxk-show-l">
+        <div class="lxzx-show-article clearfix">
+            <div class="new-details-head">
+                <h1 class="detail-tit">{$article.title}</h1>
+                <div class="tit_addon tit_addon2">
+                    <span class="time">{:date('Y-m-d H:i:s',$article.published_time)}</span>
+                    <span class="writer">
+                        <php>
+                            if(!empty($article['keywords'])){
+                                $article['keywords'] = str_replace('，', ',', $article['keywords']);
+                                $keywords_arr = explode(',', $article['keywords']);
+                            }else{
+                                $keywords_arr ='';
+                            }
+                        </php>
+                        <if condition="$keywords_arr neq ''">
+                            <foreach name='keywords_arr' item='vk'>
+                                <if condition="$vk neq ''">
+                                    <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                    <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}</a>
+                                </if>
+                           </foreach>
+                       </if>
+                    </span>
+                </div>
+            </div>
+            <div class="article_content">
+            <php>echo htmlspecialchars_decode($article['content'])</php>
+        </div>
+        <div class="getPre">
+	        <dl>
+			    <empty name="prev_article.title">
+				<dd class="trs">上一条：没有了</dd>
+			    <else />
+				    <dd  class="trs">上一条：<a href="{:cmf_url('cms/Archives/index',array('id'=>$prev_article['id'],'cid'=>$prev_article['channel_id']))}" title="{$prev_article.title}">{$prev_article.title}</a></dd>
+				</empty>
+				<empty name="next_article.title">
+				<dd class="trs">下一条：没有了</dd>
+				<else />
+				<dd  class="trs">下一条：<a href="{:cmf_url('cms/Archives/index',array('id'=>$next_article['id'],'cid'=>$next_article['channel_id']))}" title="{$next_article.title}">{$next_article.title}</a></dd>
+				</empty>
+			</dl>
+        </div>
+    </div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<include file="public@right_zuixin_news" />
+<include file="public@right_hotlabel" />
+<include file="public@right_relation_news" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			$("#a_li_7").parent().addClass('active');
+		</script>
+	</body>
+</html>

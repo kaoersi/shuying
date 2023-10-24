@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <php>
+ $taginfo=  Db::name('CmsTags')->where(array('id'=>$id))->find();
+  if(empty($taginfo)){
+ echo "<script>window.location.href='/404.html';</script>";
+ }
+</php>
+        <meta charset="UTF-8">
+   <title>{$taginfo.name}_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+     <meta name="keywords" content="{$taginfo.keywords}"/>
+     <meta name="description" content="{$taginfo.description}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<div class="banner banner_wenda"></div>
+<div class="all_labels wrapper">
+<label>文章标签</label>
+<p class="top_label_show" style="margin-bottom: 2px;">
+<a style="color:#d5417b;">{$taginfo.name}</a></p>
+<a href="{:cmf_url('cms/List/tag')}" class="btn_all_tags" title="全部标签">全部标签&nbsp;&nbsp;></a></div>
+<div class="inside-wrap wrapper clearfix" id="inside-wrap-case">
+<div class="yxk-show-l">
+<div class="case-show-list clearfix">
+<div class="school_news_list school_case_list"> 
+<php>
+$whereArr['channel_id'] = array(24,37,38,40,56,57,58,59,60,61,62,41,49,52,53,54,55,25,64,65,66,67,68,69,70,71); // 其他条件
+$whereArr['status'] = 1;
+$whereArr['delete_time'] = 0;
+$ids=explode(',',$taginfo['archives']);
+$news_list=  Db::name('CmsArchives')->where('id','in',$ids)->where($whereArr)->order('create_time desc')->paginate(10);
+</php>
+<foreach name="news_list" item="vo" >
+ <php>$more=json_decode($vo['more'],true);</php>
+    <dl> 
+    <dt><a class="scale-img" title="{$vo.title}"><img src="{:get_img_url($more.thumbnail)}" alt="{$vo.title}" ></a></dt> 
+    <dd> 
+    <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="{$vo.title}">{$vo.title}</a></h3> 
+     <div class="tit_addon">
+     <span class="time">{:date('Y-m-d H:i:s',$vo.published_time)}</span>
+     <span class="tags">
+           <php>
+                                            if(!empty($vo['keywords'])){
+
+        $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+        $keywords_arr = explode(',', $vo['keywords']);
+                                            }else{
+                                            $keywords_arr ='';
+                                            }</php>
+           <if condition="$keywords_arr neq ''">
+                                           
+                     <foreach name='keywords_arr' item='vk'>
+                    <if condition="$vk neq ''">
+        <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+        <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}</a></if>
+        </foreach></if></span></if>
+     </div> <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="{$vo.title}">{$vo.description|mb_substr=0,70,'utf-8'}...</a></p> </dd> 
+    <a class="plus">+</a>
+   </dl>
+  </foreach>
+</div>
+<div class="listpage clearfix">
+            {$news_list->render()} </div>
+</div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<include file="public@right_zuixin_news" />
+<include file="public@right_hotlabel" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+		</script>
+	</body>
+</html>

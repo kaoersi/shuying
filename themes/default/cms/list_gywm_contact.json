@@ -1,0 +1,9 @@
+{
+    "name": "关于我们-联系我们",
+    "action": "cms/List/index",
+    "description": "关于我们-联系我们列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

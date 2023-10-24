@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<include file="public@banner" />
+<php>
+$info=Db::query("select * from ls_cms_archives as a left join ls_cms_apprxfd as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='".$category->id."' order by a.id asc limit 0,1");
+if(isset($info[0])){
+$post=$info[0];
+$more=json_decode($info[0]['more'],true);
+$image=get_img_url($more['thumbnail']);
+}else{
+$post='';
+$image='';
+}
+</php>
+<div class="section_rxfd clearfix bgf2f3f5">
+<div class="wrapper">
+<em>[入学試験]</em>
+<h5 >{$category.name2}</h5>
+<div class="rxfd_info">
+{$post.apply_con}
+</div>
+<div class="rxfd_about_bot">
+<div class="rxfd_nav clearfix">
+<a title="" class="hover" style="cursor:pointer">{$post.tab_tit1}</a>
+<a title="" style="cursor:pointer">{$post.tab_tit2}</a>
+<a title="" style="cursor:pointer">{$post.tab_tit3}</a>
+<a title="" style="cursor:pointer">{$post.tab_tit4}</a>
+</div>
+<div class="rxfd_con_show hover rxfd_con_show1">
+<strong>{$post.tab_tit1_fu}</strong>
+<i>Characteristic</i>
+<div class="rx_left">
+<img src="{:get_img_url($post.tab_tit1_img)}" alt="{$post.tab_tit1}">
+</div>
+<div class="rx_right">
+<php>$tab_tit1_desc1=json_decode($post['tab_tit1_desc1'],true);</php>
+<dl>
+<dt>{$tab_tit1_desc1[0]['title']}</dt>
+<dd>{$tab_tit1_desc1[0]['desc']}</dd>
+</dl>
+<dl>
+<dt>{$tab_tit1_desc1[1]['title']}</dt>
+<dd>
+	{$tab_tit1_desc1[1]['desc']}
+<a target="_blank" href="{$site_info.online_url|default=''}"  class="more" title="点击咨询">点击咨询</a>
+</dd>
+</dl>
+</div>
+</div>
+<div class="rxfd_con_show rxfd_con_show2">
+<strong>{$post.tab_tit2_fu}</strong>
+<i>Characteristic</i>
+<div class="rx_left">
+<img src="{:get_img_url($post.tab_tit2_img)}">
+</div>
+<div class="rx_right">
+<php>
+$tab_tit2_desc1=json_decode($post['tab_tit2_desc1'],true);
+</php>
+<dl>
+<dt>{$tab_tit2_desc1[0]['title']}</dt>
+<dd>{$tab_tit2_desc1[0]['desc']}</dd>
+</dl>
+<dl>
+<dt>{$tab_tit2_desc1[1]['title']}</dt>
+<dd>
+	{$tab_tit2_desc1[1]['desc']}
+<a target="_blank" href="{$site_info.online_url|default=''}"  class="more" title="点击咨询">点击咨询</a>
+</dd>
+</dl>
+</div>
+</div>
+<div class="rxfd_con_show rxfd_con_show3">
+<strong>{$post.tab_tit3_fu}</strong>
+<i>Characteristic</i>
+<div class="rx_left">
+<img src="{:get_img_url($post.tab_tit3_img)}" alt="">
+</div>
+<div class="rx_right">
+<php>
+$tab_tit3_desc1=json_decode($post['tab_tit3_desc1'],true);
+</php>
+<dl>
+<dt>{$tab_tit3_desc1[0]['title']}</dt>
+<dd>{$tab_tit3_desc1[0]['desc']}</dd>
+</dl>
+<dl>
+<dt>{$tab_tit3_desc1[1]['title']}</dt>
+<dd>
+	{$tab_tit3_desc1[1]['desc']}
+<a target="_blank" href="{$site_info.online_url|default=''}"  class="more" title=点击咨询"">点击咨询</a>
+</dd>
+</dl>
+</div>
+</div>
+<div class="rxfd_con_show rxfd_con_show4">
+<strong>{$post.tab_tit4_fu}</strong>
+<i>Characteristic</i>
+<div class="rx_left">
+<img src="{:get_img_url($post.tab_tit4_img)}">
+</div>
+<div class="rx_right">
+<php>
+$tab_tit4_desc1=json_decode($post['tab_tit4_desc1'],true);
+</php>
+<dl>
+<dt>{$tab_tit4_desc1[0]['title']}</dt>
+<dd>{$tab_tit4_desc1[0]['desc']}</dd>
+</dl>
+<dl>
+<dt>{$tab_tit4_desc1[1]['title']}</dt>
+<dd>
+	{$tab_tit4_desc1[1]['desc']}
+<a target="_blank" href="{$site_info.online_url|default=''}"  class="more" title="点击咨询">点击咨询</a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+<php>
+$zhuanye_1_con=json_decode($post['zhuanye_1_con'],true);
+</php>
+<div class="section_rxfd_plan clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfdplan">入学笔面试课程设计 <span>  / カリキュラム</span></div>
+<div class="rxfd_con_plan">
+<div class="planleft">
+<foreach name='zhuanye_1_con' item="vo" key='k'>
+<div   <if condition="$k eq 0">class="planbox hover" <else/>class="planbox"</if>>
+<h5>{$vo.stit}</h5>
+<ul class="scrollBox" >
+<li>
+	<php>echo str_replace('|',"</li><li>",$vo['desc']);</php>
+</li>
+</ul>
+</div>
+</foreach>
+</div>
+<div class="planright">
+<div class="planright_box">
+<foreach name='zhuanye_1_con' item="vo" key='k'>
+<p <if condition="$k eq 0">class="hover" </if>>{$vo.title}</p>
+</foreach>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section_rxfdmajor clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfdmajor">可辅导专业范围 <span> / 指導可能専攻範囲 </span></div>
+<div class="rxfdmajor_con">
+<div class="txt_word"><p>专业涉及</p><h2>93.7%</h2></div>
+<i></i>
+<em></em>
+<label></label>
+<img src="/public/images/rxfd_major_img.png" class="rxfdmajor_img" alt="">
+<php>
+$zyfw_1=json_decode($post['zyfw_1'],true);
+</php>
+<foreach name='zyfw_1' item="vo" key='k'>
+<div class="major_txt major_txt{$k+1}">
+<strong>{$vo.title}</strong>
+<p><php>echo str_replace('|',"<s></s>",$vo['desc']);</php>
+</p>
+</div>
+</foreach>
+</div>
+</div>
+</div>
+<div class="section_rxfd_feature clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfdfeature">塾樱课程特色<span>  / 塾桜コースの特色</span></div>
+<div class="rxfd_feature_con">
+<div class="rxfd_feature_left">
+<img src="/public/images/rxfd_feature_left.png" alt="塾樱课程特色">
+</div>
+<div class="rxfd_feature_right">
+<ul>
+<php>
+$kcts=json_decode($post['kcts'],true);
+</php>
+<foreach name='kcts' item="vo" key='k'>
+<li>
+	<strong>{$vo.title}</strong>
+	<p>{$vo['desc']}</p>
+</li>
+</foreach>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section_rxfd_jd clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfdjd">特色课程教学监督<span>   / 教育監督</span></div>
+<img src="/public/images/rxfd_jd_img.jpg" class="rxfd_jd_img">
+</div>
+</div>
+	<div class="section-teacher clearfix">
+						    <div class="wrapper">
+							<div class="school_tit school_tit_teacher">师资介绍<span>/ 指導教師 </span></div>
+							<include file="public@teacher_list" />
+						    </div>
+						 </div>
+	<div class="section-news clearfix">
+						<div class="wrapper">
+<div class="school_tit school_tit_news">相关资讯<span>/ 関連情報 </span></div>
+						<include file="public@news_list" />
+						</div>
+</div>
+<div class="section_QA">
+<div class="wrapper">
+<div class="school_tit school_tit_QA">相关问答<span>/ Q&A </span></div>
+<include file="public@qa_list" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.tskc();
+		</script>
+	</body>
+</html>
+<script type="text/javascript" src="/public/js/scrollBar.js"></script>
+  <script>
+                $(function(){
+		            $(".scrollBox").scrollBar();
+                })
+</script>

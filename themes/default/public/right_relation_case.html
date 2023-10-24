@@ -1,0 +1,11 @@
+<div class="Hot_aside Hot_Ask">
+<h2>相关案例</h2>
+<ul class="hot_list clearfix">
+<php>
+   $foot_caselist= Db::name('CmsLxzk')->alias('a')->where('mbyx', 'like', "%".$article['mbyx']."%")->limit(8)->select()->toArray();
+</php>
+<foreach name='foot_caselist' item="vo" key='k'>
+<li><a href="{:cmf_url('cms/Abroad/index',array('id'=>$vo['id']))}">{$vo.title}&nbsp;&nbsp;{$vo.mbyx}&nbsp;&nbsp;{$vo.sqzy}</a></li>
+</foreach>
+</ul>
+</div>

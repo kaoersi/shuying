@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>搜索{$keyword}_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+      <meta name="keywords" content="{$site_info.site_seo_keywords|default=''}"/>
+    <meta name="description" content="{$site_info.site_seo_description|default=''}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<div class="banner_article">
+
+  
+           <div class="breadcrumbs">
+           <div class="wrapper">
+                     <p>当前位置:
+                <a href="__ROOT__/">首页 </a> &gt; 
+        搜索关键词:{$keyword}
+            </p>
+      </div>
+
+  </div>
+
+</div>
+
+
+
+<div class="inside-wrap wrapper clearfix" >
+
+<div class="yxk-show-l">
+
+
+<div class="case-show-list clearfix">
+
+<php>
+$listnew=$lists->toArray();
+</php>
+<if condition="$listnew['total'] neq 0">
+
+<div class="school_news_list school_case_list"> 
+
+
+
+<foreach name='lists' item="vo" key='k'>
+  <php>
+      $more=json_decode($vo['more'],true);
+  </php>
+    <dl> 
+    <dt>
+    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" class="scale-img">
+      <if condition="$vo['more'] neq ''">
+        <img src="{:get_img_url($more['thumbnail'])}">
+      <else/>
+        <img src="/public/images/newsimg1.png">
+      </if>
+    </a>
+    </dt> 
+    <dd> 
+     <h3 class="ellipsis">
+      <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">
+        <php>echo str_replace($keyword,"<font style='color:#d5417b'>".$keyword."</font>",$vo['title'])</php></a>
+      </h3> 
+      <div class="tit_addon">
+        <span class="time">{:date('Y-m-d H:i:s',$vo.update_time)}</span>
+        <php>
+            if(!empty($vo['keywords'])){
+                $vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+                $keywords_arr = explode(',', $vo['keywords']);
+            }else{
+                $keywords_arr ='';
+            }
+        </php>
+        <span class="tags">
+            <foreach name='keywords_arr' item='vk'>
+              <if condition="$vk neq ''">
+                  <php>
+                      $taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();
+                  </php>
+                  <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank">{$vk}</a>
+              </if>
+            </foreach>
+        </span>
+      </div> 
+      <p>
+        <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">     
+          <php>$jq=mb_substr($vo['description'],0,200,'utf-8');echo str_replace($keyword,"<font style='color:#d5417b'>".$keyword."</font>",$jq)</php>...
+        </a>
+      </p> 
+    </dd>
+    <a class="plus">+</a>
+   </dl>
+ </foreach>
+
+</div>
+
+
+<div class="listpage clearfix">
+   {$page}    
+
+</div>
+
+<else/>
+
+
+
+ <div class="NoSearchResults">
+      <div class="bt_bb_content"> 对不起，没有匹配到相关信息: <span class="R_search_keyword">关键词</span></div>
+        <form role="search" method="get" id="searchform" class="searchform" action="/cms/search/index" method="post" >
+                    <input type="search" name="keyword" value="{$keyword}" placeholder="Looking for..."  id="keyword">
+                    <input type="submit" value="搜索">
+      </form>
+      <div class="bt_bb_separator"></div>
+      <a href="/" target="_self"   class="gohome" title="返回首页" class="gohome">返回首页</a>
+   
+</div>
+
+
+
+
+</if>
+</div>
+
+<include file="public@footer_tabinfo" />
+
+</div>
+
+<div class="wrap-r">
+
+<include file="public@right_relation_wd" />
+<include file="public@right_hotlabel" />
+
+
+</div>
+
+</div>
+
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+		</script>
+	</body>
+</html>

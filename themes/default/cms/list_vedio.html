@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	   <head>
+        <meta charset="UTF-8">
+        <title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+        <meta name="keywords" content="{$category.more.seokeyword}"/>
+        <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<div class="banner banner_about"></div>
+<div class="section_star_vedio clearfix bgf2f3f5">
+    <div class="wrapper">
+        <div class="school_tit school_tit_starvedio">视频解析 <span>  / ビデオ解析</span></div>
+            <ul class="list_starvedio">
+                <php>
+                    $where= function($query){
+                        $query->where('a.create_time','egt',0);
+                    };
+                    $page=[
+                        'list_rows'=>9,
+                        'next'=>'>',
+                        'prev'=>'<',
+                        'path' => '/'.$category['alias'].'page_[PAGE].html',
+                    ];
+                </php>
+                <cms:articles categoryIds="$category['id']" page="$page" relation="true">
+                    <li class="video-list-li">
+                        <div class="vedio_box"><i class="btn_on"  data-id="react-video{$vo['id']}" vpath="{:get_img_url($vo.more.thumbnail)}" ipath="{:get_img_url($vo['vediourl'])}"></i><img src="{:get_img_url($vo.more.thumbnail)}" class="vedio_bg imgvediobz" alt="{$vo.title}">
+                        </div>
+                        <p>{$vo.title}</p>
+                    </li></cms:articles> 
+            </ul>
+            <div class="listpage clearfix">
+                <page />
+            </div>
+        </div>
+    </div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+
+  $(".video-list-li .btn_on").click(function(){
+
+      var img = $(this).attr('vpath');//获取视频预览图
+                var video = $(this).attr('ipath');//获取视频路径
+                $('body').append(" <div class='videos'><video id=\"video\" poster='"+img+"' style='width: 800px' src='"+video+"' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"/public/images/gb.png\" width=\"25\" height=\"25\"/></div>");
+                $('.videos').show();
+
+  })  
+
+
+function close1(){
+            var v = document.getElementById('video');//获取视频节点
+            $('.videos').hide();//点击关闭按钮关闭暂停视频
+            v.pause();
+            $('.videos').remove();
+        }
+		</script>
+	</body>
+</html>
+   <script src="/public/js/dnSlide.js"></script>
+       <script>
+    jQuery(document).ready(function($) {
+          var setting = {
+                "response" : true ,
+                afterClickBtnFn :function(i){ 
+                    $(".dnSlide-item").find('.cus_label').hide();
+                    $(".dnSlide-item:eq("+i+")").find('.cus_label').show();
+                 }
+            };
+          setting.autoPlay  =  true ;
+         $(".dnSlide-main").dnSlide(setting); 
+        $('.dnSlide-right-btn').trigger("click");
+
+    });
+    </script>

@@ -1,0 +1,73 @@
+<php>
+$ismobile2=cmf_is_mobile();
+</php>
+<if condition="$ismobile2 neq ''">
+	<div class="mobi-topNav visible-xs visible-sm clearfix">
+        <div class="mobi-logo"><a href="/"><img src="/public/images/logo.png" alt="{$site_info.site_name}"></a></div>
+        <div class="mobi_nav_default">
+            <div class="mobi_navBar">
+            	<a href="#menu_mob_nav">
+                <div id="hamburger" class="protip">
+                    <span></span>
+                </div> 
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menu_mob_nav" class="hidden-xs">
+		<ul>
+			<li><a href="/">首页</a></li>
+            <cms:categories ids='[1,2,3,4,5,6,7,8]'  order='list_order asc,id asc'>
+				<if condition="$vo['type'] eq 'page'">
+	             	<php>$typeurl=cmf_url('cms/Page/index',array('id'=>$vo['id'])); </php>
+	            <else/>
+	                <php>$typeurl=cmf_url('cms/List/index',array('id'=>$vo['id'])); </php>
+	            </if>
+
+				<li>
+					<if condition="$vo['id'] eq '1' || $vo['id'] eq '2' || $vo['id'] eq '3' || $vo['id'] eq '8'">
+						<a href="javascript:void(0);">{$vo.name}</a>
+					<else/>
+						<a href="{$typeurl}">{$vo.name}</a>
+					</if>
+				 	<if condition=" in_array($vo['id'],array('1','2','3','7','8'))">
+						<ul>
+							<php>
+								$toparr_submenu= Db::name('CmsChannel')->where(array('parent_id'=>$vo['id'],'status'=>'1'))->order('id asc')->select()->toArray();
+							</php>
+							<foreach name="toparr_submenu" item="vo1" key='k1'>
+						        <if condition="$vo1['type'] eq 'page'">
+					             	<php>$typeurl_two=cmf_url('cms/Page/index',array('id'=>$vo1['id'])); </php>
+					            <else/>
+					                <php>$typeurl_two=cmf_url('cms/List/index',array('id'=>$vo1['id'])); </php>
+					            </if>
+
+								<li>
+									<a href="{$typeurl_two}">{$vo1.name}</a>
+
+									<php>
+										$threearr_submenu= Db::name('CmsChannel')->where(array('parent_id'=>$vo1['id'],'status'=>'1'))->order('id asc')->select()->toArray();
+									</php>
+									<if condition="count($threearr_submenu) neq 0">
+										<ul>
+											 <foreach name="threearr_submenu" item="vo2" key='k2'>
+
+												<if condition="$vo2['type'] eq 'page'">
+							                        <php>$typeurl_three=cmf_url('cms/Page/index',array('id'=>$vo2['id'])); </php>
+									            <else/>
+									                <php>$typeurl_three=cmf_url('cms/List/index',array('id'=>$vo2['id'])); </php>
+									            </if>
+												<li><a href="{$typeurl_three}">{$vo2.name}</a>
+
+											 </foreach>
+										</ul>
+									</if>
+								</li>
+							</foreach>
+						</ul>
+					</if>
+				</li>
+			</cms:categories>
+        </ul>
+	</div>
+</if>

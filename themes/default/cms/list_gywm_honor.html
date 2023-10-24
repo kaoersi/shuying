@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<include file="public@banner" />
+<div class="container bgf2f3f5 containerabout">
+<div class="wrapper">
+<ul class="about_left_nav">
+  <cms:subcategories categoryId="$topid" limit="6" key='k'>
+    <?php if($category['id'] == $vo['id']) $style='hover';else $style='';?>
+<li class="{$style}"><a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+</cms:subcategories>
+</ul>
+<div class="about_right_con">
+<h3>·  {$category.name}  ·   </h3>
+<ul class="honor-list clearfix">
+  <php>
+
+                        $where= function($query){
+                            $query->where('a.create_time','egt',0);
+                        };
+                        $page=[
+                        'list_rows'=>100,
+                        'next'=>'>',
+                        'prev'=>'<',
+						'path' => '/'.$category['alias'].'page_[PAGE].html',
+                        ];
+                    </php>
+                    <cms:articles categoryIds="$category['id']" page="$page" relation="true">
+										<li>
+									
+											<img src="{:get_img_url($vo.more.thumbnail)}" alt="" class="honorimg">
+											<span>{$vo.title}</span>
+										</li></cms:articles>
+</ul>
+<div class="listpage clearfix">
+<page />               
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+		</script>
+	</body>
+</html>
+

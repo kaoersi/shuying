@@ -1,0 +1,75 @@
+<include file="public@header" />
+</head>
+
+<body>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="{:url('AdminFeedback/index')}">留言列表</a></li>
+
+        </ul>
+		<div style="padding: 10px 15px; background: #e8edf0;">收集客户前台反馈信息</div>
+        <form class="js-ajax-form" method="post">
+           
+            <table class="table table-hover table-bordered table-list">
+                <thead>
+                    <tr>
+                        <th width="16">
+                            <label>
+                                <input type="checkbox" class="js-check-all" data-direction="x"
+                                    data-checklist="js-check-x">
+                            </label>
+                        </th>
+                        <th width="100">ID</th>
+                         <th width="100">表扬/投诉</th>
+                        <th>姓名</th>
+                         <th>邮箱</th>
+                          <th>电话</th>
+						<th>备注信息</th>
+                       
+                        <th width="160">发布时间</th>
+                        
+                        <th width="120">操作</th>
+                    </tr>
+                </thead>
+          
+                <foreach name="pages" item="vo">
+                    <tr>
+						<td>
+                            <input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x"
+                                name="ids[]" value="{$vo.id}">
+                        </td>
+                        <td>{$vo.id}</td>
+                        <td><if condition="$vo['tsby'] eq 0">表扬<else/>投诉</if></td>
+                        <td>{$vo.username}</td>
+                         <td>{$vo.email}</td>
+                          <td>{$vo.tel}</td>
+                    
+                        <td>{$vo.content}</td>
+						<td>
+                            <notempty name="vo.create_time">
+                                {:date('Y-m-d H:i',$vo['create_time'])}
+                            </notempty>
+
+                        </td>
+						<td>
+
+                            <a class="btn btn-xs btn-danger js-ajax-delete"
+                                href="{:url('AdminFeedback/delete',array('id'=>$vo['id']))}">{:lang('DELETE')}</a>
+                        </td>
+						
+                    </tr>
+                </foreach>
+      
+            </table>
+            <div class="table-actions">
+                <button class="btn btn-danger btn-sm js-ajax-submit" type="submit"
+                    data-action="{:url('AdminFeedback/delete')}" data-subcheck="true" data-msg="你确定删除吗？">{:lang('DELETE')}
+                </button>
+            </div>
+            <div class="pagination">{$page}</div>
+        </form>
+    </div>
+    <script src="__STATIC__/js/admin.js"></script>
+</body>
+
+</html>

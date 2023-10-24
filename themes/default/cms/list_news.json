@@ -1,0 +1,9 @@
+{
+    "name": "新闻列表",
+    "action": "cms/List/index",
+    "description": "新闻列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

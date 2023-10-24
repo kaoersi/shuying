@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+  <title>标签列表_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+<meta name="keywords" content="{$category.more.seokeyword}"/>
+        <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<div class="banner banner_wenda"></div>
+<div class="all_labels wrapper">
+<label>标签列表</label>
+</div>
+<div class="inside-wrap wrapper clearfix" id="inside-wrap-case">
+<div class="school_news_list school_case_list"> 
+<php>$news_list= Db::name('CmsTags')->order('nums desc')->paginate(95);</php>
+    <ul class="label-container" style="display:block;">
+        <foreach name='news_list' item="vo" key='k'>
+                            <li><a href="{:cmf_url('cms/List/indextag',array('id'=>$vo['id']))}" title="{$vo.name}">{$vo.name}</a></li>
+                            </foreach>
+                        </ul>
+   <div class="listpage clearfix">
+       <php>
+           $pagestr=$news_list->render();
+           $pagestr=str_replace('?','/?',$pagestr);
+          </php>
+          {$pagestr}  
+                </div>
+</div></div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+		</script>
+	</body>
+</html>

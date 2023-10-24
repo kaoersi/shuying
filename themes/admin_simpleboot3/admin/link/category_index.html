@@ -1,0 +1,62 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap js-check-wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('link/index')}">所有友情链接</a></li>
+        <li><a href="{:url('link/add')}">添加友情链接</a></li>
+        <li class="active"><a href="{:url('link/category_index')}">友情链接类别管理</a></li>
+        <li><a href="{:url('link/category_add')}">添加类别</a></li>
+    </ul>
+ <form class="well form-inline margin-top-20" method="post" action="{:url('link/category_index')}">
+     类型名称
+        <input type="text" class="form-control" name="keyword" style="width: 200px;"
+               value="{:input('request.keyword')}"  placeholder="请输入类型名称...">
+        <input type="submit" class="btn btn-primary" value="搜索"/>
+        <a class="btn btn-danger" href="{:url('link/category_index')}">清空</a>
+    </form>
+
+    <form method="post" class="js-ajax-form margin-top-20" action="{:url('Link/listOrder')}">
+        <php>$status=array("1"=>lang('DISPLAY'),"0"=>lang('HIDDEN'));</php>
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                
+                <th width="50">ID</th>
+                <th width="150">类型名称</th>
+                <th width="150">{:lang('ACTIONS')}</th>
+            </tr>
+            </thead>
+                <foreach name="data" item="vo">
+                    <tr>
+                        <td>{$vo.id}</td>
+                        <td>{$vo.catname}</td>
+                        <td>
+                            <a class="btn btn-xs btn-primary" href="{:url('link/category_edit',array('id'=>$vo['id']))}">{:lang('EDIT')}</a>
+                            <a class="btn btn-xs btn-danger" href="{:url('link/category_del',array('id'=>$vo['id']))}" class="js-ajax-delete" onclick='return del();'>
+                                {:lang('DELETE')}
+                            </a>
+                        </td>
+                    </tr>
+                </foreach>
+        </table>
+    </form>
+    <ul class="pagination">{$page|default=''}</ul>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+<script type="text/javascript">
+function del()
+{
+    if (confirm("重要提示：此删除会删除所有属于此类别的友情链接！确定要删除吗？")) {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+
+}
+
+</script>
+</body>
+</html>

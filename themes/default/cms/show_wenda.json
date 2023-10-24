@@ -1,0 +1,8 @@
+{
+    "name": "新闻详情页",
+    "action": "cms/Archives/index",
+    "description": "新闻详情页",
+    "order": 10.0,
+    "more": {
+    }
+}

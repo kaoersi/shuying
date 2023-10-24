@@ -1,0 +1,53 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+  
+  RewriteRule ^HighSchool\/$ /highschool/ [R=301,L]
+  RewriteRule ^Undergraduate\/$ /undergraduate/ [R=301,L]
+  RewriteRule ^ResearchStudent\/$ /researchStudent/ [R=301,L]
+  RewriteRule ^Graduate\/$ /graduate/ [R=301,L]
+  RewriteRule ^SGU\/$ /sgu/ [R=301,L]
+  RewriteRule ^LanguageSchool\/$ /languageschool/ [R=301,L]
+  RewriteRule ^N3\/$ /n3/ [R=301,L]
+  RewriteRule ^N2\/$ /n2/ [R=301,L]
+  RewriteRule ^N1\/$ /n1/ [R=301,L]
+  RewriteRule ^EJU\/$ /eju/ [R=301,L]
+  RewriteRule ^ResearchProposal\/$ /researchproposal/ [R=301,L]
+  RewriteRule ^WrittenExam\/$ /writtenexam/ [R=301,L]
+  RewriteRule ^Oralexam\/$ /oralexam/ [R=301,L]
+  RewriteRule ^Portfolio\/$ /portfolio/ [R=301,L]
+  RewriteRule ^Plan\/$ /plan/ [R=301,L]
+  RewriteRule ^Tutor\/$ /tutor/ [R=301,L]
+  RewriteRule ^Introduction\/$ /introduction/ [R=301,L]
+  RewriteRule ^Service\/$ /service/ [R=301,L]
+  RewriteRule ^ContactUs\/$ /contactus/ [R=301,L]
+  RewriteRule ^ServiceContract\/$ /servicecontract/ [R=301,L]
+  
+  RewriteRule ^Japaneseuniversities\/$ /jpschool/ [R=301,L]
+  RewriteRule ^Japaneseuniversities\/([1-9[0-9]*)\.html$ /jpschool-$1.html [R=301,L]
+  RewriteRule ^JapaneseLanguageSchool\/$ /jlschool/ [R=301,L]
+  RewriteRule ^JapaneseLanguageSchool\/([1-9[0-9]*)\.html$ /jlschool-$1.html [R=301,L]
+  RewriteRule ^cms\/abroad\/listnew\/id\/([1-9[0-9]*)\.html$ /abroad_$1/ [R=301,L]
+  RewriteRule ^abroad\_([1-9[0-9]*)\.html$ /abroad_$1/ [R=301,L]
+  RewriteRule ^([a-z_A-Z]*)\/([1-9[0-9]*)\.html$ /$1-$2.html [R=301,L]
+  
+  RewriteRule ^tag\/([1-9[0-9]*)\/$ /tag-$1.html [R=301,L]
+  RewriteRule ^vedio.html$ /vedio/ [R=301,L]
+  RewriteRule ^N5N4/$ /n5-n4/ [R=301,L]
+  RewriteRule ^Abroad\-([1-9[0-9]*).html$ /abroad-$1.html [R=301,L]
+
+  RewriteRule ^([0-9A-Za-z_]*)/page_([0-9]+).html$ cms/List/index?cname=$1&page=$2
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^api/?(.*)$ api.php?s=$1 [QSA,PT,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?s=$1 [QSA,PT,L]
+
+  RewriteRule ^([0-9A-Za-z_]*)/page_([0-9]+).html$ cms/List/index?id=$1&page=$2  
+  
+
+</IfModule>
+

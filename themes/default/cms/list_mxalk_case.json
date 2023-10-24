@@ -1,0 +1,9 @@
+{
+    "name": "名校案例库",
+    "action": "cms/List/index",
+    "description": "名校案例库列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

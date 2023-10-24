@@ -1,0 +1,20 @@
+<div class="section_list_teacher">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <cms:articles categoryIds="5"  relation="true"  limit='10' order='a.list_order asc,a.published_time DESC'>
+            <div class="swiper-slide">
+        	    <div class="teacher_txt">
+					<img src="{:get_img_url($vo.more.thumbnail)}" alt="{$vo.title}">
+					<div class="teach_info">
+				    <span>{$vo.title}</span><php>$str=explode("|",$vo['beijing']);$str_bj=str_replace(',','</label><label>',$str[0]);</php><p><label>{$str_bj}</label></p>
+					</div>
+				</div>
+				<div class="teacher_txt_hover">
+					<span>{$vo.title}</span> 
+					<div class="teach_info_h">
+					<php>$beijing=str_replace('|','</p><p>',$vo['beijing']);$beijing2=str_replace(',','</label><label>',$beijing);</php><p><label>{$beijing2}</label></p></div>
+				</div></div></cms:articles>   </div>
+    <div class="prev_btn_teacher" style="display: none;"></div>
+    <div class="next_btn_teacher"></div>
+    </div>
+</div>

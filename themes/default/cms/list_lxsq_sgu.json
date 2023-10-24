@@ -1,0 +1,9 @@
+{
+    "name": "留学申请-SGU英文授课",
+    "action": "cms/List/index",
+    "description": "留学申请-SGU英文授课列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

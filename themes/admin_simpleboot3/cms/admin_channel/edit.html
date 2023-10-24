@@ -1,0 +1,253 @@
+<include file="public@header" />
+</head>
+
+<body>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:url('AdminChannel/index')}">分类管理</a></li>
+            <li><a href="{:url('AdminChannel/add')}">添加分类</a></li>
+            <li class="active"><a>编辑分类</a></li>
+        </ul>
+        <div style="padding: 10px 15px; background: #e8edf0;">用于管理网站的分类，可进行无限级分类，注意只有类型为列表的才可以添加文章</div>
+        <div class="row margin-top-20">
+            <div class="col-md-6"> 
+
+				
+							<div class="row" style="">
+                <div class="col-md-12" style="">
+				
+				<form class="js-ajax-form" action="{:url('AdminChannel/editPost')}" method="post">
+				
+                    <table class="table table-bordered" style="margin-bottom: -1px;">
+                        <tbody style="">
+						<tr>
+                            <th width="150">栏目类型<span class="form-required">*</span></th>
+                            <td>
+								<input type="hidden" name="type" value="{$type}">
+								<select class="form-control valid" name="type" id="input-type" aria-invalid="false" disabled>
+                                    <option value="list" <if condition="$type eq 'list'">selected</if> >列表</option>
+                                    <option value="channel" <if condition="$type eq 'channel'">selected</if> >频道</option>
+                                    <option value="link" <if condition="$type eq 'link'">selected</if> >外部链接</option>
+                                </select>
+                            </td>
+                        </tr>
+						<tr>
+                            <th>所属模型<span class="form-required">*</span></th>
+                            <td>
+                                <select class="form-control" name="model_id" id="input-model_id" disabled>
+                                    <foreach name="modelxList" item="vo">
+                                        <option value="{$vo.id}">{$vo.name}</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>						
+						<tr>
+                            <th>上级<span class="form-required">*</span></th>
+                            <td>
+                                <select class="form-control" name="parent_id" id="input-parent">
+                                    <option value="0">作为一级分类</option>
+                                    {$channel_tree}
+                                </select>
+                            </td>
+                        </tr>						
+						<tr>
+                            <th>栏目名称<span class="form-required">*</span></th>
+                            <td>
+                                <input type="text" class="form-control" id="input-name" name="name" value="{$name}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>栏目副标题</th>
+                            <td>
+                                <input type="text" class="form-control" id="input-name" name="name2" value="{$name2}">
+                            </td>
+                        </tr>   						
+						<tr>
+                            <th>别名(英文+数字)<span class="form-required">*</span></th>
+                            <td>
+                                <input type="text" class="form-control" id="input-alias" name="alias" value="{$alias|default=''}">
+                            </td>
+                        </tr>
+							
+						<tr>
+                            <th>关键字</th>
+                            <td>
+                                <input type="text" class="form-control" id="input-keywords" name="keywords" value="{$keywords}">
+                            </td>
+                        </tr>						
+						<tr>
+                            <th>描述</th>
+                            <td>
+                                <textarea class="form-control" name="description"
+                                    id="input-description">{$description}</textarea>
+                            </td>
+                        </tr>
+							
+						<tr>
+                            <th>PC端banner</th>
+                            <td>
+                                <input type="hidden" name="more[thumbnail]" class="form-control"
+                                    id="js-thumbnail-input" value="{$more.thumbnail|default=''}">
+                                <div>
+                                    <a href="javascript:uploadOneImage('图片上传','#js-thumbnail-input');">
+                                        <if condition="empty($more.thumbnail)">
+                                            <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                                id="js-thumbnail-input-preview" width="60" style="cursor: pointer" />
+                                            <else />
+                                            <img src="{:cmf_get_image_preview_url($more.thumbnail)}"
+                                                id="js-thumbnail-input-preview" width="60" style="cursor: pointer" />
+                                        </if>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>												
+						<tr>
+                            <th>移动banner</th>
+                            <td>
+                                <input type="hidden" name="more[mbanner]" class="form-control"
+                                    id="js-mbanner-input" value="{$more.mbanner|default=''}">
+                                <div>
+                                    <a href="javascript:uploadOneImage('图片上传','#js-mbanner-input');">
+                                        <if condition="empty($more.mbanner)">
+                                            <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                                id="js-mbanner-input-preview" width="60" style="cursor: pointer" />
+                                            <else />
+                                            <img src="{:cmf_get_image_preview_url($more.mbanner)}"
+                                                id="js-mbanner-input-preview" width="60" style="cursor: pointer" />
+                                        </if>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>	
+					<if condition="$type eq 'channel'">	
+						<tr>
+                            <th>频道页模板<span class="form-required">*</span></th>
+                            <td>
+                                <select class="form-control" name="channeltpl" id="input-channeltpl">
+                                    <foreach name="channel_theme_files" item="vo">
+                                        <php>$value=preg_replace('/^cms\//','',$vo['file']);</php>
+                                        <option value="{$value}" <if condition="$channeltpl eq $value">selected</if> >{$vo.name} {$vo.file}.html</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>	
+					</if>
+						
+					<if condition="$type eq 'list'">	
+						
+						<tr>
+                            <th>列表页模板<span class="form-required">*</span></th>
+                            <td>
+                                <select class="form-control" name="listtpl" id="input-listtpl">
+                                    <foreach name="list_theme_files" item="vo">
+                                        <php>$value=preg_replace('/^cms\//','',$vo['file']);</php>
+                                        <option value="{$value}" <if condition="$listtpl eq $value">selected</if> >{$vo.name} {$vo.file}.html</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>								
+						<tr>
+                            <th>详情页模板<span class="form-required">*</span></th>
+                            <td>
+                                <select class="form-control" name="showtpl" id="input-showtpl">
+                                    <foreach name="article_theme_files" item="vo">
+                                        <php>$value=preg_replace('/^cms\//','',$vo['file']);</php>
+                                        <option value="{$value}" <if condition="$showtpl eq $value">selected</if>  >{$vo.name} {$vo.file}.html</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>	
+					</if>
+					
+					<if condition="$type eq 'link'">
+						<tr>
+                            <th>外部链接</th>
+                            <td>
+                                <input type="text" class="form-control" id="input-outlink" name="outlink" value="{$outlink}">
+                            </td>
+                        </tr>
+					</if>
+
+						<tr>
+                            <th>SEO标题</th>
+                            <td>
+                                <input type="text" class="form-control"  name="more[seotitle]" value="{$more.seotitle}">
+                            </td>
+                        </tr>	
+						<tr>
+                            <th>SEO关键字</th>
+                            <td>
+                                <input type="text" class="form-control" name="more[seokeyword]" value="{$more.seokeyword}">
+                            </td>
+                        </tr>						
+						<tr>
+                            <th>SEO描述</th>
+                            <td>
+                                <textarea class="form-control" name="more[seodescription]">{$more.seodescription}</textarea>
+                            </td>
+                        </tr>							
+						
+						</tbody>
+					</table>
+                    <input type="hidden" name="id" value="{$id}">
+					<div class="form-group" style="margin-top:15px;">
+                        <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('ADD')}</button>
+                        <a class="btn btn-default" href="{:url('AdminChannel/index')}">{:lang('BACK')}</a>
+                    </div>
+					
+					</form>
+					
+
+                </div>
+
+            </div>
+				
+				
+				
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script>
+        $('#input-list_tpl').val("{$list_tpl|default=''}");
+        $('#input-one_tpl').val("{$one_tpl|default=''}");
+    </script>
+</body>
+
+<script>
+    $(function () {
+        //类型单选按钮
+        var typeVal = "{$type}";
+        init(typeVal);
+        function init(typeVal) {
+            //栏目
+            if (typeVal == 'channel') {
+                $('.model_id').show();
+                $('.type-list,.type-link').hide();
+                $('.type-channel').show();
+                $('.type-channel-list').show();
+            }
+            //列表
+            if (typeVal == 'list') {
+                $('.model_id').show();
+                $('.type-list').show();
+                $('.type-channel,.type-link').hide();
+                $('.type-channel-list').show();
+            }
+            //外部链接
+            if (typeVal == 'link') {
+                $('.model_id').hide();
+                $('.type-list').hide();
+                $('.type-channel').hide();
+                $('.type-channel-list').hide();
+                $('.type-link').show();
+            }
+        }
+        $('#input-channeltpl').val("{$channeltpl|default=''}");
+        $('#input-listtpl').val("{$listtpl|default=''}");
+        $('#input-showtpl').val("{$showtpl|default=''}");
+        $('#input-model_id').val("{$model_id|default=''}");
+    })
+</script>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "name": "海外导师库",
+    "action": "cms/List/index",
+    "description": "海外导师库列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

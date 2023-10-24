@@ -1,0 +1,9 @@
+<ul class="section_list_system clearfix">
+  <php>
+    $slide_list9= Db::name('SlideItem')->where(array('slide_id'=>'9'))->order('list_order asc,id desc')->select();
+</php>
+  <foreach name='slide_list9' item="vo" key="key">
+  <li><div class="sys_box"><i></i><em><if condition="$key lt 9">0</if>{$key+1}</em><span>{$vo.title}</span></div></li>
+</foreach>
+</ul>
+<a rel="nofollow" class="yjs_consult_btn trs"  title="点击咨询我们" href="{$site_info.online_url|default=''}" target="_blank">点击咨询我们 ></a>

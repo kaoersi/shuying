@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<div class="banner banner_glpt"></div>
+<div class="section_apply section_apply_glpt">
+<div class="wrapper">
+<div class="school_tit school_tit_apply" >为什么考JLPT？<span>/ 受験理由</span></div>
+<ul class="apply_reason clearfix">
+<php>
+$info=Db::query("select * from ls_cms_archives as a left join ls_cms_apprypx as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='".$category->id."' order by a.id asc limit 0,1");
+if(isset($info[0])){
+$post=$info[0];
+$more=json_decode($info[0]['more'],true);
+$image=get_img_url($more['thumbnail']);
+}else{
+$post='';
+$image='';
+}
+if(!empty($post['reason'])){
+	$reason=json_decode($post['reason'],true);
+}else{
+	$reason=array();
+}
+</php>
+ <foreach name='reason' item="vo" key='k'>	        
+<li><i>{$k+1}</i><h5><php>echo str_replace('|','<em></em>',$vo['title']);</php></h5><p><label><php>echo str_replace('|','</label><label>',$vo['desc']);</php></label></p></li>
+</foreach>
+</ul>
+</div>
+</div>
+<div class="section_base bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_base">基本信息<span>/ 基本情報 </span></div>
+<ul class="base_con_glpt">
+<php>
+if(!empty($post['basic'])){
+	$basic=json_decode($post['basic'],true);
+}else{
+	$basic=array();
+}
+</php>
+ <foreach name='basic' item="vo" key='k'>	    
+<li class="trs">
+<div class="base_txt_glpt trs">
+   <i></i><em></em><p>{$vo['title']}</p>
+</div>
+<div class="base_txtglpt_hover trs">
+   <p>{$vo['title']}</p><span><php>echo str_replace('|','<div clear="clearfix"></div>',$vo['desc']);</php>
+</span>
+</div>
+</li>
+</foreach>
+</ul>
+</div>
+</div>
+<div class="section_glpt_kc">
+<div class="wrapper">
+<div class="school_tit">塾樱日语课程<span> / 塾桜日本語コース</span></div>
+<div class="glpt_kc_list clearfix">
+  <php>$slide_list10= Db::name('SlideItem')->where(array('slide_id'=>'10'))->order('list_order asc,id desc')->select();</php>
+  <foreach name='slide_list10' item="vo" key="key">
+<dl class="trs">
+<dt>{$vo.title}</dt>
+<dd>
+<div class="dd_box">
+<p><php>echo str_replace('|','</p><p>',$vo['content']);</php></p></div></dd></dl>
+</foreach>
+</div>
+</div>
+</div>
+<div class="section_glpt_rank bgf2f3f5 clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_glptrank">JLPT你要达到什么级别？<span> / どのレベルまで</span></div>
+<div class="glpt_rank_con">
+  <php>$slide_list11= Db::name('SlideItem')->where(array('slide_id'=>'11'))->order('list_order asc,id desc')->select();</php>
+<div class="glpt_rank_tips">JLPT能力进阶等级</div>
+<img src="/public/images/rankline2.png" alt="">
+  <foreach name='slide_list11' item="vo" key="key">
+  <div class="rank_txt rank_txt{$key+1}"><strong>{$vo.title}</strong><p><span><php>echo str_replace('|','</span><span>',$vo['content']);</php></span></p></div>
+</foreach>
+</div>
+</div>
+</div>
+<div class="section_feature_zpj2  clearfix" id="glpt_feature_glpt">
+<div class="wrapper">
+<div class="school_tit school_tit_feature2">塾樱课程特色<span>/ 塾桜コースの特徴</span></div>
+<div class="zpj_feature_con2" id="glpt_feature_con">
+<div class="zpj_featureleft2">
+<img src="/public/images/glpt_feature_left.jpg" alt="">
+</div>
+  <php>
+    $slide_list12= Db::name('SlideItem')->where(array('slide_id'=>'12'))->order('list_order asc,id desc')->select();
+</php>
+<div class="zpj_zpj_featureright2">
+<h5>塾桜には</h5>
+  <foreach name='slide_list12' item="vo" key="key">
+<p><strong>{$vo.title}</strong><span>{$vo.content}</span></p>
+</foreach>
+</div>
+</div>
+</div>
+</div>
+<div class="section_glpt_system clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_glptsystem">塾樱教学体系<span>  / 塾桜教育システム</span></div>
+<img src="/public/images/glpt_system.jpg" class="glpt_sysytem_img" alt="">
+</div>
+</div>
+<div class="section_glpt_flow clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_glptrank">日语培训流程<span>   / 流れ</span></div>
+<if condition="$ismobile2 neq ''">
+<div class="history history-list wrapper">
+<ul class="history-ul">
+                       <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                 <span>01 联系客服</span></div></div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div></li>
+                      <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>02  安排试听</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>03 报名</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>04 分配老师</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>05 上课</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                    <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>06 完成作业</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                    <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>07 作业批改</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>08 线下跟盯</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+ </ul>
+</div>
+<else/>
+<ul class="list_glpt_flow">
+<li class="sjright">
+<div class="flow_box">
+<strong>01</strong>
+<p>联系客服</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>02</strong>
+<p>安排试听</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>03</strong>
+<p>报名</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>04</strong>
+<p>分配老师</p>
+</div>
+</li>
+<li>
+<div class="flow_box">
+<strong>08</strong>
+<p>线下跟盯</p>
+</div>
+</li>
+<li class="sjleft">
+<div class="flow_box">
+<strong>07</strong>
+<p>作业批改 </p>
+</div>
+</li>
+<li class="sjleft">
+<div class="flow_box">
+<strong>06</strong>
+<p>完成作业 </p>
+</div>
+</li>
+<li class="sjleft">
+<div class="flow_box">
+<strong>05</strong>
+<p>上课</p>
+</div>
+</li>
+</ul>
+</if>
+</div>
+</div>
+	<div class="section-teacher clearfix">
+						    <div class="wrapper">
+							<div class="school_tit school_tit_teacher ">师资介绍<span>/ 指導教師 </span></div>
+							<include file="public@teacher_list" />
+						    </div>
+						 </div>
+	<div class="section-news clearfix">
+						<div class="wrapper">
+<div class="school_tit school_tit_news">相关资讯<span>/ 関連情報 </span></div>
+						<include file="public@news_list" />
+						</div>
+</div>
+<div class="section_QA">
+<div class="wrapper">
+<div class="school_tit school_tit_QA">相关问答<span>/ Q&A </span></div>
+<include file="public@qa_list" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+		</script>
+	</body>
+</html>

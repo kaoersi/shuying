@@ -1,0 +1,28 @@
+<div class="Hot_aside Hot_Ask">
+<h2>相关新闻</h2>
+<php>
+if(!empty($article['keywords'])){
+        $article['keywords'] = str_replace('，', ',', $article['keywords']);
+        $keywords_arr = explode(',', $article['keywords']);
+       }else{
+         $keywords_arr ='';
+     }
+</php>
+<if condition="$keywords_arr neq ''">
+<php>
+$wherenews['channel_id'] = array(24,37,38,40,56,57,58,59,60,61,62,41,49,52,53,54,55); // 其他条件
+$wherenews['status'] = 1;
+$wherenews['delete_time'] = 0;
+  $tags_arc= Db::name('CmsTags')->where("type = 1")->where('name','in',$keywords_arr)->order('nums desc')->select()->toArray();
+ $fields_archivesarc = array_column($tags_arc,'archives');
+ $fields_archivesarca=explode(',',implode(',',$fields_archivesarc));
+ $fields_archivesarca=array_unique($fields_archivesarca);
+  $relation_list_news= Db::name('CmsArchives')->where('id','in',$fields_archivesarca)->where($wherenews)->order('create_time desc')->limit(0,8)->select()->toArray();
+  </php>
+  </if>
+<ul class="hot_list clearfix">
+<foreach name='relation_list_news' item="vo" key='k'>
+<li><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}<span style="display:none">{:date('Y-m-d H:i:s',$vo.published_time)}</span></a></li>
+</foreach>
+</ul>
+</div>

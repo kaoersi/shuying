@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<include file="public@banner" />
+<php>
+$info=Db::query("select * from ls_cms_archives as a left join ls_cms_appzpj as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='".$category->id."' order by a.id asc limit 0,1");
+if(isset($info[0])){
+$post=$info[0];
+$more=json_decode($info[0]['more'],true);
+$image=get_img_url($more['thumbnail']);
+}else{
+$post='';
+$image='';
+}
+</php>
+<div class="section_feature_zpj">
+<div class="wrapper">
+<div class="school_tit school_tit_feature">日本艺术专业<span>/ 芸術専攻</span></div>
+<php>
+$apply_td=json_decode($post['apply_td'],true);
+</php>
+<div class="feature_con_zpj clearfix">
+<foreach name='apply_td' item="vo" key='k'>
+<if condition="$k eq 1 || $k eq 3">
+<dl>
+<dd>
+  <strong>{$vo.title}</strong>
+  <p>{$vo.desc}</p>
+</dd>
+<div class="h22"></div>
+<dt><img src="{:get_img_url($vo.url)}" alt="{$vo.title}"></dt>
+</dl>
+<else/>
+<dl>
+<dt><img src="{:get_img_url($vo.url)}" alt="{$vo.title}"></dt>
+<div class="h22"></div>
+<dd>
+	<strong>{$vo.title}</strong>
+	<p>{$vo.desc}</p>
+</dd>
+</dl>
+</if>
+</foreach>
+</div>
+</div>
+</div>
+<div class="section_require_zpj bgf2f3f5 clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_require">作品要求<span>/ 要求</span></div>
+<div class="zpj_require_con">
+<div class="zpj_left">
+<img src="/public/images/zpj_require_left.png" alt="作品要求">
+</div>
+<div class="zpj_right">
+<ul>
+<php>
+$yaoqiu=json_decode($post['yaoqiu'],true);
+</php>
+<foreach name='yaoqiu' item="vo" key='k'>
+<li>
+	<i>{$vo.title}</i>
+	<strong>{$vo.stit}</strong>
+	<p>{$vo.desc}</p>
+</li>
+</foreach>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section_feature_zpj2  clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_feature2">塾樱课程特色<span>/ 塾桜コースの特色</span></div>
+<div class="zpj_feature_con2">
+<div class="zpj_featureleft2">
+<img src="/public/images/zpj_feature_left.jpg" alt="塾樱课程特色">
+</div>
+<div class="zpj_zpj_featureright2">
+<h5>塾桜・日本専门</h5>
+<php>
+$kcts=json_decode($post['kcts'],true);
+</php>
+<foreach name='kcts' item="vo" key='k'>
+<p><strong>{$vo.title}</strong><span>{$vo.desc}</span></p>
+</foreach>
+</div>
+</div>
+</div>
+</div>
+<div class="section_zpj_rxfd clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfd">塾樱入学辅导课程<span>  / 塾桜入學コース</span></div>
+<div class="zpj_rxfd_con">
+<img src="/public/images/zpj_circle_img.png" alt="塾樱入学辅导课程">
+<php>
+$fdkc=json_decode($post['fdkc'],true);
+</php>
+<foreach name='fdkc' item="vo" key='k'>
+<div class="zpj_rxfd_item zpj_rxfd_item{$k+1}">0{$k+1}  {$vo.title} </div>
+</foreach>
+</div>
+</div>
+</div>
+<div class="section_check_flow clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_checkflow">审核流程<span>   / 審査プロセス</span></div>
+<if condition="$ismobile2 neq ''">
+<div class="history history-list wrapper">
+<ul class="history-ul">
+                       <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>背景评估</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                      <li class="animated time-line-lishow ">
+                 
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>课程规划</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>一对一辅导</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>课后与家长和学生反馈</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>质量监督</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                    <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>督促作业</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                    <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>导师评价作业</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>定期审核作品质量</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+                     <li class="animated time-line-lishow ">
+                      <div class="dotted-line"></div>
+                      <div class="fz-txt">
+                        <div style="width:100%;">
+                                      <span>作品集完成</span>
+                                  </div>
+                                </div>
+                                <div class="his-dot">
+                                    <div class="c1"></div>
+                          <div class="c2"></div>
+                          <div class="c3"></div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                    </li>
+ </ul>
+</div>
+<else/>
+<ul class="list_glpt_flow list_check_flow">
+<li class="sjright">
+<div class="flow_box">
+<strong>01</strong>
+<p>背景评估</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>02</strong>
+<p>课程规划</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>03</strong>
+<p>一对一辅导</p>
+</div>
+</li>
+<li class="sjright">
+<div class="flow_box">
+<strong>04</strong>
+<p>课后与家长和学生反馈</p>
+</div>
+</li>
+<li>
+<div class="flow_box">
+<strong>09</strong>
+<p>作品集完成</p>
+</div>
+</li>
+<li>
+<div class="flow_box">
+<strong>08</strong>
+<p>定期审核作品质量</p>
+</div>
+</li>
+<li class="sjleft">
+<div class="flow_box">
+<strong>07</strong>
+<p>导师评价作业 </p>
+</div>
+</li>
+<li class="sjleft">
+<div class="flow_box">
+<strong>06</strong>
+<p>督促作业 </p>
+</div>
+</li>
+<li class="sjleft flow_sigle">
+<div class="flow_box">
+<strong>05</strong>
+<p>质量监督</p>
+</div>
+</li>
+</ul>
+</if>
+</div>
+</div>
+<div class="section_rxfdmajor clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_rxfdmajor">涉及专业 <span> / 専門に触れる </span></div>
+<if condition="$ismobile2 neq ''">
+<img src="{:get_img_url($post.major_mob)}"  class="zpj_major" alt="涉及专业">
+<else/>
+<img src="{:get_img_url($post.major)}"  class="zpj_major" alt="">
+</if>
+</div>
+</div>
+	<div class="section-teacher clearfix bgf2f3f5">
+						    <div class="wrapper">
+							<div class="school_tit school_tit_teacher">师资介绍<span>/ 指導教師 </span></div>
+							<include file="public@teacher_list" />
+						    </div>
+						 </div>
+	<div class="section-news clearfix bgfff">
+						<div class="wrapper">
+<div class="school_tit school_tit_news">相关资讯<span>/ 関連情報 </span></div>
+						<include file="public@news_list" />
+						</div>
+</div>
+<div class="section_QA bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_QA">相关问答<span>/ Q&A </span></div>
+<include file="public@qa_list" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+		</script>
+	</body>
+</html>

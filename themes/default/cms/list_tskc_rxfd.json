@@ -1,0 +1,9 @@
+{
+    "name": "特色课程-入学辅导",
+    "action": "cms/List/index",
+    "description": "特色课程-入学辅导列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

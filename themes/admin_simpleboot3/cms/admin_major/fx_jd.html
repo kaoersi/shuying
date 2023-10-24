@@ -1,0 +1,5 @@
+<php>
+$array_fx=array('1'=>'工科','2'=>'商科','3'=>'理科','4'=>'社科','5'=>'生命科学与医学','6'=>'教育与师范','7'=>'其他');
+$array_jd=array('1'=>'本科','2'=>'硕士','3'=>'博士');
+$array_school= Db::name('CmsArchives')->where(array('channel_id'=>'36'))->select()->toArray();
+</php>

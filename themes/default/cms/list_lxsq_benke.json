@@ -1,0 +1,9 @@
+{
+    "name": "留学申请-本科",
+    "action": "cms/List/index",
+    "description": "留学申请-本科列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

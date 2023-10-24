@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<div class="banner banner_lxzx">
+ <img src="/public/images/banner/banner_lxzx_txt.png" class="banner_lxzx_txt" alt="">
+   <form action="/cms/search/index" method="post"  name="site-search-banner" id="site-search-banner" >
+<div class="banner_mxal_box">
+<div class="mxal_Bform">
+<input type="text" name="keywordb" id="keyword_banner" value="" placeholder="请输入您要搜索的关键词">
+<a href="javascript:void(0);" class="banner_btn_search" id="banner_btn_search" title="">搜索</a>
+</div>
+   <include file="public@banner_search_item" />
+</div>
+</form>
+<style>
+.lxzx_r_con{width:100%;}
+</style>
+</div>
+<div class="section_lxzx_top clearfix">
+  <div class="wrapper">
+    <div class="school_tit school_tit_news">最新资讯<span> / ホットニュース</span><a href="{:cmf_url('cms/List/index',array('id'=>72))}" class="more">全部 &gt;</a></div>
+    <div class="section-news-con">
+      <php>
+         $news_top38= Db::name('CmsArchives')->alias('a')->
+         where('channel_id','in','37,38,40,56,57,58,59,60,61,41,49,52,53,54,55,64,65,66,67,68,69,70,71')->order('create_time desc')->limit(4)->select()->toArray();
+      </php>
+      <foreach name='news_top38' item="vo" key='k'>
+         <php>
+         $more=json_decode($vo['more'],true);
+         </php>
+        <div class="news_item">
+          <div class="news_top">
+            <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" class="top_img_a" title=""><img src="{:get_img_url($more.thumbnail)}" alt=""></a>
+            <p>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></p>
+            <span>{$vo.description|mb_substr=0,34,'utf-8'}...</span>
+            <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" class="more" title="">查看更多&gt;&gt;</a>
+          </div>
+          <div class="news_bot">
+            <php>
+              if($k == 0) $k1=0;
+              if($k ==1)  $k1=6;
+              if($k ==2)  $k1=12;
+              if($k ==3)  $k1=18;
+              $news_bot38= Db::name('CmsArchives')->alias('a')->
+              where(array('channel_id'=>'38'))->order('create_time desc')->limit($k1,6)->select()->toArray();
+             </php>
+            <foreach name='news_bot38' item="vo2" key='k2'>
+              <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title="">{$vo2.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em></a></p>
+            </foreach>
+          </div>
+        </div>
+      </foreach>
+    </div>
+  </div>
+</div>
+<div class="section-news clearfix bgf2f3f5">
+  <div class="wrapper">
+    <div class="school_tit school_tit_lxzxtop">日本热门动态<span> / ニュース</span><a href="{:cmf_url('cms/List/index',array('id'=>37))}" class="more">全部 &gt;</a></div>
+    <ul class="lxzx_con_wrap clearfix">
+      <php>
+        $news_top37= Db::name('CmsArchives')->alias('a')->
+        where('channel_id','in','37,38,40,56,57,58,59,60,61,41,49,52,53,54,55,64,65,66,67,68,69,70,71')->limit(0,4)->order('hits desc')->select()->toArray();
+      </php>
+      <foreach name='news_top37' item="vo" key='k'>
+        <php>$more=json_decode($vo['more'],true);</php>
+        <li>
+          <img src="{:get_img_url($more.thumbnail)}" alt="">
+          <div class="lxzx_r_con">
+            <!-- <em>{:date('Y-m',$vo.published_time)}</em> -->
+            <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title|mb_substr=0,18,'utf-8'}...</h5><em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></a>
+            <p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+            <div class="other_lxzx">
+              <php>
+                if($k == 0) $k1=4;
+                if($k ==1)  $k1=8;
+                if($k ==2)  $k1=12;
+                if($k ==3)  $k1=16;
+                $news_bot37= Db::name('CmsArchives')->alias('a')->
+                where('channel_id','in','37,38,40,56,57,58,59,60,61,41,49,52,53,54,55,64,65,66,67,68,69,70,71')->limit($k1,4)->order('hits desc')->select()->toArray();
+              </php>
+              <foreach name='news_bot37' item="vo2" key='k2'>
+                <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em>{:date('Y-m-d H:i:s',$vo2.published_time)}</em></a>
+              </foreach>
+            </div>
+          </div>
+        </li>
+      </foreach>
+    </ul>
+  </div>
+</div>
+<div class="section-lxzx-major clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_newsmajor">专业解析<span> / 専攻解析</span>
+<div class="starcase_nav">
+<a href="javascript:void(0);" class="hover" title="">文商</a>
+<a href="javascript:void(0);" title="">理工</a>
+<a href="javascript:void(0);" title="">医药</a>
+<a href="javascript:void(0);" title="">艺术</a>
+</div>
+</div>
+<div class="section-news-con">
+<php>
+$list_wenshang=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='52' order by list_order asc,create_time desc limit 0,4");
+$list_ligong=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='53' order by list_order asc,create_time desc limit 0,4");
+$list_yiyao=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='54'  order by list_order asc,create_time desc limit 0,4");
+$list_yishu=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='55'  order by list_order asc,create_time desc limit 0,4");
+</php>
+<div class="section-news-con-show show">
+<foreach name='list_wenshang' item="vo1" key='k1'>
+ <php>
+ $more1=json_decode($vo1['more'],true);
+ </php>
+<div class="news_item news_item2">
+<div class="news_top">
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo1['id'],'cid'=>$vo1['channel_id']))}" class="top_img_a" title=""><img src="{:get_img_url($more1.thumbnail)}" alt=""></a>
+<div class="news_top_box">
+<p>{$vo1.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo1.published_time)}</em></p>
+<span>{$vo1.description|mb_substr=0,34,'utf-8'}...</span>
+<div class="release-information">
+<label>{:date('Y-m-d H:i:s',$vo1.published_time)}</label> <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo1['id'],'cid'=>$vo1['channel_id']))}" class="more_release">查看详情</a>
+</div>
+</div>
+</div>
+</div>
+</foreach>
+</div>
+<div class="section-news-con-show">
+<foreach name='list_ligong' item="vo2" key='k2'>
+ <php>
+ $more2=json_decode($vo2['more'],true);
+ </php>
+<div class="news_item news_item2">
+<div class="news_top">
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" class="top_img_a" title=""><img src="{:get_img_url($more2.thumbnail)}" alt=""></a>
+<div class="news_top_box">
+<p>{$vo2.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em></p>
+<span>{$vo2.description|mb_substr=0,34,'utf-8'}...</span>
+<div class="release-information">
+<label>{:date('Y-m-d',$vo2.published_time)}</label> <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" class="more_release">查看详情</a>
+</div>
+</div>
+</div>
+</div>
+</foreach>
+</div>
+<div class="section-news-con-show">
+<foreach name='list_yiyao' item="vo3" key='k3'>
+ <php>
+ $more3=json_decode($vo3['more'],true);
+ </php>
+<div class="news_item news_item2">
+<div class="news_top">
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo3['id'],'cid'=>$vo3['channel_id']))}" class="top_img_a" title=""><img src="{:get_img_url($more3.thumbnail)}" alt=""></a>
+<div class="news_top_box">
+<p>{$vo3.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo3.published_time)}</em></p>
+<span>{$vo3.description|mb_substr=0,34,'utf-8'}...</span>
+<div class="release-information">
+<label>{:date('Y-m-d',$vo3.published_time)}</label> <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo3['id'],'cid'=>$vo3['channel_id']))}" class="more_release">查看详情</a>
+</div>
+</div>
+</div>
+</div>
+</foreach>
+</div>
+<div class="section-news-con-show">
+<foreach name='list_yishu' item="vo4" key='k4'>
+ <php>
+ $more4=json_decode($vo4['more'],true);
+ </php>
+<div class="news_item news_item2">
+<div class="news_top">
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo4['id'],'cid'=>$vo4['channel_id']))}" class="top_img_a" title=""><img src="{:get_img_url($more4.thumbnail)}" alt=""></a>
+<div class="news_top_box">
+<p>{$vo4.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo4.published_time)}</em></p>
+<span>{$vo4.description|mb_substr=0,34,'utf-8'}...</span>
+<div class="release-information">
+<label>{:date('Y-m-d',$vo4.published_time)}</label> <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo4['id'],'cid'=>$vo4['channel_id']))}" class="more_release">查看详情</a>
+</div>
+</div>
+</div>
+</div>
+</foreach>
+</div>
+</div>
+</div>
+</div>
+<div class="section-lxzx-guide clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_guide">申请指导<span> / 申請指導</span>
+<a href="{:cmf_url('cms/List/index',array('id'=>56))}" class="more" title="">全部 &gt;</a>
+</div>
+<div class="guide_con_list">
+<php>
+$gaozhong_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='56'  order by list_order asc,create_time desc limit 0,1");
+$gaozhong_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='56'   order by list_order asc,create_time desc limit 1,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'56'))}" title="">
+<img src="/public/images/apply_guide_img1.png" alt="">
+<h3>高中申请</h3>
+<span>高校の申し込み</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='gaozhong_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='gaozhong_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+<php>
+$benke_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='57' order by list_order asc,create_time desc limit 0,1");
+$benke_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='57'  order by list_order asc,create_time desc limit 1,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'57'))}" title="">
+<img src="/public/images/apply_guide_img2.png" alt="">
+<h3>本科申请</h3>
+<span>本科の申し込み</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='benke_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='benke_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+<php>
+$yjs_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='58'  order by list_order asc,create_time desc limit 0,1");
+$yjs_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='58'  order by list_order asc,create_time desc limit 0,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'58'))}" title="">
+<img src="/public/images/apply_guide_img3.png" alt="">
+<h3>研究生申请</h3>
+<span>研究生の申し込み</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='yjs_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='yjs_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+<php>
+$dxy_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='59'  order by list_order asc,create_time desc limit 0,1");
+$dxy_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='59'  order by list_order asc,create_time desc limit 1,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'59'))}" title="">
+<img src="/public/images/apply_guide_img4.png" alt="">
+<h3>大学院申请</h3>
+<span>大学院を申請する</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='dxy_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='dxy_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+<php>
+$sgu_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='60'   order by list_order asc,create_time desc limit 0,1");
+$sgu_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='60'   order by list_order asc,create_time desc limit 1,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'60'))}" title="">
+<img src="/public/images/apply_guide_img5.png" alt="">
+<h3>SGU申请</h3>
+<span>SGUの申し込み</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='sgu_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='sgu_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+<php>
+$yyxx_top=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='61'  order by list_order asc,create_time desc limit 0,1");
+$yyxx_bot=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id ='61'   order by list_order asc,create_time desc limit 1,4");
+</php>
+<dl>
+<dt>
+<a href="{:cmf_url('cms/List/index',array('id'=>'61'))}" title="">
+<img src="/public/images/apply_guide_img6.png" alt="">
+<h3>语言学校申请</h3>
+<span>语言学校の申し込み</span>
+</a>
+</dt>
+<dd>
+<div class="lxzx_r_con">
+  <foreach name='yyxx_top' item="vo" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+</foreach>
+<div class="other_lxzx">
+  <foreach name='yyxx_bot' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em>{:date('Y-m-d H:i:s',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="section-lxzx-guide clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_rbsh">日本生活<span>  / 日本生活</span>
+<a href="{:cmf_url('cms/List/index',array('id'=>41))}" class="more" title="">全部 &gt;</a>
+</div>
+<div class="guide_con_list">
+<php>
+$news_top41= Db::name('CmsArchives')->alias('a')->
+   where(array('channel_id'=>'41'))->order('create_time desc')->limit(3)->select()->toArray();
+</php>
+  <foreach name='news_top41' item="vo" key='k'>
+ <php>
+ $more=json_decode($vo['more'],true);
+ </php>
+<dl>
+<dt>
+<img src="{:get_img_url($more.thumbnail)}">
+</dt>
+<dd>
+<div class="lxzx_r_con">
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title=""><h5>{$vo.title}<em style="display: none;">{:date('Y-m-d H:i:s',$vo.published_time)}</em></h5></a>
+<p>{$vo.description|mb_substr=0,45,'utf-8'}...</p>
+<div class="other_lxzx">
+<php>
+if($k == 0) $k1=3;
+if($k ==1)  $k1=7;
+if($k ==2)  $k1=11;
+    $news_bot41= Db::name('CmsArchives')->alias('a')->
+   where(array('channel_id'=>'41'))->order('create_time desc')->limit($k1,4)->select()->toArray();
+   </php>
+<foreach name='news_bot41' item="vo2" key='k2'>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title=""><span class="overell">{$vo2.title}</span><em style="display: none;">{:date('Y-m-d H:i:s',$vo2.published_time)}</em><em>{:date('Y-m-d',$vo2.published_time)}</em></a>
+</foreach>
+</div>
+</div>
+</dd>
+</dl>
+</foreach>
+</div>
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+		</script>
+	</body>
+</html>
+<script type="text/javascript" src="/public/js/scrollBar.js"></script>
+  <script>
+                $(function(){
+                	$(".starcase_nav a").click(function(){
+                	var index=$(this).index();
+                	$(this).addClass('hover').siblings().removeClass('hover');
+                	$(".section-news-con-show.show").removeClass('show');
+                	$(".section-news-con-show:eq("+index+")").addClass('show');
+                	})
+
+
+
+		            $(".scrollBox").scrollBar();
+                })
+</script>

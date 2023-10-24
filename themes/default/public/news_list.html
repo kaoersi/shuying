@@ -1,0 +1,52 @@
+<div class="section-news-con">
+    <php>
+        if(!empty($post['keywords'])){
+            $post['keywords'] = str_replace('，', ',', $post['keywords']);
+            $keywords_arr = explode(',', $post['keywords']);
+        }else{
+            $keywords_arr ='';
+        }
+    </php>
+    <if condition="$keywords_arr neq ''">
+        <php>
+            $wherenews['channel_id'] = array(37,38,41,49,52,53,54,55,56,57,58,59,60,61);// 其他条件
+            $wherenews['status'] = 1;
+            $wherenews['delete_time'] = 0;
+            $tags_arc= Db::name('CmsTags')->where("type = 1")->where('name','in',$keywords_arr)->order('nums desc')->select()->toArray();
+            $fields_archivesarc = array_column($tags_arc,'archives');
+
+            $fields_archivesarca=explode(',',implode(',',$fields_archivesarc));
+            
+            $fields_archivesarca=array_unique($fields_archivesarca);
+            
+            $relation_list_news= Db::name('CmsArchives')->where('id','in',$fields_archivesarca)->where($wherenews)->order('create_time desc')->limit(0,4)->select()->toArray();
+        </php>
+    </if>
+    <foreach name='relation_list_news' item="vo" key='k'>
+        <php>
+            $more=json_decode($vo['more'],true);
+        </php>
+        <div class="news_item">      
+        	<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" class="more" title="{$vo.title}">
+              <div class="news_top">
+                  <div class="top_img_a" title="{$vo.title}"><img src="{:get_img_url($more.thumbnail)}" alt="{$vo.title}"></div>
+                  <p>{$vo.title}</p>
+                  <span>{$vo.description}</span>
+                  <span class="more">查看更多>></span>
+              </div>
+            </a>
+        	<php>
+                if($k == 0) $k1=4;
+                if($k ==1)  $k1=10;
+                if($k ==2)  $k1=16;
+                if($k ==3)  $k1=22;
+                $relation_list_news_bot= Db::name('CmsArchives')->where('id','in',$fields_archivesarca)->where('status', '=','1')->where('delete_time', '=','0')->order('hits desc')->limit($k1,6)->select()->toArray();
+            </php>
+        	<div class="news_bot">
+            	<foreach name='relation_list_news_bot' item="vo2" key='k2'>
+            	    <p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo2['id'],'cid'=>$vo2['channel_id']))}" title="{$vo2.title}">{$vo2.title}</a></p>
+            	</foreach>
+        	</div>
+    	</div>
+    </foreach>
+</div>

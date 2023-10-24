@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+        <meta name="keywords" content="{$category.more.seokeyword}"/>
+        <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<include file="public@banner" />
+    <include file="public@label_top_all" />
+<div class="inside-wrap wrapper clearfix" id="inside-wrap-case">
+<div class="yxk-show-l">
+<div class="case-show-list clearfix">
+<div class="school_news_list school_case_list"> 
+<php>
+$where= function($query){
+    $query->where('a.create_time','egt',0);
+};
+$page=[
+'list_rows'=>6,
+'next'=>'>',
+'prev'=>'<',
+'path' => '/'.$category['alias'].'page_[PAGE].html',
+];
+</php>
+ <cms:articles categoryIds="$category['id']" page="$page" relation="true">
+    <dl> 
+    <dt>
+    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" class="scale-img" title="{$vo.title}"><img src="{:get_img_url($vo.more.thumbnail)}" alt="{$vo.title}"></a>
+    </dt> 
+    <dd> 
+    <h3 class="ellipsis"><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self" title="">{$vo.title}</a></h3> 
+     <div class="tit_addon">
+     <span class="time">{:date('Y-m-d H:i:s',$vo.published_time)}</span>
+<span class="tags">
+<php>
+if(!empty($vo['keywords'])){
+$vo['keywords'] = str_replace('，', ',', $vo['keywords']);
+$keywords_arr = explode(',', $vo['keywords']);
+}else{
+    $keywords_arr ='';
+}
+</php>
+<if condition="$keywords_arr neq ''">
+<foreach name='keywords_arr' item='vk'>
+<if condition="$vk neq ''">
+<php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+<a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}</a></if>
+</foreach>
+</if>
+</span>
+</div> 
+<p><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" target="_self">{$vo.description|mb_substr=0,70,'utf-8'}...</a></p> 
+</dd> 
+<a class="plus">+</a>
+</dl>
+</cms:articles> 
+</div>
+<div class="listpage clearfix">
+<page />
+</div>
+</div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<div class="Hot_aside Hot_Ask">
+<h2>热门问答</h2>
+<ul class="hot_list clearfix">
+ <php>
+$hot_list_wd=Db::query("select * from ls_cms_archives where status=1 and  delete_time = 0 and channel_id='25'  order by hits desc limit 0,8");
+</php>
+<foreach name='hot_list_wd' item="vo" key='k'>
+<li><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}<span style="display:none">{:date('Y-m-d H:i:s',$vo.published_time)}</span></a></li>
+</foreach>
+</ul>
+</div>
+<include file="public@right_hotlabel" />
+<include file="public@right_zuixin_news" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+		</script>
+	</body>
+</html>

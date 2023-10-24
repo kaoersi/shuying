@@ -1,0 +1,9 @@
+{
+    "name": "视频解析列表页面",
+    "action": "cms/List/index",
+    "description": "视频解析列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

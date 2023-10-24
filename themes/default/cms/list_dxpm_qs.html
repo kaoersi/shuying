@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+	<meta name="keywords" content="{$category.more.seokeyword}"/>
+	<meta name="description" content="{$category.more.seodescription}"/>
+	<link rel="stylesheet" href="/public/css/qs.css">
+	<link rel="stylesheet" href="/public/css/swiper.css">
+	<link rel="stylesheet" href="/public/css/style.css">
+	<script src="/public/js/jquery.min.js"></script>
+	<script src="/public/js/swiper.js"></script>
+	<script src="/public/js/qs.js"></script>
+	<include file="public@headertop"/>
+</head>
+<body>
+	<include file="public@header"/>
+	<div class="banner_article">
+    	<div class="breadcrumbs">
+	        <div class="wrapper">
+                <p>当前位置:<a href="__ROOT__/">首页</a> &gt; 
+                    <cms:breadcrumb cid="$category['id']" self="true">
+                        <if condition="$vo['id'] neq 7">
+                            <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}">{$vo.name} </a>
+                            <if condition="$i eq count($__BREADCRUMB_ITEMS__)"><else/>&gt;</if>
+                        </if>
+                    </cms:breadcrumb>
+					
+				</p>
+			</div>
+	    </div>
+    </div>
+	<div class="qs-pub">
+		<div>
+			<php>
+				$slide_banner_list= Db::name('SlideItem')->where(array('slide_id'=>'23','status'=>'1'))->order('list_order asc,id desc')->select();
+			</php>
+			<foreach name='slide_banner_list' item="vo" key='k'>
+				<img src="{:get_img_url($vo.image)}" alt="" class="w-full pc-img">
+				<img src="{:get_img_url($vo.smallimage)}" alt="" class="w-full m-img">
+			</foreach>
+		</div>
+		<div class="list-wrapper">
+			<div class="list-title-left-icon flex items-center mt-36px mb-60px"><img src="/public/images/qs/pc-icon1.png" alt="" style="margin-right: 6px;">专业排名</div>
+			<div class="pc-img" id="pc-list-swiper" style="width: 1400px;position: relative">
+				<div class="swiper-container " id="ranking-list" style="width: 1300px;margin:0 auto;">
+					<div class="swiper-wrapper">
+						<php>
+							$slide_banner_list= Db::name('SlideItem')->where(array('slide_id'=>'24','status'=>'1'))->order('list_order asc,id desc')->select();
+						</php>
+						<foreach name='slide_banner_list' item="vo" key='k'>
+							<div class="swiper-slide text-center">
+								<a href="{$vo.url}" title="">
+									<div class="m-list-bg m-list-bg1" style="position: relative;width: 302px;height: 224px;">
+										<img src="{:get_img_url($vo[image])}" alt="" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+										<div style="position: absolute;left: 0;right: 0;margin:auto;">
+											<p>{$vo.title}</p>
+											<p>{$vo.description}</p>
+										</div>																	
+									</div>
+								</a>
+							</div>
+						</foreach>
+						
+					</div>
+				</div>	
+				<div class="swiper-button-prev ranking-left"></div>
+				<div class="swiper-button-next ranking-right"></div>				
+			</div>
+			<div class="m-img" id="m-list-swiper" style="position: relative;padding: 0 30px;">
+				<div class="swiper-container " id="m-ranking-list">
+					<div class="swiper-wrapper">
+						<php>
+							$slide_banner_list= Db::name('SlideItem')->where(array('slide_id'=>'24','status'=>'1'))->order('list_order asc,id desc')->select();
+						</php>
+						<foreach name='slide_banner_list' item="vo" key='k'>
+							<php>$more=json_decode($vo[more],true);</php>
+							<div class="swiper-slide text-center">
+								<a href="{$vo.url}" title="">
+									<div class="m-list-bg m-list-bg1" style="position: relative;width: 152px;height: 87px;">
+										<img src="{:get_img_url($vo[image])}" alt="" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+										<div style="position: absolute;margin: auto;left:0;right:0;">
+											<p>{$vo.title}</p>
+											<p>{$vo.description}</p>
+										</div>																	
+									</div>
+								</a>
+							</div>
+						</foreach>
+					</div>
+				</div>
+				<div class="swiper-button-prev m-ranking-left"></div>
+				<div class="swiper-button-next m-ranking-right"></div>					
+			</div>				
+		</div>
+		<div class="wrapper">
+			<div class="content-left mt-76px list-content-left">
+				<ul class="tab-content-wrap">
+					<php>
+                        $where= function($query){
+                            $query->where('a.create_time','egt',0);
+                        };
+                        $page=[
+                            'list_rows'=>6,
+                            'next'=>'>',
+                            'prev'=>'<',
+                        	'path' => '/'.$category['alias'].'page_[PAGE].html',
+                        ];
+                    </php>
+					<cms:articles categoryIds="$category['id']" page="$page" relation="true">
+						<li class="flex">
+							<div class="tab-img">
+								<if condition="$vo.more.thumbnail neq ''">
+                                    <img src="{:get_img_url($vo.more.thumbnail)}" alt="" class="pc-img list-img-pic">
+                                <else/>
+                                    <img src="/public/images/schoolnews.jpg" alt="" class="pc-img list-img-pic">
+                                </if>
+							</div>
+							<div class="tab-content-right">
+							    
+								<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}">
+									<h2 class="title">{$vo.title}</h2>
+									<div class="flex items-center number">
+										<div class="flex items-center time"><img src="/public/images/qs/time.png" alt="">{:date('Y-m-d H:i:s',$vo.published_time)}</div>
+										<div>
+											<div class="flex items-center liang time">
+												<img src="/public/images/qs/yuedu.png" alt="标签">
+												<php>
+                                                    if(!empty($vo['keywords'])){
+                                                        $article['keywords'] = str_replace('，', ',', $vo['keywords']);
+                                                        $keywords_arr = explode(',', $article['keywords']);
+                                                    }else{
+                                                        $keywords_arr ='';
+                                                    }
+                                                </php>
+                                                <if condition="$keywords_arr neq ''">
+                                                    <foreach name='keywords_arr' item='vk'>
+                                                        <if condition="$vk neq ''">
+                                                            <php>$taginfo= Db::name('CmsTags')->where("type = 1")->where('name','=',$vk)->order('nums desc')->find();</php>
+                                                            <a href="{:cmf_url('cms/List/indextag',array('id'=>$taginfo['id']))}" target="_blank" title="{$vk}">{$vk}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                        </if>
+                                                   </foreach>
+                                               </if>
+											</div>
+										</div>
+									</div>
+									<p class="content">{$vo.description}...</p>
+								</a>
+							</div>
+						</li>
+					</cms:articles>
+				</ul>
+				<div class="listpage clearfix" style="padding-bottom: 15px;">
+                    <page/>			
+                </div>
+			</div>
+			<div class="list-content-right mt-76px">
+				<div class="right-box-wrap">
+					<div class="content-right-title flex items-center" style="font-weight: bold;"><img src="/public/images/qs/flower.png" alt="日本大学排行">
+						<p class="right-tab"><span class="active">日本大学</span><span>日本语言学校</span></p>
+					</div>
+					<div class="right-tab-con">
+						<ul class="content-right-list">
+							<php>
+								$slide_list2= Db::name('Cms_archives')->where('channel_id','eq',50)->order('list_order dsc ')->limit(10)->select()->toArray();
+								$i = 1;
+							</php>
+							<foreach name='slide_list2' item="vo" key='k'>
+								<li>
+									<a href="/jpschool-{$vo.id}/" title="">
+										<p class="red-right-yuandian">{$i}</p>
+										<p>{$vo.title}</p>
+										<p>{$vo.rw_title}</p>
+									</a>
+								</li>
+								<php>
+									$i++;
+								</php>
+							</foreach>
+							
+						</ul>	
+
+						<ul class="content-right-list hidden">
+							<php>
+								$slide_list3= Db::name('Cms_archives')->where('channel_id','eq',51)->order('list_order dsc ')->limit(10)->select()->toArray();
+								$i = 1;
+							</php>
+							<foreach name='slide_list3' item="vo" key='k'>
+								<li>
+									<a href="/jlschool-{$vo.id}/" title="">
+										<p class="red-right-yuandian">{$i}</p>
+										<p>{$vo.title}</p>
+										<p>{$vo.rw_title}</p>
+									</a>
+								</li>
+								<php>
+									$i++;
+								</php>
+							</foreach>
+						</ul>	
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<include file="public@footer" />
+	<include file="public@footerjs" />
+	<script type="text/javascript">
+		kao.common();	
+	</script>
+</body>
+</html>

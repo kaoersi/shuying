@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	   <head>
+        <meta charset="UTF-8">
+        <title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+        <meta name="keywords" content="{$category.more.seokeyword}"/>
+        <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+    </head>
+	<body>
+    <include file="public@header" />
+<div class="banner banner_mxalk">
+ <img src="/public/images/banner/banner_mxal_txt.png" class="banner_mxal_txt">
+ <form action="/cms/search/index" method="post"  name="site-search-banner" id="site-search-banner" >
+<div class="banner_mxal_box">
+<div class="mxal_Bform">
+<input type="text" name="keywordb" id="keyword_banner" value="" placeholder="请输入您要搜索的关键词">
+<a href="javascript:void(0);" class="banner_btn_search" id="banner_btn_search">搜索</a>
+</div>
+   <include file="public@banner_search_item" />
+</div>
+</form>
+</div>
+<div class="section_school_list">
+<div class="wrapper clearfix">
+<div class="starcse_left">
+<div class="school_tit">日本院校<span> / 学校</span>
+<div class="starcase_nav">
+ <cms:subcategories categoryId='6' order='list_order asc,id asc'>
+     <if condition="$key lt 2">
+<a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}" <if condition="$category['id'] eq $vo['id']"> class='hover' </if>>{$vo.name}</a>
+</if></cms:subcategories>
+</div>
+</div>
+<div class="starcase_box">
+<php>
+$arr_xz=array('1'=>'国立','2'=>'公立','3'=>' 私立');
+$arr_location=array('1'=>'北海道','2'=>'东北','3'=>'关东','4'=>'中部','5'=>'近畿','6'=>'中国·四国','7'=>'九州·沖縄');
+                        $where= function($query){
+                            $query->where('a.create_time','egt',0);
+                             $query->where('a.is_top','eq',1);
+                        };
+                        $page=[
+                        'list_rows'=>10,
+                        'next'=>'<',
+                        'prev'=>'>',
+                        'path' => '/'.$category['alias'].'page_[PAGE].html',
+                        ];
+</php>
+  <cms:articles categoryIds="50,51" page="$page" relation="true" where="$where" order="list_order asc,create_time desc">
+<dl>
+<a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">
+<dt><img src="{:get_img_url($vo.slogo2)}" alt="{$vo.title}"></dt>
+<dd>
+<strong>{$vo.title}</strong>
+<p><span>{$arr_xz[$vo['xingzhi']]}</span>&nbsp;&nbsp;<span>{$arr_location[$vo['yuyanxx']]}</span><!-- <span>{$vo['address']}</span> --></p>
+</dd>
+</a>
+</dl></cms:articles>
+</div>
+</div>
+  <include file="public@ranklist" />
+</div>
+</div>
+<div class="section_analyse bgf2f3f5 clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_analyse">案例分析<span> / ケース分析</span>
+<div class="starcase_nav">
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>1))}" class="hover" title="本科">本科</a>
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>2))}" title="研究生">研究生</a>
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>3))}" title="大学院 ">大学院 </a>
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>4))}" title="语言学校">语言学校 </a>
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>5))}" title="JLPT">JLPT</a>
+</div>
+</div>
+ <div class="list-analyse-con clearfix">
+                  <php>
+                   $case_fenxi= Db::name('CmsLxzk')->alias('a')
+                                    ->where(function($query)use($country){
+                  
+                  if($type_id !=''){
+                  $query->where('type_id','=',$type_id);
+                  }else{
+                  $query->where('type_id','=',1);
+                  }
+
+                  })->order('create_time desc')->paginate(10);
+</php> 
+ <foreach name='case_fenxi' item="vo" >
+    <div class="analyse-slide">
+        <div class="progress-msg">
+            <a href="{:cmf_url('cms/Abroad/index',array('id'=>$vo['id']))}" title=""> <img src="{:get_img_url($vo.litpic)}" class="self-pic" alt="{$vo.title}"></a>
+            <div  class="star_case_flower"><img src="/public/images/star_case_flower.png" alt="{$vo.title}"></div>
+            <div class="nikname">{$vo.title}</div>
+            <div class="School-name">{$vo.mbyx}</div>
+        </div>
+        <div class="progress-msg-hover">
+            <div class="S_name">{$vo.title}</div>
+            <div class="S_brief">{$vo.description}</div>
+            <a href="{:cmf_url('cms/Abroad/index',array('id'=>$vo['id']))}" class="more" title="点击查看">点击查看 ></a>
+        </div>
+    </div>
+</foreach>
+</div>
+<a href="{:cmf_url('cms/Abroad/listnew',array('id'=>1))}" class="more_case" title="查看更多">查看更多</a>
+</div>
+</div>
+<div class="section_offer clearfix">
+<div class="wrapper">
+<div class="school_tit school_tit_offer">offer展示<span> / オファー</span></div>
+<php>
+$slide_list17= Db::name('SlideItem')->where(array('slide_id'=>'17','status'=>'1'))->order('list_order asc,id desc')->select();
+</php>
+
+<if condition="$ismobile2 neq ''">
+<div class="swiper-container swiper-container-taste">
+    <div class="swiper-wrapper">
+        <foreach name='slide_list17' item="vo" key='k'>
+            <div class="swiper-slide clearfix">
+                <div class="taste_item">
+                    <h4 style="font-size: 18px;font-weight: normal;text-align: center;margin-bottom: 15px;">{$vo.title}{$vo.content}</h4>
+                    <img src="{:get_img_url($vo.image)}" alt="{$vo.title}" style="width: 100%;height: auto;">
+                </div>
+            </div>
+         </foreach>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<else/>
+    <div class='dnSlide-main'>
+<foreach name='slide_list17' item="vo" key='k'>
+    <img src="{:get_img_url($vo.image)}" alt="{$vo.content}" title="{$vo.title}">
+</foreach>
+</div>
+</if>
+</div>
+</div>
+<div class="section_star_vedio clearfix bgf2f3f5">
+<div class="wrapper">
+<div class="school_tit school_tit_starvedio">视频解析 <span>  / 動画</span><a href="/vedio.html" class="more" title="查看全部">全部 &gt;</a></div>
+<ul class="list_starvedio">
+<php>
+$vediolist=Db::query("select * from ls_cms_archives as a left join ls_cms_appvedio as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='42' order by a.id asc limit 0,6");
+</php>
+<foreach name='vediolist' item="vo" key='k'>
+<php>
+ $more=json_decode($vo['more'],true);
+ </php>
+<li class="video-list-li">
+    <div class="vedio_box"><i class="btn_on"  data-id="react-video{$vo['id']}" vpath="{:get_img_url($more.thumbnail)}" ipath="{:get_img_url($vo['vediourl'])}"></i><img src="{:get_img_url($more.thumbnail)}" class="vedio_bg imgvediobz" alt="{$vo.title}"> </div>
+        <p>{$vo.title}</p>
+</li>
+</foreach>
+</ul>
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+			kao.home();
+
+  $(".video-list-li .btn_on").click(function(){
+
+      var img = $(this).attr('vpath');//获取视频预览图
+                var video = $(this).attr('ipath');//获取视频路径
+                $('body').append(" <div class='videos'><video id=\"video\" poster='"+img+"' style='width: 800px;max-width:100%;' src='"+video+"' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"/public/images/gb.png\" width=\"25\" height=\"25\"/></div>");
+                $('.videos').show();
+
+  })  
+
+
+function close1(){
+            var v = document.getElementById('video');//获取视频节点
+            $('.videos').hide();//点击关闭按钮关闭暂停视频
+            v.pause();
+            $('.videos').remove();
+        }
+
+
+		</script>
+	</body>
+</html>
+   <script src="/public/js/dnSlide.js"></script>
+       <script>
+    if($(window).width() > 768){
+    jQuery(document).ready(function($) {
+          var setting = {
+                "response" : true ,
+                afterClickBtnFn :function(i){ 
+                    $(".dnSlide-item").find('.cus_label').hide();
+                    $(".dnSlide-item:eq("+i+")").find('.cus_label').show();
+                 }
+            };
+          setting.autoPlay  =  true ;
+         $(".dnSlide-main").dnSlide(setting); 
+        $('.dnSlide-right-btn').trigger("click");
+
+    });
+    }else{
+       var mySwiper = new Swiper ('.swiper-container-taste', {
+    loop: true,
+    slidesPerView:4,
+      autoHeight: true,
+  pagination: {
+                el: '.swiper-container-taste .swiper-pagination',
+                clickable: true,
+            },
+     breakpoints: { 
+
+   //当宽度大于等于768
+    768: { 
+      slidesPerView:1,
+      spaceBetween: 20
+    },
+
+  },
+
+  })  
+    }
+    </script>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+		<meta name="keywords" content="{$category.more.seokeyword}"/>
+		<meta name="description" content="{$category.more.seodescription}"/>
+	<include file="public@headertop" />
+	</head>
+	<body>
+	<include file="public@header" />
+<include file="public@banner" />
+<php>
+$info=Db::query("select * from ls_cms_archives as a left join ls_cms_appsyjh as b on a.id = b.id where a.status=1 and a.delete_time = 0 and a.channel_id ='".$category->id."' order by a.id asc limit 0,1");
+if(isset($info[0])){
+$post=$info[0];
+$more=json_decode($info[0]['more'],true);
+$image=get_img_url($more['thumbnail']);
+}else{
+$post='';
+$image='';
+}
+</php>
+<div class="section_syjh_soulte clearfix">
+    <div class="wrapper">
+        <div class="school_tit">全方位解决方案<span>  / 全方位ソリューション</span></div>
+        <div class="syjh_soulte_con">
+            <div class="syjh_left">
+                <php>$sqzd=json_decode($post['sqzd'],true);</php>
+                <dl><dt>申请指导</dt>
+                    <dd><foreach name='sqzd' item="vo" key='k'><a style="cursor: default;">{$vo.title}</a></foreach></dd></dl>
+                <php>$tskc=json_decode($post['tskc'],true);</php>
+                <dl><dt>特殊课程</dt>
+                    <dd><foreach name='tskc' item="vo" key='k'><a style="cursor: default;">{$vo.title}</a></foreach></dd></dl>
+                <php>$rykc=json_decode($post['rykc'],true);</php>
+                <dl>
+                    <dt>日语培训</dt>
+                    <dd><foreach name='rykc' item="vo" key='k'><a style="cursor: default;">{$vo.title}</a></foreach></dd>
+                </dl>
+            </div>
+            <img src="/public/images/syjh_img1.jpg" class="syjh_right_img" alt="塾樱计划">
+        </div>
+    </div>
+</div>
+<div class="section_syjh_ztc clearfix bgf2f3f5">
+    <div class="wrapper">
+        <div class="school_tit school_tit_syjhztc">塾樱本科<em>直通车</em><span>  / 学部ワンストップ申請</span></div>
+        <php>$ztc_bk=json_decode($post['ztc_bk'],true);</php>
+        <ul class="list_syjh clearfix">
+            <img src="/public/images/syjh_rank_person.png" class="syjh_rank_person" alt="塾樱本科">
+            <img src="/public/images/syjh_rank_zs.png" class="syjh_rank_zs" alt="塾樱本科">
+            <foreach name='ztc_bk' item="vo" key='k'>
+            <li>
+                <strong>{$vo.title}</strong>
+                <p><php>echo str_replace('|',"<em></em>",$vo['desc']);</php></p>
+            </li>
+            </foreach>
+        </ul>
+    </div>
+</div>
+<div class="section_syjh_ztc clearfix">
+    <div class="wrapper">
+        <div class="school_tit school_tit_ztc">研究生申请<em>直通车</em> <span>/ 研究生ワンストップ申請</span></div>
+        <php>$ztc_yjs=json_decode($post['ztc_yjs'],true);</php>
+        <ul class="section_list_system clearfix">
+        <foreach name='ztc_yjs' item="vo" key='k'>
+            <li>
+                <div class="sys_box">
+                    <i></i>
+                    <em><if condition="$k lt 9">0</if>{$k+1}</em>
+                    <span>{$vo.title}</span>
+                </div>
+            </li>
+        </foreach>
+        </ul>
+        <a class="yjs_consult_btn" rel="nofollow" title="" target="_blank" href="{$site_info.online_url|default=''}" title="点击咨询我们">点击咨询我们 &gt;</a>
+    </div>
+</div>
+<div class="section_syjh_ztc2 clearfix">
+    <div class="wrapper">
+        <div class="school_tit school_tit_ztc2">大学院直申<em>直通车</em><span> / 大学院ワンストップ申請</span></div>
+        <php>$ztc_dxy=json_decode($post['ztc_dxy'],true);</php>
+        <ul class="list_syjh_ztc2">
+            <foreach name='ztc_dxy' item="vo" key='k'>
+            <li>
+                <em>0{$k+1}</em>
+                <i></i>
+                <strong>{$vo.title}</strong>
+                <p>{$vo.desc}</p>
+            </li>
+            </foreach>
+        </ul>
+    </div>
+</div>
+<div class="section-teacher clearfix bgf2f3f5">
+    <div class="wrapper">
+		<div class="school_tit school_tit_teacher">师资介绍<span>/ 指導教師 </span></div>
+		<include file="public@teacher_list" />
+	</div>
+</div>
+<div class="section-cases-bk clearfix">
+    <div class="wrapper">
+		<div class="school_tit school_tit_scases">成功案例<span>/ 成功事例 </span></div>
+		<div class="section_list_bkcase clearfix" id="syjh_case_shadow">
+		<include file="public@case_list" />
+    	</div>
+    </div>
+</div>
+<div class="section-news clearfix">
+	<div class="wrapper">
+        <div class="school_tit school_tit_news">相关资讯<span>/ 関連情報 </span></div>
+		<include file="public@news_list" />
+	</div>
+</div>
+<div class="section_QA">
+    <div class="wrapper">
+        <div class="school_tit school_tit_QA">相关问答<span>/ Q&A </span></div>
+        <include file="public@qa_list" />
+    </div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+		</script>
+	</body>
+</html>
+<script type="text/javascript" src="/public/js/scrollBar.js"></script>
+  <script>
+                $(function(){
+		            $(".scrollBox").scrollBar();
+                })
+</script>

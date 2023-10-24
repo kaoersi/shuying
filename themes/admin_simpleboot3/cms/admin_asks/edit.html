@@ -1,0 +1,302 @@
+<include file="public@header"/>
+   <link href="__TMPL__/public/assets/js/select2.min.css" rel="stylesheet">
+<script src="__TMPL__/public/assets/js/select2.min.js"></script>
+</head>
+<body>
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+ 
+ <li><a href="{:url('AdminAsks/index')}">问答管理</a></li>
+               <li class="active"><a href="{:url('AdminAsks/add')}">修改问答</a></li> 
+            <li><a href="{:url('AdminAsks/batch')}">批量导入问答</a></li> 
+           
+	</ul>
+	<form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('AdminAsks/editPost')}">
+<input type="hidden" name="post[id]" value="{$result.id}">
+<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>所属国家:</label>
+			<div class="col-md-6 col-sm-10">
+
+				<php>
+	$lxzk_arr= Db::name('CmsChannel')->where(array('parent_id'=>'22'))->select()->toArray();
+	
+
+	</php>
+				  <select class="form-control" name="post[country]" id="country" style="width: 100px;">
+				  <option value="0">请选择</option>
+				  <?php
+                            foreach($lxzk_arr as $k=>$v){
+                            if($v['id'] == $result['country']) $style="selected='selected'"; else $style='';
+                             echo '<option value="'.$v['id'].'" '.$style.'>'.$v["name"].'</option>';
+                            }
+
+				  ?>
+                                   
+
+                                </select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[title]" id="title" required value="{$result.title}"
+                                    placeholder="请输入标题" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>关键字:</label>
+			<div class="col-md-6 col-sm-10">
+				
+<select class="form-control" id="id_select2_demo1" multiple="multiple" name="post_new[keywords][]">
+    <option value="">-----单选-----</option>
+    {$option_str}
+</select>
+
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>浏览量:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[hits]" id="hits" required value="{$result.hits}"
+                                    placeholder="请输入浏览量" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">问题描述:</label>
+			<div class="col-md-6 col-sm-10">
+				 <textarea class="form-control" name="post[description]" style="height: 50px;"
+                                    placeholder="请填写问题描述">{$result.description}</textarea>
+			</div>
+		</div>
+
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">最佳回复时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text"
+                                    name="post[answer_time]" value="{:date('Y-m-d H:i:s',$result['answer_time'])}">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>最佳回复人头像:</label>
+			<div class="col-md-6 col-sm-10">
+			 <select class="form-control" name="post[answer_avatar]" id="answer_avatar" style="width: 250px;">
+				  <option value="0">请选择</option>
+				  <?php
+		$avatar_arr=array('1'=>'课程顾问-Lea','2'=>'课程顾问-Eva','3'=>'课程顾问-Frank','4'=>'课程顾问-Lydia','5'=>'课程顾问-Alan','6'=>'课程顾问-小管家','7'=>'课程顾问-Lucky','8'=>'课程顾问-Emily','9'=>'课程顾问-Tina','10'=>'课程顾问-Rex','11'=>'课程顾问-Silvia','12'=>'课程顾问老师-Dora','13'=>'课程顾问老师-Sky','14'=>'课程顾问老师-Chris');
+                            foreach($avatar_arr as $k=>$v){
+                            if($k == $result['answer_avatar']) $style='selected="selected"'; else $style='';
+                             echo '<option value="'.$k.'" '.$style.'>'.$v.'</option>';
+                            }
+
+				  ?>
+                 </select>
+				
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>提问者头像:</label>
+			<div class="col-md-6 col-sm-10">
+			 <select class="form-control" name="post[ask_avatar]" id="ask_avatar" style="width: 250px;">
+				  <option value="0">请选择</option>
+				  <?php
+				    $avatar_arr2=array('1'=>'默认头像1','2'=>'默认头像2','3'=>'默认头像3','4'=>'默认头像4','5'=>'默认头像5','6'=>'默认头像6');
+			
+                            foreach($avatar_arr2 as $k=>$v){
+                            if($k == $result['ask_avatar']) $style='selected="selected"'; else $style='';
+                             echo '<option value="'.$k.'" '.$style.'>'.$v.'</option>';
+                            }
+
+				  ?>
+                 </select>
+				
+			</div>
+		</div>
+
+
+
+			<div class="form-group">
+			<label class="col-sm-2 control-label">最佳回答内容:</label>
+			<div class="col-md-6 col-sm-10">
+				 <script type="text/plain" id="content" name="post[content]">{$result.content}</script>
+			</div>
+		</div>
+<div class="form-group">
+			<label class="col-sm-2 control-label">回复人2:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text"
+                                    name="post[answer_user2]" value="{$result['answer_user2']}">
+			</div>
+		</div>
+
+
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">回复人2-头像:</label>
+			<div class="col-md-6 col-sm-10">
+			 <select class="form-control" name="post[answer_avatar2]" id="answer_avatar2" style="width: 250px;">
+				  <option value="0">请选择</option>
+				  <?php
+				$avatar2_arr2=array('1'=>'回复人2头像1','2'=>'回复人2头像2','3'=>'回复人2头像3','4'=>'回复人2头像4','5'=>'回复人2头像5','6'=>'回复人2头像6');
+                            foreach($avatar2_arr2 as $k=>$v){
+                            if($k == $result['answer_avatar2']) $style2='selected="selected"'; else $style2='';
+                             echo '<option value="'.$k.'" '.$style2.'>'.$v.'</option>';
+                            }
+
+				  ?>
+                 </select>
+				
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">回复人2-回复时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text"
+                                    name="post[answer_time2]" value="{:date('Y-m-d H:i:s',$result['answer_time2'])}">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">回复人2-回答内容:</label>
+			<div class="col-md-6 col-sm-10">
+				 <script type="text/plain" id="content2" name="post[content2]">{$result.content2}</script>
+			</div>
+		</div>
+<div class="form-group">
+			<label class="col-sm-2 control-label">回复人3:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text"
+                                    name="post[answer_user3]" value="{$result['answer_user3']}">
+			</div>
+		</div>
+
+	<div class="form-group">
+			<label class="col-sm-2 control-label">回复人3-头像:</label>
+			<div class="col-md-6 col-sm-10">
+			 <select class="form-control" name="post[answer_avatar3]" id="answer_avatar3" style="width: 250px;">
+				  <option value="0">请选择</option>
+				  <?php
+				$avatar3_arr3=array('1'=>'回复人3头像1','2'=>'回复人3头像2','3'=>'回复人3头像3','4'=>'回复人3头像4','5'=>'回复人3头像5','6'=>'回复人3头像6');
+                           foreach($avatar3_arr3 as $k=>$v){
+                            if($k == $result['answer_avatar3']) $style3='selected="selected"'; else $style3='';
+                             echo '<option value="'.$k.'" '.$style3.'>'.$v.'</option>';
+                            }
+
+				  ?>
+                 </select>
+				
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">回复人3-回复时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text"
+                                    name="post[answer_time3]" value="{:date('Y-m-d H:i:s',$result['answer_time3'])}">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">回复人3-回答内容:</label>
+			<div class="col-md-6 col-sm-10">
+				 <script type="text/plain" id="content3" name="post[content3]">{$result.content3}</script>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">发布时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text" name="post[create_time]"
+                                    value="{:date('Y-m-d H:i',$result['create_time'])}">
+			</div>
+		</div>
+
+  
+
+
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-primary js-ajax-submit">{:lang("SAVE")}</button>
+			<a class="btn btn-default" href="__URL__">返回</a>
+		</div>
+	</form>
+
+</div>
+
+</body>
+</html>
+ <script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+ <script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+            editorcontent.render('content');
+
+            editorcontent2 = new baidu.editor.ui.Editor();
+            editorcontent2.render('content2');
+
+            editorcontent3 = new baidu.editor.ui.Editor();
+            editorcontent3.render('content3');
+            try {
+                editorcontent.sync();
+                 editorcontent2.sync();
+                  editorcontent3.sync();
+            } catch (err) {
+            }
+
+    
+
+		
+		})
+
+    $('#id_select2_demo1').select2({
+      placeholder: '请选择，最多选择10个',
+    allowClear: true,
+    maximumSelectionLength:10,
+    maximumInputLength: 40,    
+    tags:true,
+    ajax: {
+      url: "/cms/admin_tags/postlistjson",
+      dataType: 'json',
+      delay: 250,
+      data: function (params) {
+        return {
+          search: params.term,
+          type:'2',    
+        };
+      },
+      processResults: function (data) {
+        return {
+          results: data.list
+        };
+      },
+      cache: true
+    },
+    minimumInputLength: 2
+
+
+
+
+});
+ 
+    $("#id_select2_demo1").val([<?php echo $keyword_idstr;?>]).trigger("change");
+
+
+
+
+
+
+		
+    </script>

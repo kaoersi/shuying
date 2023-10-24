@@ -1,0 +1,10 @@
+<php>
+   $foot_caselist= Db::name('CmsLxzk')->alias('a')->limit(6)->select()->toArray();
+</php>
+<foreach name='foot_caselist' item="vo" key='k'>
+<dl>
+<a href="{:cmf_url('cms/Abroad/index',array('id'=>$vo['id']))}" title="{$vo.title}">
+<dt><img src="{:get_img_url($vo.litpic)}" alt="{$vo.title}"></dt>
+<dd><p>{$vo.title}</p><em>{:date('Y-m-d',$vo.create_time)}</em><span>申请专业：{$vo.sqzy}</span><span>申请院校：{$vo.mbyx}</span>
+</dd></a></dl>
+</foreach>

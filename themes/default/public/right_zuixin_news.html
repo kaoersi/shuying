@@ -1,0 +1,18 @@
+<div class="Hot_aside Hot_Ask">
+    <div class="zuixin-more">
+        <div><h2>最新资讯</h2></div>
+        <a href="https://www.shuyingjp.com/zuixin/" target="_blank">更多></a>
+    </div>
+<php>
+$whereArr['channel_id'] = array(24,37,38,40,56,57,58,59,60,61,62,41,49,52,53,54,55); // 其他条件
+$whereArr['status'] = 1;
+$whereArr['delete_time'] = 0;
+   $foot_zx_news= Db::name('CmsArchives')->alias('a')->
+       where($whereArr)->order('create_time desc')->limit(8)->select()->toArray();
+</php>
+<ul class="hot_list clearfix">
+<foreach name='foot_zx_news' item="vo" key='k'>
+<li><a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">{$vo.title}<span style="display:none">{:date('Y-m-d H:i:s',$vo.published_time)}</span></a></li>
+</foreach>
+</ul>
+</div>

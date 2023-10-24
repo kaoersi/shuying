@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{$article.title|default=''}_成功申请到{$article.mbyx|default=''}{$article.sqzy|default=''}_塾樱教育</title>
+    <meta name="keywords" content="{$article.keywords}"/>
+    <meta name="description" content="{$article.description}"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+			<include file="public@headertop" />
+	</head>
+	<body>
+   <include file="public@header" />
+<div class="banner banner_showcase">
+</div>
+<div class="inside-wrap wrapper clearfix">
+<div class="yxk-show-l">
+<div class="yxk-show-case clearfix">
+<div class="head_show_case">
+<if condition="$article['litpic'] neq ''">
+<img src="{:get_img_url($article['litpic'])}" class="tx_img">
+<else/>
+<img src="/public/images/tx_img.png" class="tx_img">
+</if>
+<p class="tx_r_info">
+<span>{$article.title}</span>
+<span>成功申请到<a>{$article.mbyx}</a></span>
+</p>
+</div>
+<div class="case_students_info">
+<dl>
+<dt>学生目标<span>学生の目標</span></dt>
+<dd><label>申请项目</label><span>{$article.apply_xm}</span></dd>
+<dd><label>目标院校</label><span>{$article.mbyx}</span></dd>
+<dd><label>申请专业</label><span>{$article.sqzy}</span></dd>
+<dd><label>特殊要求</label><span>{$article.tsyq}</span></dd>
+</dl>
+<dl>
+<dt>学生信息<span>学生の目標</span></dt>
+<dd><label>名字</label><span>{$article.title}</span></dd>
+<dd><label>学校</label><span>{$article.mbyx}</span></dd>
+<dd><label>专业</label><span>{$article.sqzy}</span></dd>
+<dd><label>GPA</label><span>{$article.GPA}</span></dd>
+<dd><label>语言条件</label><span>{$article.yytj}</span></dd>
+<dd><label>科研经历</label><span>{$article.kyjl}</span></dd>
+<dd><label>软件实力</label><span>{$article.rjsl}</span></dd>
+</dl>
+</div>
+<div class="match_tearch">
+<h3>* 匹配导师</h3>
+<div class="match_tearch_con">
+<div class="match_teach_nav">
+<a class="hover">01.留日规划顾问</a>
+<a>02.名校文案顾问</a>
+<a>03.研究指导顾问</a>
+<a>04.面试辅导顾问</a>
+<a>05.考试辅导顾问</a>
+<a>06.日语教学顾问</a>
+</div>
+<php>
+  $daoshiinfo1= Db::name('CmsArchives')->where('id','=',$article['daoshi1'])->find();
+  $daoshiinfo2= Db::name('CmsArchives')->where('id','=',$article['daoshi2'])->find();
+    $daoshiinfo3= Db::name('CmsArchives')->where('id','=',$article['daoshi3'])->find();
+      $daoshiinfo4= Db::name('CmsArchives')->where('id','=',$article['daoshi4'])->find();
+        $daoshiinfo5= Db::name('CmsArchives')->where('id','=',$article['daoshi5'])->find();
+      $daoshiinfo6= Db::name('CmsArchives')->where('id','=',$article['daoshi6'])->find();
+      $more1=json_decode($daoshiinfo1['more'],true);
+       $more2=json_decode($daoshiinfo2['more'],true);
+        $more3=json_decode($daoshiinfo3['more'],true);
+         $more4=json_decode($daoshiinfo4['more'],true);
+          $more5=json_decode($daoshiinfo5['more'],true);
+           $more6=json_decode($daoshiinfo6['more'],true);
+</php>
+<div class="match_teach_show hover">
+<img src="{:get_img_url($more1.thumbnail)}" alt="辅导顾问：{$daoshiinfo1.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo1.title}</h4>
+<p>{$daoshiinfo1.description}</p>
+<a rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+<div class="match_teach_show">
+<img src="{:get_img_url($more2.thumbnail)}" alt="辅导顾问：{$daoshiinfo2.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo2.title}</h4>
+<p>{$daoshiinfo2.description}</p>
+<a  rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+<div class="match_teach_show">
+<img src="{:get_img_url($more3.thumbnail)}" alt="辅导顾问：{$daoshiinfo3.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo3.title}</h4>
+<p>{$daoshiinfo3.description}</p>
+<a  rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+<div class="match_teach_show">
+<img src="{:get_img_url($more4.thumbnail)}" alt="辅导顾问：{$daoshiinfo4.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo4.title}</h4>
+<p>{$daoshiinfo4.description}</p>
+<a  rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+<div class="match_teach_show" >
+<img src="{:get_img_url($more5.thumbnail)}" alt="辅导顾问：{$daoshiinfo5.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo5.title}</h4>
+<p>{$daoshiinfo5.description}</p>
+<a rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+<div class="match_teach_show" >
+<img src="{:get_img_url($more6.thumbnail)}" alt="辅导顾问：{$daoshiinfo6.title}">
+<div class="teach_show_box">
+<h4>辅导顾问：{$daoshiinfo6.title}</h4>
+<p>{$daoshiinfo6.description}</p>
+<a rel="nofollow" target="_blank" href="{$site_info.online_url|default=''}" title="立即咨询">立即咨询</a>
+</div>
+</div>
+</div>
+</div>
+<div class="Consultant_fx">
+<h3>* 顾问分析</h3>
+<div class="Consultant_fx_nav clearfix">
+<a class="hover">硬件分析</a>
+<a >软件分析</a>
+<a>配合度</a>
+</div>
+<div class="Consultant_fx_show hover">
+<if condition="$article['fenxi_img1'] neq ''">
+<img src="{:get_img_url($article['fenxi_img1'])}" alt="硬件分析">
+<else/>
+<img src="/public/images/consultant_fx_showimg.png" alt="硬件分析">
+</if>
+<div class="fx_show_box">
+<h4>硬件分析</h4>
+<p>{$article.fenxi_yingjian}</p>
+</div>
+</div>
+<div class="Consultant_fx_show">
+<if condition="$article['fenxi_img2'] neq ''">
+<img src="{:get_img_url($article['fenxi_img2'])}" alt="软件分析">
+<else/>
+<img src="/public/images/consultant_fx_showimg.png" alt="软件分析">
+</if>
+<div class="fx_show_box">
+<h4>软件分析</h4>
+<p>{$article.fenxi_ruanjian}</p>
+</div>
+</div>
+<div class="Consultant_fx_show">
+<if condition="$article['fenxi_img3'] neq ''">
+<img src="{:get_img_url($article['fenxi_img3'])}" alt="配合度">
+<else/>
+<img src="/public/images/consultant_fx_showimg.png" alt="配合度">
+</if>
+<div class="fx_show_box">
+<h4>配合度</h4>
+<p>{$article.fenxi_peihedu}</p>
+</div>
+</div>
+</div>
+</div>
+<include file="public@footer_tabinfo" />
+</div>
+<div class="wrap-r">
+<include file="public@right_relation_case" />
+<include file="public@right_hotlabel" />
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();	
+             kao.case();	
+		</script>
+	</body>
+</html>

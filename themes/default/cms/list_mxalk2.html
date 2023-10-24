@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><empty name="category.more.seotitle">{$category.name}<else/>{$category.more.seotitle}</empty>_<empty name="site_info.site_seo_title">{$site_info.site_name|default=''}<else/>{$site_info.site_seo_title|default=''}</empty></title>
+    <meta name="keywords" content="{$category.more.seokeyword}"/>
+    <meta name="description" content="{$category.more.seodescription}"/>
+    <include file="public@headertop" />
+</head>
+<body>
+    <include file="public@header" />
+    <div class="banner banner_mxalk">
+        <img src="/public/images/banner/banner_mxal_txt.png" class="banner_mxal_txt">
+        <form action="/cms/search/index" method="post"  name="site-search-banner" id="site-search-banner" >
+        <div class="banner_mxal_box">
+            <div class="mxal_Bform">
+                <input type="text" name="keywordb" id="keyword_banner" value="" placeholder="请输入您要搜索的关键词">
+                <a href="javascript:void(0);" class="banner_btn_search" id="banner_btn_search">搜索</a>
+            </div>
+            <include file="public@banner_search_item" />
+        </div>
+        </form>
+    </div>
+    <div class="section_school_list" style="padding-bottom: 40px;">
+    <div class="wrapper clearfix">
+    <div class="starcse_left">
+        <div class="school_tit">日本院校<span> / 日本大学</span>
+            <div class="starcase_nav">
+                <cms:subcategories categoryId='6' order='list_order asc,id asc'>
+                    <a href="{:cmf_url('cms/List/index',array('id'=>$vo['id']))}" title="{$vo.name}" <if condition="$category['id'] eq $vo['id']"> class='hover' </if>>{$vo.name}</a>
+                </cms:subcategories>
+            </div>
+        </div>
+        <div class="starcase_box">
+            <php>
+                $arr_xz=array('1'=>'国立','2'=>'公立','3'=>' 私立');
+                $arr_location=array('1'=>'北海道','2'=>'东北','3'=>'关东','4'=>'中部','5'=>'近畿','6'=>'中国·四国','7'=>'九州·沖縄');
+            
+                $where= function($query){
+                    $query->where('a.create_time','egt',0);
+                };
+                $page=[
+                'list_rows'=>40,
+                'next'=>'<',
+                'prev'=>'>',
+                'path' => '/'.$category['alias'].'page_[PAGE].html',
+                ];
+            </php>
+            <cms:articles categoryIds="$category['id']" page="$page" relation="true"  order="list_order asc,create_time desc">
+                <dl>
+                    <a href="{:cmf_url('cms/Archives/index',array('id'=>$vo['id'],'cid'=>$vo['channel_id']))}" title="{$vo.title}">
+                        <dt><img src="{:get_img_url($vo.slogo2)}" alt="{$vo.title}"></dt>
+                        <dd>
+                            <strong>{$vo.title}</strong>
+                            <p><span>{$arr_xz[$vo['xingzhi']]}</span>&nbsp;&nbsp;<span>{$arr_location[$vo['yuyanxx']]}</span><!-- <span>{$vo['address']}</span> --></p>
+                        </dd>
+                    </a>
+                </dl></cms:articles>
+        </div>
+    </div>
+    <include file="public@ranklist" />
+    <div class="listpage clearfix">
+        <page />
+    </div>
+</div>
+</div>
+<include file="public@footer" />
+<include file="public@footerjs" />
+		<script type="text/javascript">
+			kao.common();
+		</script>
+	</body>
+</html>
+

@@ -1,0 +1,242 @@
+<include file="public@header"/>
+</head>
+<body>
+<include file="admin_major/fx_jd" />
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+            <li><a href="{:url('AdminMajor/index')}">专业列表</a></li>
+           <li  class="active"><a href="{:url('AdminMajor/add')}">添加专业</a></li> 
+	</ul>
+	<form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('AdminMajor/addPost')}">
+
+
+	<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>所属学校:</label>
+			<div class="col-md-6 col-sm-10">
+			  <select class="form-control" name="post[schoolid]" id="schoolid">
+			   <foreach name='array_school' item='vo' key='k'>
+			   <option value="{$vo.id}">{$vo.title}</option>
+			  </foreach>
+			  </select>
+				
+			</div>
+		</div> 
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[title]" id="title" required value=""
+                                    placeholder="请输入标题" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>英文标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[title_en]" id="title_en" required value=""
+                                    placeholder="请输入英文标题" />
+			</div>
+		</div> 
+			<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>是否推荐:</label>
+			<div class="col-md-6 col-sm-10">
+				<input type="radio" name="post[is_top]" value="1"  >
+                                        是                                        &nbsp;&nbsp;
+                                        <input type="radio" name="post[is_top]" value="0" checked="" >
+                                        否 
+                                         <p class="help-block">推荐将在首页底部展示</p>
+			</div>
+		</div> 
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO标题:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seotitle]" id="seotitle" required value=""
+                                    placeholder="请输入SEO标题" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO关键词:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seokeyword]" id="seokeyword" required value=""
+                                    placeholder="请输入SEO关键词" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>SEO描述:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[seodescription]" id="seodescription" required value=""
+                                    placeholder="请输入SEO描述" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>专业方向:</label>
+			<div class="col-md-6 col-sm-10">
+			  <select class="form-control" name="post[fangxiang]" id="fangxiang">
+			   <foreach name='array_fx' item='vo' key='k'>
+			   <option value="{$k}">{$vo}</option>
+			  </foreach>
+			  </select>
+				
+			</div>
+		</div> 
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>学习阶段:</label>
+			<div class="col-md-6 col-sm-10">
+			  <select class="form-control" name="post[jieduan]" id="jieduan">
+			   <foreach name='array_jd' item='vo' key='k'>
+			   <option value="{$k}">{$vo}</option>
+			  </foreach>
+			  </select>
+				
+			</div>
+		</div> 
+		<div class="form-group">
+			<label class="col-sm-2 control-label"><span class="form-required">*</span>学习时长:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control" type="text" name="post[zhouqi]" id="zhouqi" required value=""
+                                    placeholder="请输入学习时长" />
+			</div>
+		</div> 
+		<div class="form-group">
+			<label class="col-sm-2 control-label">申请要求:</label>
+			<div class="col-md-6 col-sm-10">
+				<textarea class="form-control" name="post[yaoqiu]" style="height: 50px;" placeholder="请填写申请要求"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">课程介绍:</label>
+			<div class="col-md-6 col-sm-10">
+				<textarea class="form-control" name="post[brief]" style="height: 50px;" placeholder="请填写课程介绍"></textarea>
+			</div>
+		</div>
+
+		       <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">课程介绍图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="post[briefimg]" id="briefimg" value="{$company_info.briefimg|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#briefimg');">
+                                     <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="briefimg-preview" height="30" style="cursor: hand"/>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#briefimg-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#briefimg').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>     
+
+
+
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">专业特色:</label>
+			<div class="col-md-6 col-sm-10">
+				<textarea class="form-control" name="post[tese]" style="height: 50px;" placeholder="请填写专业特色"></textarea>
+			</div>
+		</div>
+
+			    <div class="form-group">
+                            <label for="input-site-name" class="col-sm-2 control-label">专业特色图片</label>
+                            <div class="col-md-6 col-sm-10">
+                    
+                <input type="hidden" name="post[teseimg]" id="teseimg" value="{$company_info.teseimg|default=''}">
+                                <a href="javascript:uploadOneImage('图片上传','#teseimg');">
+                                     <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                             id="teseimg-preview" height="30" style="cursor: hand"/>
+                                </a>
+                                <input type="button" class="btn btn-sm"
+                                       onclick="$('#teseimg-preview').attr('src','__TMPL__/public/assets/images/default-thumbnail.png');$('#teseimg').val('');return false;"
+                                       value="取消图片">
+                
+                            </div>
+                        </div>  
+
+
+                    <div class="form-group">
+                            <label for="input-core_class1" class="col-sm-2 control-label">本科核心课程</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="core_class1"
+                                          name="post[core_class1]" style="height: 100px;"></textarea>
+                            </div>
+                             <label>格式：<br/>
+                             课程 一行一个
+                             </label>
+
+      </div>
+
+
+                    <div class="form-group">
+                            <label for="input-core_class2" class="col-sm-2 control-label">研究生核心课程</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea  class="form-control"  id="core_class2"
+                                          name="post[core_class2]" style="height: 200px;"></textarea>
+                            </div>
+                             <label>格式：<br/>
+                             课程一个行一个，如需链接 形如<br/>
+                             微观经济学原理|http://www.baidu.com<br/>
+                             微观经济学原理2|http://www.baidu.com<br/>
+
+                             </label>
+
+      </div>
+
+            <div class="form-group">
+                            <label for="input-content" class="col-sm-2 control-label">内容</label>
+                            <div class="col-md-6 col-sm-10">
+                                <textarea id="content"
+                                          name="post[content]"></textarea>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label">发布时间:</label>
+			<div class="col-md-6 col-sm-10">
+				 <input class="form-control js-bootstrap-datetime" type="text"
+                                    name="post[create_time]" value="{:date('Y-m-d H:i:s',time())}">
+			</div>
+		</div>
+
+
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-primary js-ajax-submit">{:lang("SAVE")}</button>
+			<a class="btn btn-default" href="__URL__">返回</a>
+		</div>
+	</form>
+
+</div>
+
+</body>
+</html>
+ <script type="text/javascript" src="__STATIC__/js/admin.js"></script>
+  <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            editorcontent = new baidu.editor.ui.Editor();
+
+               editorcontent.render('content');
+
+            try {
+                editorcontent.sync();
+
+            } catch (err) {
+            }
+
+		
+		})
+    </script>
+
+
+	

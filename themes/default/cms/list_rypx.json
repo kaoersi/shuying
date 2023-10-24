@@ -1,0 +1,9 @@
+{
+    "name": "日语培训",
+    "action": "cms/List/index",
+    "description": "日语培训列表模板文件",
+    "order": 10.0,
+    "more": {
+
+    }
+}

@@ -1,0 +1,8 @@
+<php>
+$ismobile=cmf_is_mobile();
+</php>
+<if condition="$ismobile neq ''">
+<div class="banner" style="background: url({:get_img_url($category.more.mbanner)}) center no-repeat;background-size: cover;"></div>
+<else/>
+<div class="banner" style="background: url({:get_img_url($category.more.thumbnail)}) center no-repeat;background-size: cover;"></div>
+</if>
