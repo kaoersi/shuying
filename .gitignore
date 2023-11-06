@@ -1,7 +1,12 @@
 .idea/
+.idea/*
 /upload
 /upload/
 /upload/*
+/data/runtime/
+/data/runtime/*
+/static/install/
+/static/install/*
 /public/importfile/*.xlsx
 /public/importfile/article/*.xlsx
 /public/importfile/question/*.xlsx
